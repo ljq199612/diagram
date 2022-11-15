@@ -1,19 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T09:00:12.523Z" agent="5.0 (Windows)" etag="LAdrjb1onaanlQErj2Jl" version="20.5.3" type="github">
-  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="739" dy="384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+<mxfile host="app.diagrams.net" modified="2022-11-15T09:45:43.934Z" agent="5.0 (Windows)" etag="LAEeBCq2LZx91_edUeii" version="20.5.3" type="github">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="总览">
+    <mxGraphModel dx="782" dy="384" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="8-vGXVchoIqBowFSAs0r-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.375;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="8-vGXVchoIqBowFSAs0r-1" target="8-vGXVchoIqBowFSAs0r-7">
+        <mxCell id="hdV7oSyVdia2Qf2Z374a-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="8-vGXVchoIqBowFSAs0r-1" target="8-vGXVchoIqBowFSAs0r-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="131" y="130" as="targetPoint" />
+            <mxPoint x="132" y="100" as="sourcePoint" />
+            <mxPoint x="155.5" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8-vGXVchoIqBowFSAs0r-1" value="&lt;div&gt;SpringApplication&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;rounded=0;" vertex="1" parent="1">
+        <mxCell id="8-vGXVchoIqBowFSAs0r-1" value="&lt;div&gt;SpringApplication&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;rounded=0;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="81" y="60" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8-vGXVchoIqBowFSAs0r-7" value="&lt;div&gt;new SpringApplication()&lt;/div&gt;&lt;div&gt;构造一个应用程序&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="81" y="130" width="149" height="60" as="geometry" />
+        <mxCell id="hdV7oSyVdia2Qf2Z374a-7" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="1" source="8-vGXVchoIqBowFSAs0r-7" target="hdV7oSyVdia2Qf2Z374a-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8-vGXVchoIqBowFSAs0r-7" value="&lt;div&gt;new SpringApplication()&lt;/div&gt;&lt;div&gt;构造一个Spring应用&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#d6b656;gradientColor=#FFB366;gradientDirection=radial;glass=0;shadow=0;sketch=0;" parent="1" vertex="1">
+          <mxGeometry x="56.5" y="150" width="149" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hdV7oSyVdia2Qf2Z374a-6" value="&lt;div&gt;SpringApplication.run()&lt;/div&gt;&lt;div&gt;启动此应用&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#b85450;gradientColor=#FFD678;gradientDirection=radial;" vertex="1" parent="1">
+          <mxGeometry x="285.5" y="150" width="149" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
