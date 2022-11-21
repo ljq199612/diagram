@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T09:30:16.323Z" agent="5.0 (Windows)" etag="84xkvbBYqW00Vg71Piq1" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-21T10:17:33.916Z" agent="5.0 (Windows)" etag="zyhiW5n0Rqku92y1pzd4" version="20.5.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="总览">
-    <mxGraphModel dx="2461" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="1">
+    <mxGraphModel dx="2071" dy="492" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,19 +75,16 @@
             <mxGeometry x="948" y="340" width="120" height="56" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40FTKYqt4oS-b7dHANUB-16" target="40FTKYqt4oS-b7dHANUB-17" edge="1">
+        <mxCell id="40FTKYqt4oS-b7dHANUB-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="40FTKYqt4oS-b7dHANUB-16" target="40FTKYqt4oS-b7dHANUB-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40FTKYqt4oS-b7dHANUB-16" target="40FTKYqt4oS-b7dHANUB-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.552;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="40FTKYqt4oS-b7dHANUB-20" edge="1">
+        <mxCell id="40FTKYqt4oS-b7dHANUB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.552;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="525.5" y="575" as="sourcePoint" />
-            <mxPoint x="607.5" y="657" as="targetPoint" />
+            <mxPoint x="606.9960000000001" y="658" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="526" y="616" />
-              <mxPoint x="608" y="616" />
+              <mxPoint x="526" y="615" />
+              <mxPoint x="607" y="615" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -99,23 +96,24 @@
         <mxCell id="40FTKYqt4oS-b7dHANUB-17" value="&lt;div&gt;启动&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#b85450;rounded=0;gradientColor=#FFD678;gradientDirection=radial;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="407.5" y="657" width="56" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40FTKYqt4oS-b7dHANUB-19" target="40FTKYqt4oS-b7dHANUB-27" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40FTKYqt4oS-b7dHANUB-19" target="40FTKYqt4oS-b7dHANUB-26" edge="1">
+        <mxCell id="40FTKYqt4oS-b7dHANUB-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="526" y="723" />
               <mxPoint x="439" y="723" />
             </Array>
+            <mxPoint x="525.5" y="697" as="sourcePoint" />
+            <mxPoint x="439" y="757" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40FTKYqt4oS-b7dHANUB-19" target="40FTKYqt4oS-b7dHANUB-28" edge="1">
+        <mxCell id="40FTKYqt4oS-b7dHANUB-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="526" y="723" />
-              <mxPoint x="611" y="723" />
+              <mxPoint x="526" y="722" />
+              <mxPoint x="611" y="722" />
             </Array>
+            <mxPoint x="525.5" y="700" as="sourcePoint" />
+            <mxPoint x="611" y="761" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="40FTKYqt4oS-b7dHANUB-19" value="监听" style="whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#b85450;rounded=0;gradientColor=#FFD678;gradientDirection=radial;sketch=0;" parent="1" vertex="1">
@@ -133,13 +131,10 @@
         <mxCell id="40FTKYqt4oS-b7dHANUB-28" value="......" style="whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#b85450;rounded=0;gradientColor=#FFD678;gradientDirection=radial;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="582.5" y="759" width="56" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40FTKYqt4oS-b7dHANUB-33" target="40FTKYqt4oS-b7dHANUB-35" edge="1">
+        <mxCell id="40FTKYqt4oS-b7dHANUB-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="40FTKYqt4oS-b7dHANUB-33" target="40FTKYqt4oS-b7dHANUB-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40FTKYqt4oS-b7dHANUB-33" target="40FTKYqt4oS-b7dHANUB-34" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40FTKYqt4oS-b7dHANUB-33" target="40FTKYqt4oS-b7dHANUB-36" edge="1">
+        <mxCell id="40FTKYqt4oS-b7dHANUB-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="40FTKYqt4oS-b7dHANUB-33" target="40FTKYqt4oS-b7dHANUB-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div&gt;ConfigurableEnvironment&lt;/div&gt;&lt;div&gt;配置环境模块&lt;br&gt;&lt;/div&gt;" tags="" id="40FTKYqt4oS-b7dHANUB-33">
@@ -161,22 +156,19 @@
             <mxGeometry x="930" y="513" width="163" height="61" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40FTKYqt4oS-b7dHANUB-43" target="40FTKYqt4oS-b7dHANUB-45" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.511;entryY=-0.105;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="40FTKYqt4oS-b7dHANUB-43" target="40FTKYqt4oS-b7dHANUB-47" edge="1">
+        <mxCell id="40FTKYqt4oS-b7dHANUB-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.511;entryY=-0.105;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="40FTKYqt4oS-b7dHANUB-43" target="40FTKYqt4oS-b7dHANUB-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1233" y="607" />
-              <mxPoint x="1040" y="607" />
+              <mxPoint x="1233" y="610" />
+              <mxPoint x="1040" y="610" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40FTKYqt4oS-b7dHANUB-43" target="40FTKYqt4oS-b7dHANUB-49" edge="1">
+        <mxCell id="40FTKYqt4oS-b7dHANUB-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="40FTKYqt4oS-b7dHANUB-43" target="40FTKYqt4oS-b7dHANUB-49" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1233" y="607" />
-              <mxPoint x="1399" y="607" />
+              <mxPoint x="1233" y="610" />
+              <mxPoint x="1399" y="610" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -188,45 +180,29 @@
         <mxCell id="40FTKYqt4oS-b7dHANUB-45" value="创建应用上下文对象" style="whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#b85450;rounded=0;gradientColor=#FFD678;gradientDirection=radial;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="1167.5" y="657.5" width="129" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.477;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="40FTKYqt4oS-b7dHANUB-47" target="40FTKYqt4oS-b7dHANUB-50" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1039" y="721" />
-              <mxPoint x="914" y="721" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="40FTKYqt4oS-b7dHANUB-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="40FTKYqt4oS-b7dHANUB-47" target="40FTKYqt4oS-b7dHANUB-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40FTKYqt4oS-b7dHANUB-47" target="40FTKYqt4oS-b7dHANUB-51" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1039" y="721" />
-              <mxPoint x="1004" y="721" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="40FTKYqt4oS-b7dHANUB-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="40FTKYqt4oS-b7dHANUB-47" target="40FTKYqt4oS-b7dHANUB-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40FTKYqt4oS-b7dHANUB-47" target="40FTKYqt4oS-b7dHANUB-52" edge="1">
+        <mxCell id="40FTKYqt4oS-b7dHANUB-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1039" y="721" />
-              <mxPoint x="1091" y="721" />
+              <mxPoint x="1039" y="735" />
+              <mxPoint x="1161" y="735" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40FTKYqt4oS-b7dHANUB-47" target="40FTKYqt4oS-b7dHANUB-53" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1039" y="721" />
-              <mxPoint x="1161" y="721" />
-            </Array>
+            <mxPoint x="1039" y="698.5" as="sourcePoint" />
+            <mxPoint x="1161" y="770.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="40FTKYqt4oS-b7dHANUB-47" value="基本属性配置" style="whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#b85450;rounded=0;gradientColor=#FFD678;gradientDirection=radial;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="993.5" y="656.5" width="91" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40FTKYqt4oS-b7dHANUB-49" target="40FTKYqt4oS-b7dHANUB-62" edge="1">
+        <mxCell id="40FTKYqt4oS-b7dHANUB-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="40FTKYqt4oS-b7dHANUB-49" target="40FTKYqt4oS-b7dHANUB-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40FTKYqt4oS-b7dHANUB-49" target="40FTKYqt4oS-b7dHANUB-63" edge="1">
+        <mxCell id="40FTKYqt4oS-b7dHANUB-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="40FTKYqt4oS-b7dHANUB-49" target="40FTKYqt4oS-b7dHANUB-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="40FTKYqt4oS-b7dHANUB-49" value="更新应用上下文" style="whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#b85450;rounded=0;gradientColor=#FFD678;gradientDirection=radial;sketch=0;" parent="1" vertex="1">
@@ -247,17 +223,13 @@
         <mxCell id="40FTKYqt4oS-b7dHANUB-62" value="准备环境所需bean 工厂" style="whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#b85450;rounded=0;gradientColor=#FFD678;gradientDirection=radial;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="1305.5" y="770.5" width="91" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40FTKYqt4oS-b7dHANUB-63" target="40FTKYqt4oS-b7dHANUB-67" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1451" y="965" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="40FTKYqt4oS-b7dHANUB-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=arrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="40FTKYqt4oS-b7dHANUB-63" target="40FTKYqt4oS-b7dHANUB-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="40FTKYqt4oS-b7dHANUB-63" value="通过工厂产生环境所需的bean" style="whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#b85450;rounded=0;gradientColor=#FFD678;gradientDirection=radial;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="1405.5" y="770.5" width="91" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="40FTKYqt4oS-b7dHANUB-67" target="40FTKYqt4oS-b7dHANUB-69" edge="1">
+        <mxCell id="40FTKYqt4oS-b7dHANUB-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=arrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="40FTKYqt4oS-b7dHANUB-67" target="40FTKYqt4oS-b7dHANUB-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="40FTKYqt4oS-b7dHANUB-67" value="&lt;div&gt;应用启动计时器结束计时&lt;/div&gt;&lt;div&gt;应用启动监听器结束监听&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#FFFFCC;strokeColor=#b85450;rounded=0;gradientColor=#FFD678;gradientDirection=radial;sketch=0;" parent="1" vertex="1">
@@ -266,7 +238,7 @@
         <mxCell id="40FTKYqt4oS-b7dHANUB-69" value="&lt;div&gt;&lt;b&gt;SpringApplication&lt;/b&gt;&lt;/div&gt;&lt;b&gt;启动结束&lt;/b&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#99FF33;strokeColor=#006658;fontColor=#5C5C5C;rounded=0;labelBackgroundColor=none;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="1378" y="1121" width="144" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="40FTKYqt4oS-b7dHANUB-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.544;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;shape=link;" parent="1" source="n7Ov-Tm2yEQ00Mx2uHal-8" target="40FTKYqt4oS-b7dHANUB-62" edge="1">
+        <mxCell id="40FTKYqt4oS-b7dHANUB-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.544;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;shape=link;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="n7Ov-Tm2yEQ00Mx2uHal-8" target="40FTKYqt4oS-b7dHANUB-62" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="263" y="879" />
@@ -381,15 +353,20 @@
             <mxPoint x="299.5" y="171" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="lpFlkhZ97oZErI0fVn5C-9" value="&lt;div&gt;明细1&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="40FTKYqt4oS-b7dHANUB-88">
+          <mxGeometry x="0.4025" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="lpFlkhZ97oZErI0fVn5C-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;exitX=0.237;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;" edge="1" parent="40FTKYqt4oS-b7dHANUB-15" source="n7Ov-Tm2yEQ00Mx2uHal-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="318.5" y="467" as="targetPoint" />
             <mxPoint x="329.02941176470586" y="181" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lpFlkhZ97oZErI0fVn5C-5" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="40FTKYqt4oS-b7dHANUB-15">
+        <mxCell id="lpFlkhZ97oZErI0fVn5C-5" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="40FTKYqt4oS-b7dHANUB-15" target="lpFlkhZ97oZErI0fVn5C-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="238.5" y="324" as="sourcePoint" />
+            <mxPoint x="238.5" y="364" as="sourcePoint" />
             <mxPoint x="122.5" y="584" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -416,6 +393,41 @@
         </mxCell>
         <mxCell id="40FTKYqt4oS-b7dHANUB-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="40FTKYqt4oS-b7dHANUB-11" target="40FTKYqt4oS-b7dHANUB-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40FTKYqt4oS-b7dHANUB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="40FTKYqt4oS-b7dHANUB-16" target="40FTKYqt4oS-b7dHANUB-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40FTKYqt4oS-b7dHANUB-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="40FTKYqt4oS-b7dHANUB-33" target="40FTKYqt4oS-b7dHANUB-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40FTKYqt4oS-b7dHANUB-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="40FTKYqt4oS-b7dHANUB-43" target="40FTKYqt4oS-b7dHANUB-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40FTKYqt4oS-b7dHANUB-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="40FTKYqt4oS-b7dHANUB-19" target="40FTKYqt4oS-b7dHANUB-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40FTKYqt4oS-b7dHANUB-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.477;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;shape=flexArrow;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1039" y="735" />
+              <mxPoint x="914" y="735" />
+            </Array>
+            <mxPoint x="1039" y="698.5" as="sourcePoint" />
+            <mxPoint x="913.982" y="772.0050000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lpFlkhZ97oZErI0fVn5C-11" value="创建的工厂" style="swimlane;whiteSpace=wrap;html=1;fontSize=10;fillColor=#FF9933;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="-114" y="859" width="124" height="24" as="geometry">
+            <mxRectangle x="-114" y="859" width="903" height="553" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lpFlkhZ97oZErI0fVn5C-22" value="&lt;div&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; SpringApplication： constructor()&lt;/b&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;verticalAlign=middle;align=center;startSize=44;swimlaneFillColor=none;strokeColor=#CCCCFF;shadow=0;fillColor=#E6E6E6;gradientColor=none;gradientDirection=radial;horizontal=1;labelPosition=center;verticalLabelPosition=middle;spacingTop=-16;" vertex="1" collapsed="1" parent="lpFlkhZ97oZErI0fVn5C-11">
+          <mxGeometry x="43" y="51" width="477" height="44" as="geometry">
+            <mxRectangle x="41" y="-1.5" width="740" height="864" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lpFlkhZ97oZErI0fVn5C-23" value="&lt;pre style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12px;&quot;&gt;&lt;span style=&quot;color: rgb(187, 181, 41); font-size: 12px;&quot;&gt;@SuppressWarnings&lt;/span&gt;({&lt;span style=&quot;color: rgb(106, 135, 89); font-size: 12px;&quot;&gt;&quot;unchecked&quot;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(106, 135, 89); font-size: 12px;&quot;&gt;&quot;rawtypes&quot;&lt;/span&gt;})&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;public &lt;/span&gt;&lt;span style=&quot;color: rgb(255, 198, 109); font-size: 12px;&quot;&gt;SpringApplication&lt;/span&gt;(ResourceLoader resourceLoader&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;, &lt;/span&gt;Class&amp;lt;?&amp;gt;... primarySources) {&lt;br style=&quot;font-size: 12px;&quot;&gt;   &lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: rgb(152, 118, 170); font-size: 12px;&quot;&gt;resourceLoader &lt;/span&gt;= resourceLoader&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;   &lt;/span&gt;Assert.&lt;span style=&quot;font-style: italic; font-size: 12px;&quot;&gt;notNull&lt;/span&gt;(primarySources&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(106, 135, 89); font-size: 12px;&quot;&gt;&quot;PrimarySources must not be null&quot;&lt;/span&gt;)&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;   this&lt;/span&gt;.&lt;span style=&quot;color: rgb(152, 118, 170); font-size: 12px;&quot;&gt;primarySources &lt;/span&gt;= &lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;new &lt;/span&gt;LinkedHashSet&amp;lt;&amp;gt;(Arrays.&lt;span style=&quot;font-style: italic; font-size: 12px;&quot;&gt;asList&lt;/span&gt;(primarySources))&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color: rgb(98, 151, 85); font-style: italic; font-size: 12px;&quot;&gt;/**&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(98, 151, 85); font-style: italic; font-size: 12px;&quot;&gt;    * &lt;/span&gt;&lt;span style=&quot;color: rgb(98, 151, 85); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;应用类型标志 &lt;/span&gt;&lt;span style=&quot;color: rgb(98, 151, 85); font-style: italic; font-size: 12px;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: rgb(98, 151, 85); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;一般程序、&lt;/span&gt;&lt;span style=&quot;color: rgb(98, 151, 85); font-style: italic; font-size: 12px;&quot;&gt;Servlet-WEB&lt;/span&gt;&lt;span style=&quot;color: rgb(98, 151, 85); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;、 &lt;/span&gt;&lt;span style=&quot;color: rgb(98, 151, 85); font-style: italic; font-size: 12px;&quot;&gt;Reactive-WEB}, &lt;/span&gt;&lt;span style=&quot;color: rgb(98, 151, 85); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;里面采用硬编码，强制写死反射的类名称&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(98, 151, 85); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color: rgb(98, 151, 85); font-style: italic; font-size: 12px;&quot;&gt;*&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(98, 151, 85); font-style: italic; font-size: 12px;&quot;&gt;    * WARINING: &lt;/span&gt;&lt;span style=&quot;color: rgb(98, 151, 85); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;加载器问题？&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(98, 151, 85); font-style: italic; font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;       &lt;/span&gt;&lt;span style=&quot;color: rgb(98, 151, 85); font-style: italic; font-size: 12px;&quot;&gt;*/&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(98, 151, 85); font-style: italic; font-size: 12px;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: rgb(152, 118, 170); font-size: 12px;&quot;&gt;webApplicationType &lt;/span&gt;= WebApplicationType.&lt;span style=&quot;font-style: italic; font-size: 12px;&quot;&gt;deduceFromClasspath&lt;/span&gt;()&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;/*&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * [TIP]&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 1. &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;获取&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt; ApplicationContextInitializer &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;类中的实现类（工厂类）的名称&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 2. &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;通过反射，对各个工厂类进行实例化&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * ----------------------------------------------------------------------&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;细节：如何拿到各个&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;ApplicationContextInializer &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;下工厂类的名称 ？&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    *   &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;首先，获取所有模块下&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt; META-INF/spring.factories &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;文件中的数据， 生成&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt; MAP,&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    *   &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;再 拿到&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt; key &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;是&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt; ApplicationContextInitializer &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;的值，默认&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt; 7 &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;个&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 1) DelegatingApplicationContextInitializer  ==&amp;gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 2) SharedMetadataReaderFactoryContextInitializer ==&amp;gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 3) ContextIdApplicationContextInitializer  ==&amp;gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 4) ConfigurationWarningsApplicationContextInitializer  ==&amp;gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 5) RSocketPortInfoApplicationContextInitializer  ==&amp;gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 6) ServerPortInfoApplicationApplicationContextInitializer ==&amp;gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 7) ConditionEvaluationReportLoggingListener  ==&amp;gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    */&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;   &lt;/span&gt;Collection contextInitializerFactories = (Collection) getSpringFactoriesInstances(ApplicationContextInitializer.&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;class&lt;/span&gt;)&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;   &lt;/span&gt;setInitializers(contextInitializerFactories)&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;/*&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * [TIP] META-INF/spring.factories&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;获取监听器&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;默认&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt; 11 &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;个&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;具体使用的地方&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;请查看&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt; run()&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * --------------------------------------------&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 1) CloudFoundryVcapEnvironmentPostProcessor&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 2) ConfigFileApplicationListener&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 3) AnsiOutputApplicationListener&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 4) LoggingApplicationListener&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 5) ClasspathLoggingApplicationListener&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 6) BackgroundPreinitializer&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 7) DelegatingApplicationListener&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 8) ParentContextCloserApplicationListener&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 9) ClearCachesApplicationListener&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 10) FileEncodingApplicationListener&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    * 11) LiquibaseServiceLocatorApplicationListener&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;    */&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;   &lt;/span&gt;Collection listenerFactories = (Collection) getSpringFactoriesInstances(ApplicationListener.&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;class&lt;/span&gt;)&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;   &lt;/span&gt;setListeners(listenerFactories)&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;// [TIP] &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;获取启动类的相关信息&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-size: 12px;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;注意观察具体实现&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(128, 128, 128); font-family: &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: rgb(152, 118, 170); font-size: 12px;&quot;&gt;mainApplicationClass &lt;/span&gt;= deduceMainApplicationClass()&lt;span style=&quot;color: rgb(204, 120, 50); font-size: 12px;&quot;&gt;;&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;/span&gt;}&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;labelBorderColor=none;fontColor=none;spacing=2;fontSize=12;spacingTop=-16;" vertex="1" parent="lpFlkhZ97oZErI0fVn5C-22">
+          <mxGeometry x="2" y="38" width="736" height="802" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
