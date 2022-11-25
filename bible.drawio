@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T07:05:45.797Z" agent="5.0 (X11)" etag="6jGDN9PwySmn6-sBNhcm" version="20.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-25T10:41:08.326Z" agent="5.0 (X11)" etag="zAWHW05If6MQj-Usz5My" version="20.6.0" type="github" pages="2">
   <diagram id="S4EvQrgnYfGna6eoemza" name="创世纪">
-    <mxGraphModel dx="2249" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2089" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1313,22 +1313,143 @@
         <mxCell id="Psd0By2QUZ_8c2NEFAuc-38" value="拉班" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=12;fontColor=#666666;align=left;spacingLeft=0;gradientColor=none;gradientDirection=radial;verticalAlign=top;spacingTop=0;strokeColor=none;fontStyle=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-21" y="2440" width="36" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5qzOEJAoRmY0lqfDP9Nm-1" value="&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#999999&quot;&gt;诺亚后代国族图&lt;/font&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B1DDF0;startSize=30;strokeColor=#10739E;" vertex="1" collapsed="1" parent="1">
-          <mxGeometry x="207" y="971" width="121" height="30" as="geometry">
-            <mxRectangle x="207" y="971" width="1359.37" height="983" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5qzOEJAoRmY0lqfDP9Nm-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://biblegeography.holylight.org.tw/images/index/condensedbible/map/007.GIF;" vertex="1" parent="5qzOEJAoRmY0lqfDP9Nm-1">
-          <mxGeometry y="27.599999999999994" width="1359.37" height="959.4" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="rSNVaawTHH5WQBvdHxLD" name="第 2 页">
-    <mxGraphModel dx="1422" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1262" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-3" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeColor=#10739E;fontColor=#999999;fillColor=#B1DDF0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="270" width="331" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-5" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#999999;" vertex="1" parent="WqlvvnYwsiWgIvaFn1g8-3">
+          <mxGeometry y="30" width="331" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-17" value="&lt;a href=&quot;http://biblegeography.holylight.org.tw/index/condensedbible_map_detail?m_id=007&quot;&gt;&lt;font color=&quot;#999999&quot;&gt;诺亚后代的国族图&lt;/font&gt;&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B1DDF0;startSize=30;strokeColor=#10739E;" vertex="1" collapsed="1" parent="WqlvvnYwsiWgIvaFn1g8-3">
+          <mxGeometry y="60" width="331" height="30" as="geometry">
+            <mxRectangle y="60" width="331" height="983" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-18" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://biblegeography.holylight.org.tw/images/index/condensedbible/map/007.GIF;" vertex="1" parent="WqlvvnYwsiWgIvaFn1g8-17">
+          <mxGeometry y="27.599999999999994" width="1359.37" height="959.4" as="geometry" />
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-20" value="&lt;a href=&quot;http://biblegeography.holylight.org.tw/index/condensedbible_map_detail?m_id=009&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#999999&quot;&gt;亚伯拉罕的生平&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B1DDF0;startSize=30;strokeColor=#10739E;" vertex="1" collapsed="1" parent="WqlvvnYwsiWgIvaFn1g8-3">
+          <mxGeometry y="90" width="331" height="30" as="geometry">
+            <mxRectangle y="90" width="520" height="560" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://biblegeography.holylight.org.tw/images/index/condensedbible/map/009.GIF;" vertex="1" parent="WqlvvnYwsiWgIvaFn1g8-20">
+          <mxGeometry y="31" width="518" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-25" value="&lt;a href=&quot;http://biblegeography.holylight.org.tw/index/condensedbible_map_detail?m_id=008#&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#999999&quot;&gt;族长们在迦南地以外的活动&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B1DDF0;startSize=30;strokeColor=#10739E;" vertex="1" collapsed="1" parent="WqlvvnYwsiWgIvaFn1g8-3">
+          <mxGeometry y="120" width="331" height="30" as="geometry">
+            <mxRectangle x="240" y="560" width="1099.7" height="730" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-27" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://biblegeography.holylight.org.tw/images/index/condensedbible/map/008.GIF;" vertex="1" parent="WqlvvnYwsiWgIvaFn1g8-25">
+          <mxGeometry y="30" width="1099.7" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-28" value="&lt;a href=&quot;http://biblegeography.holylight.org.tw/index/condensedbible_map_detail?m_id=012&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#999999&quot;&gt;夏甲和以实玛丽&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B1DDF0;startSize=30;strokeColor=#10739E;" vertex="1" collapsed="1" parent="WqlvvnYwsiWgIvaFn1g8-3">
+          <mxGeometry y="150" width="331" height="30" as="geometry">
+            <mxRectangle x="143" y="611" width="667.73" height="950" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-33" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://biblegeography.holylight.org.tw/images/index/condensedbible/map/012.GIF;" vertex="1" parent="WqlvvnYwsiWgIvaFn1g8-28">
+          <mxGeometry y="29" width="667.73" height="921" as="geometry" />
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-6" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#999999;" vertex="1" parent="WqlvvnYwsiWgIvaFn1g8-3">
+          <mxGeometry y="180" width="331" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-36" value="&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#999999&quot;&gt;以撒的生平&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B1DDF0;startSize=30;strokeColor=#10739E;" vertex="1" collapsed="1" parent="WqlvvnYwsiWgIvaFn1g8-3">
+          <mxGeometry y="210" width="331" height="30" as="geometry">
+            <mxRectangle x="160" y="620" width="747.79" height="680" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-38" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://biblegeography.holylight.org.tw/images/index/condensedbible/map/013.GIF;" vertex="1" parent="WqlvvnYwsiWgIvaFn1g8-36">
+          <mxGeometry y="30" width="747.79" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="tzosJrwpQKSLROhQmArx-1" value="&lt;a href=&quot;http://biblegeography.holylight.org.tw/index/condensedbible_map_detail?m_id=010&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#999999&quot;&gt;罗的和他的后代-摩押和亚扪&lt;/font&gt;&lt;/span&gt;&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B1DDF0;startSize=30;strokeColor=#10739E;" vertex="1" collapsed="1" parent="WqlvvnYwsiWgIvaFn1g8-3">
+          <mxGeometry y="240" width="331" height="30" as="geometry">
+            <mxRectangle y="680" width="520" height="913" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tzosJrwpQKSLROhQmArx-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://biblegeography.holylight.org.tw/images/index/condensedbible/map/010.GIF;" vertex="1" parent="tzosJrwpQKSLROhQmArx-1">
+          <mxGeometry x="2" y="32" width="679.38" height="868" as="geometry" />
+        </mxCell>
+        <mxCell id="tzosJrwpQKSLROhQmArx-4" value="&lt;a href=&quot;http://biblegeography.holylight.org.tw/index/condensedbible_map_detail?m_id=011&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#999999&quot;&gt;诺北方四王攻打南方五王&lt;/font&gt;&lt;/span&gt;&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B1DDF0;startSize=30;strokeColor=#10739E;" vertex="1" collapsed="1" parent="WqlvvnYwsiWgIvaFn1g8-3">
+          <mxGeometry y="270" width="331" height="30" as="geometry">
+            <mxRectangle y="710" width="520" height="910" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tzosJrwpQKSLROhQmArx-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://biblegeography.holylight.org.tw/images/index/condensedbible/map/011.GIF;" vertex="1" parent="tzosJrwpQKSLROhQmArx-4">
+          <mxGeometry x="4" y="33" width="435.62" height="878" as="geometry" />
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-4" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#999999;" vertex="1" parent="WqlvvnYwsiWgIvaFn1g8-3">
+          <mxGeometry y="300" width="331" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-39" value="&lt;a href=&quot;http://biblegeography.holylight.org.tw/index/condensedbible_map_detail?m_id=001&quot;&gt;&lt;font color=&quot;#999999&quot;&gt;迦南的地理位置和古代的交通&lt;/font&gt;&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B1DDF0;startSize=30;strokeColor=#10739E;fontColor=#999999;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="120" y="634" width="331" height="30" as="geometry">
+            <mxRectangle x="120" y="634" width="1040" height="786" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-40" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://biblegeography.holylight.org.tw/images/index/condensedbible/map/001.GIF;" vertex="1" parent="WqlvvnYwsiWgIvaFn1g8-39">
+          <mxGeometry y="32" width="1040" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-42" value="&lt;a href=&quot;http://biblegeography.holylight.org.tw/index/condensedbible_map_detail?m_id=001&quot;&gt;&lt;font color=&quot;#999999&quot;&gt;迦南的地理位置和古代的交通&lt;/font&gt;&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B1DDF0;startSize=30;strokeColor=#10739E;fontColor=#999999;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="496" y="210" width="331" height="30" as="geometry">
+            <mxRectangle x="540" y="474" width="660" height="616" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-44" value="&lt;a href=&quot;http://biblegeography.holylight.org.tw/index/condensedbible_map_detail?m_id=002&quot;&gt;&lt;font color=&quot;#999999&quot;&gt;迦南地的范围和交通情况&lt;/font&gt;&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B1DDF0;startSize=30;strokeColor=#10739E;fontColor=#999999;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="120" y="680" width="331" height="30" as="geometry">
+            <mxRectangle x="120" y="724" width="600" height="1100" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-45" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://biblegeography.holylight.org.tw/images/index/condensedbible/map/002.GIF;" vertex="1" parent="WqlvvnYwsiWgIvaFn1g8-44">
+          <mxGeometry x="2" y="31" width="597.48" height="1064" as="geometry" />
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-46" value="&lt;a href=&quot;http://biblegeography.holylight.org.tw/index/condensedbible_map_detail?m_id=003&quot;&gt;&lt;font color=&quot;#999999&quot;&gt;迦南&lt;/font&gt;&lt;font color=&quot;#999999&quot;&gt;地的山峰和河流&lt;/font&gt;&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B1DDF0;startSize=30;strokeColor=#10739E;fontColor=#999999;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="120" y="724" width="331" height="30" as="geometry">
+            <mxRectangle x="120" y="724" width="1023.98" height="1350" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-47" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://biblegeography.holylight.org.tw/images/index/condensedbible/map/003.GIF;" vertex="1" parent="WqlvvnYwsiWgIvaFn1g8-46">
+          <mxGeometry y="32" width="1023.98" height="1318" as="geometry" />
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-48" value="&lt;a href=&quot;http://biblegeography.holylight.org.tw/index/condensedbible_map_detail?m_id=004&quot;&gt;&lt;font color=&quot;#999999&quot;&gt;迦南地的自然区域&lt;/font&gt;&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B1DDF0;startSize=30;strokeColor=#10739E;fontColor=#999999;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="120" y="770" width="331" height="30" as="geometry">
+            <mxRectangle x="120" y="770" width="940.08" height="1240" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-49" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://biblegeography.holylight.org.tw/images/index/condensedbible/map/004.GIF;" vertex="1" parent="WqlvvnYwsiWgIvaFn1g8-48">
+          <mxGeometry y="30" width="940.08" height="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-50" value="&lt;a href=&quot;http://biblegeography.holylight.org.tw/index/condensedbible_map_detail?m_id=005&quot;&gt;&lt;font color=&quot;#999999&quot;&gt;迦南地远古的大城邦&lt;/font&gt;&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B1DDF0;startSize=30;strokeColor=#10739E;fontColor=#999999;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="120" y="820" width="331" height="30" as="geometry">
+            <mxRectangle x="101" y="850" width="844.62" height="1250" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-51" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://biblegeography.holylight.org.tw/images/index/condensedbible/map/005.GIF;" vertex="1" parent="WqlvvnYwsiWgIvaFn1g8-50">
+          <mxGeometry y="30" width="844.62" height="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-52" value="&lt;a href=&quot;http://biblegeography.holylight.org.tw/index/condensedbible_map_detail?m_id=006&quot;&gt;&lt;font color=&quot;#999999&quot;&gt;伊甸和洪水之前的世界&lt;/font&gt;&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B1DDF0;startSize=30;strokeColor=#10739E;fontColor=#999999;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="120" y="880" width="331" height="30" as="geometry">
+            <mxRectangle x="120" y="880" width="810.11" height="770" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-53" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://biblegeography.holylight.org.tw/images/index/condensedbible/map/006.GIF;" vertex="1" parent="WqlvvnYwsiWgIvaFn1g8-52">
+          <mxGeometry y="30" width="810.11" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-54" value="&lt;a href=&quot;http://biblegeography.holylight.org.tw/index/condensedbible_map_detail?m_id=014&quot;&gt;&lt;font color=&quot;#999999&quot;&gt;雅各的生平&lt;/font&gt;&lt;/a&gt;" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#B1DDF0;startSize=30;strokeColor=#10739E;fontColor=#999999;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="490" y="290" width="331" height="30" as="geometry">
+            <mxRectangle x="490" y="290" width="668.56" height="880" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WqlvvnYwsiWgIvaFn1g8-55" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://biblegeography.holylight.org.tw/images/index/condensedbible/map/014.GIF;" vertex="1" parent="WqlvvnYwsiWgIvaFn1g8-54">
+          <mxGeometry y="30" width="668.56" height="850" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
