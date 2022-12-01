@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T13:20:43.764Z" agent="5.0 (X11)" etag="i20nGZeLxkq_3zSMK1g3" version="20.6.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-12-01T10:19:43.070Z" agent="5.0 (Windows)" etag="UfCJhJIFFl0VhF5U7kyR" version="20.6.0" type="github" pages="2">
   <diagram id="fph5RQXhZdd7spSEOlrz" name="第 1 页">
-    <mxGraphModel dx="2382" dy="1181" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1936" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -146,7 +146,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="m-8ehMZ6eu1xI0JbzgWa" name="第 2 页">
-    <mxGraphModel dx="1902" dy="989" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="867" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -189,13 +189,13 @@
         <mxCell id="uOVEcoblTtBX-aFWbd-W-2" value="WCS :&amp;nbsp;&amp;nbsp; 仓库管理系统&amp;nbsp; " style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Times New Roman;fontSize=12;fontColor=#666666;align=left;spacingLeft=8;gradientColor=none;gradientDirection=radial;verticalAlign=top;spacingTop=0;strokeColor=none;fontStyle=1;fillColor=none;" parent="uOVEcoblTtBX-aFWbd-W-1" vertex="1">
           <mxGeometry y="524" width="489" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-3" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="160" y="870" width="201" height="210" as="geometry" />
+        <mxCell id="NAB-EnWGZakDbsCJqusN-3" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="120" y="742" width="201" height="1006" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-4" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-3">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-4" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="NAB-EnWGZakDbsCJqusN-3" vertex="1">
           <mxGeometry y="30" width="201" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-2" value="中控系统架构图" style="swimlane;whiteSpace=wrap;html=1;startSize=40;strokeColor=none;fontSize=16;fillColor=#d5e8d4;" vertex="1" collapsed="1" parent="NAB-EnWGZakDbsCJqusN-3">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-2" value="中控系统架构图" style="swimlane;whiteSpace=wrap;html=1;startSize=40;strokeColor=none;fontSize=16;fillColor=#d5e8d4;" parent="NAB-EnWGZakDbsCJqusN-3" vertex="1" collapsed="1">
           <mxGeometry y="60" width="201" height="30" as="geometry">
             <mxRectangle y="60" width="201" height="744" as="alternateBounds" />
           </mxGeometry>
@@ -606,146 +606,146 @@
         <mxCell id="uOVEcoblTtBX-aFWbd-W-227" value="交互记录查看" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontSize=16;gradientDirection=radial;" parent="uOVEcoblTtBX-aFWbd-W-222" vertex="1">
           <mxGeometry x="22" y="289" width="120" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-7" value="中控系统功能关系图" style="swimlane;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeColor=none;fontSize=16;fillColor=#d5e8d4;gradientDirection=radial;startSize=32;swimlaneLine=1;" vertex="1" collapsed="1" parent="NAB-EnWGZakDbsCJqusN-3">
-          <mxGeometry y="120" width="201" height="30" as="geometry">
-            <mxRectangle y="120" width="201" height="826" as="alternateBounds" />
+        <mxCell id="NAB-EnWGZakDbsCJqusN-7" value="中控系统功能关系图" style="swimlane;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeColor=none;fontSize=16;fillColor=#d5e8d4;gradientDirection=radial;startSize=32;swimlaneLine=1;" parent="NAB-EnWGZakDbsCJqusN-3" vertex="1">
+          <mxGeometry y="120" width="201" height="826" as="geometry">
+            <mxRectangle y="120" width="201" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-165" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=12;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=none;fontSize=13;fontColor=none;swimlaneLine=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;dashed=1;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-7">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-165" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=12;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;sketch=0;strokeColor=none;fontSize=13;fontColor=none;swimlaneLine=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;dashed=1;" parent="NAB-EnWGZakDbsCJqusN-7" vertex="1">
           <mxGeometry x="16" y="42" width="568" height="769" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-94" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;基础数据管理&lt;/font&gt;&lt;/div&gt;" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#E6E6E6;fontSize=16;fillColor=#cce5ff;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-165">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-94" value="&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;基础数据管理&lt;/font&gt;&lt;/div&gt;" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#E6E6E6;fontSize=16;fillColor=#cce5ff;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-165" vertex="1">
           <mxGeometry y="12" width="568" height="120" as="geometry">
             <mxRectangle y="12" width="568" height="110" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="NAB-EnWGZakDbsCJqusN-94" source="NAB-EnWGZakDbsCJqusN-97" target="NAB-EnWGZakDbsCJqusN-100">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-94" source="NAB-EnWGZakDbsCJqusN-97" target="NAB-EnWGZakDbsCJqusN-100" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-97" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;产线维护&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=16;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-94">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-97" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;产线维护&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=16;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-94" vertex="1">
           <mxGeometry x="36" y="45" width="75" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="NAB-EnWGZakDbsCJqusN-94" target="NAB-EnWGZakDbsCJqusN-102">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-94" target="NAB-EnWGZakDbsCJqusN-102" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="222" y="59.5" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-100" value="&lt;b&gt;设备台账&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-94">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-100" value="&lt;b&gt;设备台账&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-94" vertex="1">
           <mxGeometry x="129" y="45" width="75" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-102" value="&lt;b&gt;工作中心&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-94">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-102" value="&lt;b&gt;工作中心&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-94" vertex="1">
           <mxGeometry x="289" y="45" width="75" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-104" value="&lt;b&gt;物料维护&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-94">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-104" value="&lt;b&gt;物料维护&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-94" vertex="1">
           <mxGeometry x="471" y="45" width="75" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-95" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;计划管理&lt;/font&gt;" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#E6E6E6;fontSize=16;fillColor=#cce5ff;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-165">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-95" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;计划管理&lt;/font&gt;" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#E6E6E6;fontSize=16;fillColor=#cce5ff;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-165" vertex="1">
           <mxGeometry y="132" width="568" height="146" as="geometry">
             <mxRectangle y="132" width="568" height="90" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="NAB-EnWGZakDbsCJqusN-95" source="NAB-EnWGZakDbsCJqusN-115" target="NAB-EnWGZakDbsCJqusN-116">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=11;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-95" source="NAB-EnWGZakDbsCJqusN-115" target="NAB-EnWGZakDbsCJqusN-116" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-115" value="&lt;div&gt;&lt;b&gt;工单管理&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;计划同步/制定/下达&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-95">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-115" value="&lt;div&gt;&lt;b&gt;工单管理&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;计划同步/制定/下达&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-95" vertex="1">
           <mxGeometry x="176" y="41.5" width="109" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-116" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;派工查询&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-95">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-116" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;派工查询&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-95" vertex="1">
           <mxGeometry x="338" y="15.5" width="97" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-118" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;计划达成表&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-95">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-118" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b style=&quot;font-size: 12px;&quot;&gt;计划达成表&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-95" vertex="1">
           <mxGeometry x="338" y="65" width="98" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="NAB-EnWGZakDbsCJqusN-95" source="NAB-EnWGZakDbsCJqusN-115" target="NAB-EnWGZakDbsCJqusN-118">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-95" source="NAB-EnWGZakDbsCJqusN-115" target="NAB-EnWGZakDbsCJqusN-118" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-96" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;物流管理&lt;/font&gt;" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#E6E6E6;fontSize=16;fillColor=#cce5ff;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-165">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-96" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;物流管理&lt;/font&gt;" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#E6E6E6;fontSize=16;fillColor=#cce5ff;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-165" vertex="1">
           <mxGeometry y="278" width="568" height="102" as="geometry">
             <mxRectangle y="278" width="568" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="NAB-EnWGZakDbsCJqusN-96" source="NAB-EnWGZakDbsCJqusN-126" target="NAB-EnWGZakDbsCJqusN-127">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-96" source="NAB-EnWGZakDbsCJqusN-126" target="NAB-EnWGZakDbsCJqusN-127" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-126" value="&lt;div&gt;&lt;b&gt;物料呼叫中心&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;自动/人工物料呼叫&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-96">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-126" value="&lt;div&gt;&lt;b&gt;物料呼叫中心&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;自动/人工物料呼叫&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-96" vertex="1">
           <mxGeometry x="176" y="43" width="109" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-127" value="&lt;b&gt;配送记录&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-96">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-127" value="&lt;b&gt;配送记录&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-96" vertex="1">
           <mxGeometry x="338" y="43" width="109" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-191" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;采集管理&lt;/font&gt;" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#E6E6E6;fontSize=16;fillColor=#cce5ff;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-165">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-191" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;采集管理&lt;/font&gt;" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#E6E6E6;fontSize=16;fillColor=#cce5ff;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-165" vertex="1">
           <mxGeometry y="380" width="568" height="102" as="geometry">
             <mxRectangle y="380" width="568" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-193" value="&lt;b&gt;NC程序管理&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-191">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-193" value="&lt;b&gt;NC程序管理&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-191" vertex="1">
           <mxGeometry x="216" y="18" width="108" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-194" value="&lt;b&gt;采集数据上传&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-191">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-194" value="&lt;b&gt;采集数据上传&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-191" vertex="1">
           <mxGeometry x="216" y="58" width="108" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-201" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;系统管理&lt;/font&gt;" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#E6E6E6;fontSize=16;fillColor=#cce5ff;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-165">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-201" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;系统管理&lt;/font&gt;" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#E6E6E6;fontSize=16;fillColor=#cce5ff;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-165" vertex="1">
           <mxGeometry y="482" width="568" height="185" as="geometry">
             <mxRectangle y="482" width="568" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-202" value="&lt;div&gt;&lt;b&gt;用户权限管理&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-201">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-202" value="&lt;div&gt;&lt;b&gt;用户权限管理&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-201" vertex="1">
           <mxGeometry x="78" y="28.5" width="121" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-212" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="NAB-EnWGZakDbsCJqusN-201" source="NAB-EnWGZakDbsCJqusN-209" target="NAB-EnWGZakDbsCJqusN-211">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-212" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-201" source="NAB-EnWGZakDbsCJqusN-209" target="NAB-EnWGZakDbsCJqusN-211" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-209" value="用户" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-201">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-209" value="用户" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-201" vertex="1">
           <mxGeometry x="110" y="59.5" width="60" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-211" value="用户组" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-201">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-211" value="用户组" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-201" vertex="1">
           <mxGeometry x="110" y="112.5" width="60" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-213" value="&lt;div&gt;&lt;b&gt;参数管理&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-201">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-213" value="&lt;div&gt;&lt;b&gt;参数管理&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-201" vertex="1">
           <mxGeometry x="208" y="28.5" width="121" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-215" value="字典组" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-201">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-215" value="字典组" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-201" vertex="1">
           <mxGeometry x="240" y="59.5" width="60" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-216" value="参数组" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-201">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-216" value="参数组" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-201" vertex="1">
           <mxGeometry x="240" y="112.5" width="60" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-214" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="NAB-EnWGZakDbsCJqusN-201" source="NAB-EnWGZakDbsCJqusN-215" target="NAB-EnWGZakDbsCJqusN-216">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-214" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-201" source="NAB-EnWGZakDbsCJqusN-215" target="NAB-EnWGZakDbsCJqusN-216" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-217" value="&lt;div&gt;&lt;b&gt;参数管理&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-201">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-217" value="&lt;div&gt;&lt;b&gt;参数管理&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;b&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-201" vertex="1">
           <mxGeometry x="338" y="28.5" width="187" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-219" value="Job密码" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-201">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-219" value="Job密码" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-201" vertex="1">
           <mxGeometry x="357" y="60.5" width="60" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-220" value="Job 主机" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-201">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-220" value="Job 主机" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-201" vertex="1">
           <mxGeometry x="357" y="113.5" width="60" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-218" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="NAB-EnWGZakDbsCJqusN-201" source="NAB-EnWGZakDbsCJqusN-219" target="NAB-EnWGZakDbsCJqusN-220">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-218" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-201" source="NAB-EnWGZakDbsCJqusN-219" target="NAB-EnWGZakDbsCJqusN-220" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-222" value="Job 组" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-201">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-222" value="Job 组" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-201" vertex="1">
           <mxGeometry x="447" y="60.5" width="60" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-223" value="Job" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-201">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-223" value="Job" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-201" vertex="1">
           <mxGeometry x="447" y="113.5" width="60" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-221" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="NAB-EnWGZakDbsCJqusN-201" source="NAB-EnWGZakDbsCJqusN-222" target="NAB-EnWGZakDbsCJqusN-223">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-221" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-201" source="NAB-EnWGZakDbsCJqusN-222" target="NAB-EnWGZakDbsCJqusN-223" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-204" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;看板管理&lt;/font&gt;" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#E6E6E6;fontSize=16;fillColor=#cce5ff;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-165">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-204" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;看板管理&lt;/font&gt;" style="swimlane;startSize=20;horizontal=0;html=1;strokeColor=#E6E6E6;fontSize=16;fillColor=#cce5ff;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-165" vertex="1">
           <mxGeometry y="667" width="568" height="102" as="geometry">
             <mxRectangle y="667" width="568" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-205" value="&lt;b&gt;设备监控看板&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-204">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-205" value="&lt;b&gt;设备监控看板&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-204" vertex="1">
           <mxGeometry x="98" y="38" width="108" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-206" value="&lt;b&gt;生产监控看板&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-204">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-206" value="&lt;b&gt;生产监控看板&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontSize=12;gradientColor=#CCCCCC;gradientDirection=south;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-204" vertex="1">
           <mxGeometry x="266" y="38" width="108" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="NAB-EnWGZakDbsCJqusN-165" source="NAB-EnWGZakDbsCJqusN-104" target="NAB-EnWGZakDbsCJqusN-115">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-165" source="NAB-EnWGZakDbsCJqusN-104" target="NAB-EnWGZakDbsCJqusN-115" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="509" y="115" />
@@ -753,7 +753,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="NAB-EnWGZakDbsCJqusN-165" source="NAB-EnWGZakDbsCJqusN-102" target="NAB-EnWGZakDbsCJqusN-115">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-165" source="NAB-EnWGZakDbsCJqusN-102" target="NAB-EnWGZakDbsCJqusN-115" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="327" y="115" />
@@ -761,7 +761,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="NAB-EnWGZakDbsCJqusN-165" source="NAB-EnWGZakDbsCJqusN-104" target="NAB-EnWGZakDbsCJqusN-126">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-165" source="NAB-EnWGZakDbsCJqusN-104" target="NAB-EnWGZakDbsCJqusN-126" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="509" y="295" />
@@ -769,43 +769,43 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-188" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;调用物料数据&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;movable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" connectable="0" parent="NAB-EnWGZakDbsCJqusN-187">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-188" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;调用物料数据&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;movable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-187" vertex="1" connectable="0">
           <mxGeometry x="0.4795" y="4" relative="1" as="geometry">
             <mxPoint x="46" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="NAB-EnWGZakDbsCJqusN-165" source="NAB-EnWGZakDbsCJqusN-115" target="NAB-EnWGZakDbsCJqusN-126">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-165" source="NAB-EnWGZakDbsCJqusN-115" target="NAB-EnWGZakDbsCJqusN-126" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-190" value="调用生产计划" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;movable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" connectable="0" parent="NAB-EnWGZakDbsCJqusN-189">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-190" value="调用生产计划" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;movable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-189" vertex="1" connectable="0">
           <mxGeometry x="-0.267" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="NAB-EnWGZakDbsCJqusN-165" source="NAB-EnWGZakDbsCJqusN-100" target="NAB-EnWGZakDbsCJqusN-193">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-165" source="NAB-EnWGZakDbsCJqusN-100" target="NAB-EnWGZakDbsCJqusN-193" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="158" y="413" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="NAB-EnWGZakDbsCJqusN-165" source="NAB-EnWGZakDbsCJqusN-100" target="NAB-EnWGZakDbsCJqusN-194">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-165" source="NAB-EnWGZakDbsCJqusN-100" target="NAB-EnWGZakDbsCJqusN-194" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="158" y="454" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-200" value="调用设备资料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;movable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" connectable="0" parent="NAB-EnWGZakDbsCJqusN-199">
+        <mxCell id="NAB-EnWGZakDbsCJqusN-200" value="调用设备资料" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;movable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="NAB-EnWGZakDbsCJqusN-199" vertex="1" connectable="0">
           <mxGeometry x="0.4524" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-5" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-3">
-          <mxGeometry y="150" width="201" height="30" as="geometry" />
+        <mxCell id="NAB-EnWGZakDbsCJqusN-5" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="NAB-EnWGZakDbsCJqusN-3" vertex="1">
+          <mxGeometry y="946" width="201" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NAB-EnWGZakDbsCJqusN-6" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="NAB-EnWGZakDbsCJqusN-3">
-          <mxGeometry y="180" width="201" height="30" as="geometry" />
+        <mxCell id="NAB-EnWGZakDbsCJqusN-6" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="NAB-EnWGZakDbsCJqusN-3" vertex="1">
+          <mxGeometry y="976" width="201" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
