@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2023-02-07T11:01:10.216Z" agent="5.0 (Windows)" etag="J-bOXTE6Dzl8t7EoHFMC" version="20.8.13" type="github" pages="2">
-  <diagram id="Oyq91yuEJXcaoIzXLyiR" name="第 1 页">
+<mxfile host="app.diagrams.net" modified="2023-02-21T10:55:27.035Z" agent="5.0 (Windows)" etag="bSWNHalOFf8cceIw7mYK" version="20.8.17" type="github" pages="3">
+  <diagram id="Oyq91yuEJXcaoIzXLyiR" name="常用指令">
     <mxGraphModel dx="1658" dy="853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -186,6 +186,48 @@
         </mxCell>
         <mxCell id="EznXvz_GgfEnm_U53FfZ-14" value="&lt;div&gt;官方文档&lt;/div&gt;&lt;div&gt;https://docs.appsmith.com/&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" parent="EznXvz_GgfEnm_U53FfZ-1" vertex="1" collapsed="1">
           <mxGeometry x="430" y="100" width="200" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8CkK0KpGYblpqs3_XMy9" name="精工自动化">
+    <mxGraphModel dx="1166" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S9jbwgTahuwKmeS9QQG_-10" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;strokeColor=#B3B3B3;strokeWidth=1;fontSize=8;fontColor=#CC0000;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="640" height="706" as="geometry" />
+        </mxCell>
+        <mxCell id="S9jbwgTahuwKmeS9QQG_-14" value="&lt;b&gt;服务器&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;strokeWidth=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="S9jbwgTahuwKmeS9QQG_-10">
+          <mxGeometry y="26" width="640" height="194" as="geometry">
+            <mxRectangle y="26" width="640" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9jbwgTahuwKmeS9QQG_-15" value="&lt;div&gt;&lt;b&gt;192.168.0.150&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; root : jg20221031&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Mysql数据库：root@20230217 : 3307&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;fontColor=default;" vertex="1" parent="S9jbwgTahuwKmeS9QQG_-14">
+          <mxGeometry y="26" width="640" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="S9jbwgTahuwKmeS9QQG_-18" value="&lt;div&gt;&lt;b&gt;192.168.0.194 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; root : jg20220320&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Mysql数据库：-&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=10;fontColor=default;" vertex="1" parent="S9jbwgTahuwKmeS9QQG_-14">
+          <mxGeometry y="110" width="640" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="S9jbwgTahuwKmeS9QQG_-5" value="扬中压铸" style="swimlane;swimlaneLine=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="S9jbwgTahuwKmeS9QQG_-10">
+          <mxGeometry y="220" width="640" height="460" as="geometry">
+            <mxRectangle y="52" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S9jbwgTahuwKmeS9QQG_-6" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;正式环境&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;管理地址:&amp;nbsp; 172.168.8:3030/admin&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;用户名：admin &lt;br&gt;&lt;/div&gt;&lt;div&gt;密&amp;nbsp;&amp;nbsp; 码 ：jg20221031&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Mysql数据库 : root@20230217 : 3307&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font color=&quot;#CC0000&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;注意：需要通过跳板机登录&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font color=&quot;#CC0000&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font color=&quot;#CC0000&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="S9jbwgTahuwKmeS9QQG_-5">
+          <mxGeometry x="10" y="40" width="210" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="S9jbwgTahuwKmeS9QQG_-7" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;测试环境&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;管&amp;nbsp;&amp;nbsp; 理：192.168.0.150:3030/admin&lt;/div&gt;用户名：admin &lt;br&gt;&lt;div&gt;密&amp;nbsp;&amp;nbsp; 码： admin123&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;运&amp;nbsp;&amp;nbsp; 维：192.168.0.150:13030&lt;/div&gt;&lt;div&gt;用户名：admin &lt;br&gt;&lt;div&gt;密&amp;nbsp;&amp;nbsp; 码： jg20221031&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;页&amp;nbsp;&amp;nbsp; 面：192.168.0.150:3030&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="S9jbwgTahuwKmeS9QQG_-5">
+          <mxGeometry x="250" y="40" width="210" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="S9jbwgTahuwKmeS9QQG_-8" value="" style="line;strokeWidth=1;html=1;fontSize=8;fontColor=#CC0000;strokeColor=#B3B3B3;" vertex="1" parent="S9jbwgTahuwKmeS9QQG_-5">
+          <mxGeometry x="10" y="350" width="530" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="S9jbwgTahuwKmeS9QQG_-9" value="" style="line;strokeWidth=1;html=1;fontSize=8;fontColor=#CC0000;strokeColor=#B3B3B3;" vertex="1" parent="S9jbwgTahuwKmeS9QQG_-5">
+          <mxGeometry x="10" y="167" width="210" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="S9jbwgTahuwKmeS9QQG_-13" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=8;fontColor=#CC0000;" vertex="1" parent="S9jbwgTahuwKmeS9QQG_-10">
+          <mxGeometry y="680" width="640" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
