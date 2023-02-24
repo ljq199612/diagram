@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T10:59:36.281Z" agent="5.0 (Windows)" etag="0iP4nJxsXR9WnbMo3way" version="20.8.17" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-24T10:01:45.247Z" agent="5.0 (Windows)" etag="0e0qXnzJyM076c4ald8u" version="20.8.23" type="github" pages="4">
   <diagram id="Oyq91yuEJXcaoIzXLyiR" name="常用指令">
-    <mxGraphModel dx="1658" dy="853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="922" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -230,6 +230,26 @@
         </mxCell>
         <mxCell id="S9jbwgTahuwKmeS9QQG_-13" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=8;fontColor=#CC0000;" vertex="1" parent="S9jbwgTahuwKmeS9QQG_-10">
           <mxGeometry y="684" width="776" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cEotMJPRlifbpa8ZMMYa" name="plc">
+    <mxGraphModel dx="922" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jdKB1NrS4meM1J0Klcw4-1" value="&lt;b&gt;PLC概述&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="560" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="jdKB1NrS4meM1J0Klcw4-2" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;PLC &amp;nbsp; 可编程逻辑控制器 &lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot; align=&quot;center&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - 自动画产线的大脑&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;P&lt;/b&gt; - Programmable&lt;/div&gt;&lt;div&gt;&lt;b&gt;L&lt;/b&gt; - Logic&lt;/div&gt;&lt;div&gt;C - Controller&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jdKB1NrS4meM1J0Klcw4-1">
+          <mxGeometry y="26" width="560" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="jdKB1NrS4meM1J0Klcw4-3" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jdKB1NrS4meM1J0Klcw4-1">
+          <mxGeometry y="140" width="560" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jdKB1NrS4meM1J0Klcw4-4" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jdKB1NrS4meM1J0Klcw4-1">
+          <mxGeometry y="166" width="560" height="124" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
