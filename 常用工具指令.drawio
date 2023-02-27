@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T03:33:41.954Z" agent="5.0 (Windows)" etag="kRzOG5vZLhr35-A4b6zG" version="20.8.23" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-27T06:02:43.927Z" agent="5.0 (Windows)" etag="H2T-Ma3WPo5OlBPNJhYZ" version="20.8.23" type="github" pages="4">
   <diagram id="Oyq91yuEJXcaoIzXLyiR" name="常用指令">
     <mxGraphModel dx="922" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -235,30 +235,37 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cEotMJPRlifbpa8ZMMYa" name="plc">
-    <mxGraphModel dx="922" dy="442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1626" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jdKB1NrS4meM1J0Klcw4-1" value="&lt;b&gt;PLC概述&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="150" y="120" width="560" height="1125" as="geometry" />
+        <mxCell id="aY1al83q_VALvQ0TfHub-67" value="&lt;div style=&quot;font-size: 16px;&quot; align=&quot;center&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;PLC&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#FFFFFF;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;verticalAlign=bottom;align=center;swimlaneFillColor=none;fillStyle=auto;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="560" height="2531" as="geometry">
+            <mxRectangle x="242" y="60" width="430" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdKB1NrS4meM1J0Klcw4-1" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;PLC概述&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#FFFFFF;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;verticalAlign=middle;align=left;swimlaneFillColor=none;fillStyle=auto;spacingLeft=24;fontSize=14;gradientColor=#E6E6E6;gradientDirection=radial;" parent="aY1al83q_VALvQ0TfHub-67" vertex="1">
+          <mxGeometry y="30" width="560" height="2097" as="geometry">
+            <mxRectangle y="30" width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="jdKB1NrS4meM1J0Klcw4-2" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;PLC &amp;nbsp; 可编程逻辑控制器 &lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - 自动画产线的大脑&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;P&lt;/b&gt; -&lt;span style=&quot;background-color: rgb(204, 0, 0);&quot;&gt; Programmable&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;background-color: rgb(204, 0, 0);&quot;&gt;&amp;nbsp;&lt;/span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; L&lt;/b&gt; -&lt;span style=&quot;background-color: rgb(204, 0, 0);&quot;&gt; Logic&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;background-color: rgb(204, 0, 0);&quot;&gt;&amp;nbsp;&lt;/span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; C&lt;/b&gt; -&lt;span style=&quot;background-color: rgb(204, 0, 0);&quot;&gt; Controller&amp;nbsp; &lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jdKB1NrS4meM1J0Klcw4-1" vertex="1">
-          <mxGeometry y="26" width="560" height="84" as="geometry" />
+          <mxGeometry y="30" width="560" height="84" as="geometry" />
         </mxCell>
         <mxCell id="jdKB1NrS4meM1J0Klcw4-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;PLC 发展过程&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="jdKB1NrS4meM1J0Klcw4-1" vertex="1">
-          <mxGeometry y="110" width="560" height="28" as="geometry" />
+          <mxGeometry y="114" width="560" height="28" as="geometry" />
         </mxCell>
         <mxCell id="aY1al83q_VALvQ0TfHub-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://ljq199612.github.io/diagram/images/plc/001.png;" vertex="1" parent="jdKB1NrS4meM1J0Klcw4-1">
-          <mxGeometry y="138" width="560" height="191" as="geometry" />
+          <mxGeometry y="142" width="560" height="191" as="geometry" />
         </mxCell>
         <mxCell id="aY1al83q_VALvQ0TfHub-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;常见 PLC 品牌/厂商&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jdKB1NrS4meM1J0Klcw4-1">
-          <mxGeometry y="329" width="560" height="41" as="geometry" />
+          <mxGeometry y="333" width="560" height="41" as="geometry" />
         </mxCell>
         <mxCell id="aY1al83q_VALvQ0TfHub-9" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://ljq199612.github.io/diagram/images/plc/002.png;" vertex="1" parent="jdKB1NrS4meM1J0Klcw4-1">
-          <mxGeometry y="370" width="560" height="191" as="geometry" />
+          <mxGeometry y="374" width="560" height="191" as="geometry" />
         </mxCell>
         <mxCell id="aY1al83q_VALvQ0TfHub-19" value="" style="group;verticalAlign=bottom;" vertex="1" connectable="0" parent="jdKB1NrS4meM1J0Klcw4-1">
-          <mxGeometry y="561" width="560" height="39" as="geometry" />
+          <mxGeometry y="565" width="560" height="39" as="geometry" />
         </mxCell>
         <mxCell id="aY1al83q_VALvQ0TfHub-17" value="&amp;nbsp;&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;PLC 和 CPU的关系&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=14;fontColor=#FFFFFF;strokeColor=none;verticalAlign=bottom;" vertex="1" parent="aY1al83q_VALvQ0TfHub-19">
           <mxGeometry x="17" width="147" height="39" as="geometry" />
@@ -267,13 +274,42 @@
           <mxGeometry x="11" y="11.5" width="12" height="22.83" as="geometry" />
         </mxCell>
         <mxCell id="aY1al83q_VALvQ0TfHub-12" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://ljq199612.github.io/diagram/images/plc/003.png;" vertex="1" parent="jdKB1NrS4meM1J0Klcw4-1">
-          <mxGeometry y="600" width="560" height="242" as="geometry" />
+          <mxGeometry y="604" width="560" height="242" as="geometry" />
         </mxCell>
         <mxCell id="aY1al83q_VALvQ0TfHub-29" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;PLC 主要组成部分&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="jdKB1NrS4meM1J0Klcw4-1">
-          <mxGeometry y="842" width="560" height="41" as="geometry" />
+          <mxGeometry y="846" width="560" height="41" as="geometry" />
         </mxCell>
         <mxCell id="aY1al83q_VALvQ0TfHub-28" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://ljq199612.github.io/diagram/images/plc/004.png;" vertex="1" parent="jdKB1NrS4meM1J0Klcw4-1">
-          <mxGeometry y="883" width="560" height="242" as="geometry" />
+          <mxGeometry y="887" width="560" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="aY1al83q_VALvQ0TfHub-31" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://ljq199612.github.io/diagram/images/plc/005.png;" vertex="1" parent="jdKB1NrS4meM1J0Klcw4-1">
+          <mxGeometry y="1129" width="560" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="aY1al83q_VALvQ0TfHub-32" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://ljq199612.github.io/diagram/images/plc/006.png;" vertex="1" parent="jdKB1NrS4meM1J0Klcw4-1">
+          <mxGeometry y="1371" width="560" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="aY1al83q_VALvQ0TfHub-33" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://ljq199612.github.io/diagram/images/plc/007.png;" vertex="1" parent="jdKB1NrS4meM1J0Klcw4-1">
+          <mxGeometry y="1613" width="560" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="aY1al83q_VALvQ0TfHub-49" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://ljq199612.github.io/diagram/images/plc/008.png;" vertex="1" parent="jdKB1NrS4meM1J0Klcw4-1">
+          <mxGeometry y="1855" width="560" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="aY1al83q_VALvQ0TfHub-51" value="&lt;div style=&quot;font-size: 14px;&quot; align=&quot;left&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;电源模块&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#FFFFFF;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;verticalAlign=middle;align=left;swimlaneFillColor=none;fillStyle=auto;spacingLeft=24;fontSize=14;gradientColor=#E6E6E6;gradientDirection=radial;" vertex="1" parent="aY1al83q_VALvQ0TfHub-67">
+          <mxGeometry y="2127" width="560" height="404" as="geometry">
+            <mxRectangle y="2127" width="560" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aY1al83q_VALvQ0TfHub-52" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;PM 电源模块： PM (&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;M -&lt;b&gt;&amp;nbsp;&lt;/b&gt;&lt;b&gt;&lt;span style=&quot;background-color: rgb(204, 0, 0);&quot;&gt;&amp;nbsp; Module&amp;nbsp;&lt;/span&gt; &amp;nbsp;&amp;nbsp; P&lt;/b&gt; -&amp;nbsp;&lt;span style=&quot;background-color: rgb(204, 0, 0);&quot;&gt; &lt;b&gt;Power&lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;background-color: rgb(204, 0, 0);&quot;&gt; &lt;/span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: rgb(204, 0, 0);&quot;&gt; Supply &lt;/span&gt;&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;) &lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;- 为CPU、信号模块及其他扩展模块、其他用电设备(例如传感器)提供工作供电&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgb(204, 0, 0);&quot;&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="aY1al83q_VALvQ0TfHub-51">
+          <mxGeometry y="30" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aY1al83q_VALvQ0TfHub-83" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;PM电源模块的接线与开关&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="aY1al83q_VALvQ0TfHub-51">
+          <mxGeometry y="80" width="560" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="aY1al83q_VALvQ0TfHub-84" value="&lt;b&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;PM电源模块的接线与开关&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="aY1al83q_VALvQ0TfHub-51">
+          <mxGeometry y="121" width="560" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="aY1al83q_VALvQ0TfHub-66" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://ljq199612.github.io/diagram/images/plc/008.png;" vertex="1" parent="aY1al83q_VALvQ0TfHub-51">
+          <mxGeometry y="162" width="560" height="242" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
