@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T09:42:08.856Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="2kA8S8hj0wZN8GK_0Edt" version="21.1.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-04-11T10:26:50.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="ReZGzs7iBRk5hgz41KXF" version="21.1.5" type="github" pages="4">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="总览">
     <mxGraphModel dx="2514" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="1">
       <root>
@@ -702,32 +702,32 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZdgQgcltxicTh5YUPLiH" name="类继承图">
-    <mxGraphModel dx="1793" dy="1134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2206" dy="1395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <UserObject label="Spring freamwork 接口" tooltip="" id="v2CQNAgFjdPioIyUz8n3-1">
           <mxCell style="html=1;whiteSpace=wrap;strokeWidth=1;dashed=1;" parent="1" vertex="1">
-            <mxGeometry x="1630" y="10" width="149" height="30" as="geometry" />
+            <mxGeometry x="1654" y="10" width="149" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Spring boot 接口" tooltip="" id="v2CQNAgFjdPioIyUz8n3-3">
           <mxCell style="html=1;whiteSpace=wrap;strokeWidth=1;dashed=1;fillColor=#E6E6E6;" parent="1" vertex="1">
-            <mxGeometry x="1630" y="110" width="149" height="30" as="geometry" />
+            <mxGeometry x="1654" y="100" width="149" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Spring boot 类" tooltip="" id="v2CQNAgFjdPioIyUz8n3-4">
           <mxCell style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=#E6E6E6;strokeColor=#666666;" parent="1" vertex="1">
-            <mxGeometry x="1630" y="161" width="149" height="30" as="geometry" />
+            <mxGeometry x="1654" y="140" width="149" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Spring freamwork 类" tooltip="" id="v2CQNAgFjdPioIyUz8n3-2">
           <mxCell style="html=1;whiteSpace=wrap;strokeWidth=1;strokeColor=#666666;" parent="1" vertex="1">
-            <mxGeometry x="1630" y="60" width="149" height="30" as="geometry" />
+            <mxGeometry x="1654" y="50" width="149" height="30" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-176" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="230" width="1580" height="1580" as="geometry" />
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-176" value="Spring Boot 类继承图" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="1580" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gZtpTX1WfCaNUSenPJXd-62" value="ApplicationContext" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="gZtpTX1WfCaNUSenPJXd-176">
           <mxGeometry y="30" width="1580" height="20" as="geometry">
@@ -844,309 +844,255 @@
         <mxCell id="gZtpTX1WfCaNUSenPJXd-118" value="&lt;b&gt;应用上下文顶层接口&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-62">
           <mxGeometry x="353" y="30" width="770" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-5" value="AnnotationConfigServletWebServerApplicationContext" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-176">
-          <mxGeometry y="50" width="1580" height="870" as="geometry">
-            <mxRectangle y="920" width="1580" height="20" as="alternateBounds" />
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-319" value="AnnotationConfigServletWebServerApplicationContext" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="gZtpTX1WfCaNUSenPJXd-176">
+          <mxGeometry y="50" width="1580" height="20" as="geometry">
+            <mxRectangle y="50" width="1580" height="770" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="&lt;div&gt;BeanFactory&lt;/div&gt;" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px;max-width:800px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;用于访问 Spring Bean 容器的根接口&#xa;&lt;hr&gt;&#xa;&lt;b&gt;Bean 工厂实现应尽可能支持标准 Bean 生命周期接口。全套初始化方法及其标准顺序为：&lt;/b&gt;&#xa; 1)&lt;b&gt; BeanNameAware: &lt;/b&gt;setBeanName&#xa; 2)&lt;b&gt; BeanClassLoaderAware:&lt;/b&gt; setBeanClassLoader&#xa; 3)&lt;b&gt; BeanFactoryAware:&lt;/b&gt; setBeanFactory&#xa; 4)&lt;b&gt; EnvironmentAware:&lt;/b&gt; setEnvironment&#xa; 5)&lt;b&gt; EmbeddedValueResolverAware:&lt;/b&gt; setEmbeddedValueResolver&#xa; 6)&lt;b&gt; ResourceLoaderAware:&lt;/b&gt; setResourceLoader (只适用于运行 application context)&#xa; 7)&lt;b&gt; ApplicationEventPublisherAware: &lt;/b&gt; setApplicationEventPublisher(只适用于运行 application context)&#xa; 8)&lt;b&gt; MessageSourceAware:&lt;/b&gt; setMessageSource (只适用于运行 application context)&#xa; 9)&lt;b&gt; ApplicationContextAware:&lt;/b&gt; setApplicationContext (只适用于运行 application context)&#xa;10)&lt;b&gt;ServletContextAware:&lt;/b&gt; setServletContext (只适用于运行 web application context)&#xa;11)&lt;b&gt;BeanPostProcessors:&lt;/b&gt; postProcessBeforeInitialization&#xa;12)&lt;b&gt;InitializingBean:&lt;/b&gt; afterPropertiesSet&#xa;13)&lt;b&gt;自定义初始化方法&lt;/b&gt;&#xa;14)&lt;b&gt;BeanPostProcessors:&lt;/b&gt; postProcessAfterInitialization &#xa;&#xa;&lt;b&gt;Bean 工厂关闭时，执行顺序为：&lt;/b&gt;&#xa; 1)&lt;b&gt; DestructionAwareBeanPostProcessors:&lt;/b&gt; postProcessBeforeDestruction &#xa; 2)&lt;b&gt; DisposableBean:&lt;/b&gt; destroy&#xa; 3)&lt;b&gt; 自定义销毁方法&lt;/b&gt;&#xa;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getBean: Object&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getBeanProvider: ObjectProvider&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;containsBean: boolean&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;isSingleton: boolean&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;isPrototype: boolean&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;isTypeMatch: boolean&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getType: Class&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getAliases: String[]&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;&#xa;" id="gZtpTX1WfCaNUSenPJXd-6">
-          <mxCell style="html=1;whiteSpace=wrap;strokeWidth=1;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-            <mxGeometry x="160" y="104" width="100" height="30" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="&lt;div&gt;HierarchicalBeanFactory&lt;/div&gt;" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px;max-width:600px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;由 Bean 工厂实现的子接口，可以是层次结构的一部分。&#xa;&#xa;&lt;hr&gt;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getParentBeanFactory: BeanFactory&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;containsLocalBean: boolean&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;&#xa;&#xa;" id="gZtpTX1WfCaNUSenPJXd-7">
-          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-            <mxGeometry x="135" y="201" width="150" height="30" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-8" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;" edge="1" source="gZtpTX1WfCaNUSenPJXd-7" target="gZtpTX1WfCaNUSenPJXd-6" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="190" y="274" as="sourcePoint" />
-            <mxPoint x="350" y="274" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <UserObject label="ListableBeanFactory" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px;max-width:600px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;此工厂接口中的方法将只遵循此工厂的 Bean 定义。&#xa;&lt;hr&gt;将忽略任何已通过其他方式注册的单例 bean，例如 &lt;span style=&quot;color:bule;&quot;&gt;ConfigurableBeanFactory&lt;/span&gt; 的 registerSingleton 方法(getBeanNamesForType 和 getBeansOfType 除外，它们也会检查手动注册的单例)。当然，&lt;span style=&quot;color:bule;&quot;&gt;BeanFactory&lt;/span&gt;的getBean也可以访问这些特殊的bean。但是，在典型场景中，所有 bean 都将由外部 bean 定义，因此大多数应用程序无需担心这种差异。&#xa;&#xa;&lt;b&gt;注意：&lt;/b&gt;除了 getBeanDefinitionCount 和 containsBeanDefinition，此接口中其他方法不是为频繁调用而设计的。实现速度可能很慢。&#xa;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;containsBeanDefinition: boolean&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getBeanDefinitionCount: int&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getBeanDefinitionNames: String[]&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getBeanNamesForType: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getBeansOfType: Map&lt;String, T&gt;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getBeanNamesForAnnotation: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getBeansWithAnnotation: Map&lt;String, Object&gt;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;findAnnotationOnBean: A(Class)&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;&#xa;&#xa;" id="gZtpTX1WfCaNUSenPJXd-9">
-          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-            <mxGeometry x="299" y="201" width="150" height="30" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <UserObject label="ApplicationContext" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;为应用程序提供配置的核心接口&#xa;&lt;hr&gt;&lt;b&gt;主要功能：&lt;/b&gt;&#xa;1)用于访问应用程序组件的 Bean 工厂方法。继承自 ListableBeanFactory。&#xa;2)以通用方式加载文件资源的能力。继承自 org.springframework.core.io.ResourceLoader 接口。&#xa;3)将事件发布到已注册的侦听器的功能。继承自 ApplicationEventPublisher 接口。&#xa;4)解析消息的能力，支持国际化。继承自 MessageSource 接口。&#xa;5)可以从父上下文继承。子上下文中的定义覆盖父上下文的定义。&#xa;  例如，单个父上下文可以被整个 Web 应用程序使用，而每个 servlet 都有自己的子上下文，独立于任何其他 servlet 的子上下文。&#xa;&#xa;&lt;b&gt;注意：&lt;/b&gt;&#xa;1)除了标准的 &lt;b style=&quot;color:blue&quot;&gt;org.springframework.beans.factory.BeanFactory&lt;/b&gt; 生命周期功能外，ApplicationContext 的 实现类还可以检测并调用 &lt;b style=&quot;color:blue&quot;&gt;ApplicationContextAware&lt;/b&gt; 以及 &lt;b style=&quot;color:blue&quot;&gt;ResourceLoaderAware&lt;/b&gt;、&lt;b style=&quot;color:blue&quot;&gt;ApplicationEventPublisherAware&lt;/b&gt; 和 &lt;b style=&quot;color:blue&quot;&gt;MessageSourceAware&lt;/b&gt; bean。&#xa;2)ApplicationContext 实现了 EnvironmentCapable，从而公开了一个 getEnvironment()方法; 但是，ConfigurableApplicationContext 重新定义了 getEnvironment()并缩小了签名范围以返回 ConfigurableEnvironment。&#xa;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getId: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getApplicationName: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getDisplayName: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getStartupDate: long&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getParent: ApplicationContext&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getAutowireCapableBeanFactory: AutowireCapableBeanFactory&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;" id="gZtpTX1WfCaNUSenPJXd-10">
-          <mxCell style="html=1;whiteSpace=wrap;fontStyle=1;dashed=1;shadow=0;rounded=0;glass=0;strokeWidth=2;treeFolding=0;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-            <mxGeometry x="565" y="319" width="150" height="30" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-11" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;" edge="1" source="gZtpTX1WfCaNUSenPJXd-10" target="gZtpTX1WfCaNUSenPJXd-9" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="650" y="329" as="sourcePoint" />
-            <mxPoint x="220" y="241" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="640" y="274" />
-              <mxPoint x="372" y="274" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-12" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-10" target="gZtpTX1WfCaNUSenPJXd-7" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="382" y="303" as="sourcePoint" />
-            <mxPoint x="220" y="237" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <UserObject label="EnvironmentCapable" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px;max-width:800px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;该接口主要用于在框架方法中执行实例检查，这些框架方法接受 BeanFactory 实例，这些实例实际上&#xa;可能是也可能不是 ApplicationContext 实例，以便与环境进行交互。&#xa;&lt;hr&gt;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getEnvironment: Environment&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;&#xa;&#xa;" id="gZtpTX1WfCaNUSenPJXd-13">
-          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-            <mxGeometry x="467" y="201" width="150" height="30" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-14" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-10" target="gZtpTX1WfCaNUSenPJXd-13" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="640" y="314" as="sourcePoint" />
-            <mxPoint x="382" y="240" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="640" y="274" />
-              <mxPoint x="542" y="274" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <UserObject label="MessageSource" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;用于解析消息的策略界面，支持此类消息的参数化和国际化。Spring 为生产提供了两个开箱即用的实现：&#xa;&lt;hr&gt;(1) &lt;b style=&quot;color:blue&quot;&gt; org.springframework.context.support.ResourceBundleMessageSource：&lt;/b&gt; 建立在标准的&#xa;java.util.ResourceBundle之上，分享其局限性。&#xa;(2) &lt;b style=&quot;color:blue&quot;&gt; org.springframework.context.support.ReloadableResourceBundleMessageSource：&lt;/b&gt; 高度&#xa;可配置，特别是在重新加载消息定义方面。&#xa;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getMessage: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;&#xa;&#xa;" id="gZtpTX1WfCaNUSenPJXd-15">
-          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-            <mxGeometry x="637" y="201" width="120" height="30" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-16" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-10" target="gZtpTX1WfCaNUSenPJXd-15" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="650" y="329" as="sourcePoint" />
-            <mxPoint x="220" y="241" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <UserObject label="&lt;div&gt;ApplicationEventPublisher&lt;/div&gt;" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px;max-width:600px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;&lt;span style=&quot;background:#80808066&quot;&gt;函数式接口&lt;/span&gt; -- 封装事件发布功能&#xa;&lt;hr&gt;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getMessage: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;" id="gZtpTX1WfCaNUSenPJXd-17">
-          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-            <mxGeometry x="777" y="200" width="163" height="30" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-18" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-10" target="gZtpTX1WfCaNUSenPJXd-17" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="650" y="329" as="sourcePoint" />
-            <mxPoint x="707" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-19" value="DefaultResourceLoader" style="html=1;whiteSpace=wrap;fillColor=default;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry x="1286" y="199" width="163" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-20" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;" edge="1" source="gZtpTX1WfCaNUSenPJXd-9" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="220" y="211" as="sourcePoint" />
-            <mxPoint x="210" y="134" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <UserObject label="ResourcePatternResolver" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;解析本地模式为 Resource 对象的策略接口（例如，Ant-style 路径模式）。&#xa;&#xa;1)可以与任何类型的location 模式一起使用（例如&quot;/WEB-INF/*-context.xml&quot;）,输入模式必须与策略实现相匹配。&#xa;2)此接口仅指定转换方法，而不是特定的模式格式。&#xa;3)此接口还为类路径中的所有匹配资源建议新的资源前缀&quot;classpath*：&quot;，在此情景，资源位置应该是没有占位符的路径（例如&quot;/beans.xml&quot;）;&#xa;  JAR 文件或类目录可以包含多个同名文件。&#xa;4)传入的 ResourceLoader 可以检查它是否也实现了这个扩展接口（例如，在上下文中运行时通过 &lt;b style=&quot;color:blue&quot;&gt;org.springframework.context.ResourceLoaderAware&lt;/b&gt; 传入的 &lt;b style=&quot;color:blue&quot;&gt;org.springframework.context.ApplicationContext&lt;/b&gt;）。&#xa;&#xa;&lt;b&gt;注意：&lt;/b&gt;&lt;b style=&quot;color:blue&quot;&gt;PathMatchingResourcePatternResolver&lt;/b&gt; 是一个独立的实现，可在 ApplicationContext 外部使用，&lt;b style=&quot;color:blue&quot;&gt;ResourceArrayPropertyEditor&lt;/b&gt; 也用于填充资源数组 Bean 属性。&#xa;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法/属性：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getResources: Resource&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;CLASSPATH_ALL_URL_PREFIX = &quot;classpath*&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;&#xa;" id="gZtpTX1WfCaNUSenPJXd-21">
-          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-            <mxGeometry x="960" y="199" width="163" height="30" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-22" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-10" target="gZtpTX1WfCaNUSenPJXd-21" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="650" y="329" as="sourcePoint" />
-            <mxPoint x="869" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <UserObject label="ResourceLoader" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;用于加载资源的策略接口（例如.class路径或文件系统资源）。&#xa;&#xa;1)需要&lt;b style=&quot;color:blue&quot;&gt; org.springframework.context.ApplicationContext&lt;/b&gt;来提供此功能，以及扩展的&lt;b style=&quot;color:blue&quot;&gt;org.springframework.core.io.support.ResourcePatternResolver&lt;/b&gt;支持。&#xa;2)在ApplicationContext中运行时，Resource 和 Resource 数组类型的 Bean 属性通过特定的上下文资源加载策略从字符串中转换而来。&#xa;&#xa;&lt;b&gt;注意：&lt;/b&gt;&lt;b style=&quot;color:blue&quot;&gt;DefaultResourceLoader&lt;/b&gt; 是一个独立的实现，可在 ApplicationContext 之外使用，也被 ResourceEditor 使用。&#xa;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法/属性：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getResource: Resource&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getClassLoader: ClassLoader&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;CLASSPATH_URL_PREFIX = &quot;classpath:&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;&#xa;" id="gZtpTX1WfCaNUSenPJXd-23">
-          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-            <mxGeometry x="1050" y="105" width="161" height="30" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-24" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;" edge="1" source="gZtpTX1WfCaNUSenPJXd-21" target="gZtpTX1WfCaNUSenPJXd-23" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="990" y="201" as="sourcePoint" />
-            <mxPoint x="990" y="134" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-25" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" source="gZtpTX1WfCaNUSenPJXd-19" target="gZtpTX1WfCaNUSenPJXd-23" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1090" y="304" as="sourcePoint" />
-            <mxPoint x="1250" y="304" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-26" value="&lt;div&gt;WebServerApplicationContext&lt;/div&gt;" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry x="299" y="422" width="189" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-27" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;" edge="1" source="gZtpTX1WfCaNUSenPJXd-26" target="gZtpTX1WfCaNUSenPJXd-10" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="420" y="412" as="sourcePoint" />
-            <mxPoint x="420" y="345" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <UserObject label="&lt;div&gt;WebApplicationContext&lt;/div&gt;" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;用于为 Web 应用程序提供配置的接口&lt;hr&gt;&#xa;1)此接口将方法 getServletContext() 添加到通用应用程序上下文接口，并定义在引导过程中绑定到已知应用程序属性名称的根上下文。&#xa;2)与通用应用程序上下文一样，Web 应用程序上下文是分层的。每个应用程序都有一个根上下文，而应用程序中的每个 servlet（包括 MVC 框架中的调度程序 servlet）都有自己的子上下文。&#xa;3)除了标准的应用程序上下文生命周期功能之外，WebApplicationContext 实现还需要检测 ServletContextAware bean 及调用 setServletContext 方法。&#xa;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法/属性：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getServletContext: ServletContext&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;ROOT_WEB_APPLICATION_CONTEXT_ATTRIBUTE = WebApplicationContext.class.getName() + &quot;.ROOT&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SCOPE_REQUEST = &quot;request&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SCOPE_SESSION = &quot;session&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SCOPE_APPLICATION = &quot;application&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SERVLET_CONTEXT_BEAN_NAME = &quot;servletContext&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;CONTEXT_PARAMETERS_BEAN_NAME = &quot;contextParameters&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;CONTEXT_ATTRIBUTES_BEAN_NAME = &quot;contextAttributes&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;" id="gZtpTX1WfCaNUSenPJXd-28">
-          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-            <mxGeometry x="649" y="422" width="144" height="30" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-29" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" source="gZtpTX1WfCaNUSenPJXd-28" target="gZtpTX1WfCaNUSenPJXd-10" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="430" y="432" as="sourcePoint" />
-            <mxPoint x="640" y="354" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <UserObject label="ConfigurableApplicationContext" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px;max-width:800px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;SPI（Service Provider Interface） 接口将由大多数应用程序上下文实现。提供用于配置应用程序上下文以及接口中的 ApplicationContext 应用程序上下文客户端方法的工具。&#xa;&lt;hr&gt;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法/属性：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;CONFIG_LOCATION_DELIMITERS = &quot;,; \t\n&quot;;&lt;/b&gt; (分隔符)&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;CONVERSION_SERVICE_BEAN_NAME = &quot;conversionService&quot;&lt;/b&gt; &#xa;工厂中转换服务Bean的名称。如果未提供任何转换规则，则应用默认转换规则。&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;LOAD_TIME_WEAVER_BEAN_NAME = &quot;loadTimeWeaver&quot;&lt;/b&gt;&#xa;工厂中 LoadTimeWeaver bean 的名称。如果提供了这样的 Bean，上下文将使用临时 ClassLoader 进行类型匹配，以便允许 LoadTimeWeaver 处理所有实际的 Bean 类。&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;ENVIRONMENT_BEAN_NAME = &quot;environment&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SYSTEM_PROPERTIES_BEAN_NAME = &quot;systemProperties&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SYSTEM_ENVIRONMENT_BEAN_NAME = &quot;systemEnvironment&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SHUTDOWN_HOOK_THREAD_NAME = &quot;SpringContextShutdownHook&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;addBeanFactoryPostProcessor: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;addApplicationListener: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;setClassLoder: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;addProtocolResolver: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;refresh: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;registerShutdownHook: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;isActive: boolean&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getBeanFactory: ConfigurableListableBeanFactory&lt;/b&gt;&#xa;&lt;b&gt;注意&lt;/b&gt;: 不要使用它来对 bean 工厂进行后置处理(post-process)&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;...&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;" id="gZtpTX1WfCaNUSenPJXd-30">
-          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-            <mxGeometry x="969" y="422" width="188" height="30" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-31" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-30" target="gZtpTX1WfCaNUSenPJXd-10" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="891" y="402" as="sourcePoint" />
-            <mxPoint x="810" y="329" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1063" y="385" />
-              <mxPoint x="920" y="385" />
-              <mxPoint x="920" y="334" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-32" value="Lifecycle" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry x="1026" y="319" width="75" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-33" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-30" target="gZtpTX1WfCaNUSenPJXd-32" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1073" y="432" as="sourcePoint" />
-            <mxPoint x="650" y="359" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-34" value="Closeable" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry x="1151" y="319" width="108" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-35" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-30" target="gZtpTX1WfCaNUSenPJXd-34" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1215" y="329" as="sourcePoint" />
-            <mxPoint x="1215" y="239" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-36" value="AutoClouseable" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry x="1146" y="199" width="118" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-37" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-34" target="gZtpTX1WfCaNUSenPJXd-36" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="650" y="329" as="sourcePoint" />
-            <mxPoint x="1052" y="239" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-38" value="ConfigurableWebServerApplicationContext" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry x="299" y="531" width="254" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-39" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-38" target="gZtpTX1WfCaNUSenPJXd-30" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="436" y="541" as="sourcePoint" />
-            <mxPoint x="404" y="462" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-40" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-38" target="gZtpTX1WfCaNUSenPJXd-26" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="731" y="432" as="sourcePoint" />
-            <mxPoint x="650" y="359" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-41" value="ConfigurableWebApplicationContext" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry x="594" y="531" width="254" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-42" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-41" target="gZtpTX1WfCaNUSenPJXd-30" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="731" y="541" as="sourcePoint" />
-            <mxPoint x="731" y="462" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-43" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;jumpStyle=arc;" edge="1" source="gZtpTX1WfCaNUSenPJXd-41" target="gZtpTX1WfCaNUSenPJXd-28" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="436" y="541" as="sourcePoint" />
-            <mxPoint x="404" y="462" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-44" value="AbstractApplicationContext" style="html=1;whiteSpace=wrap;fillColor=default;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry x="1286" y="422" width="163" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-45" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-44" target="gZtpTX1WfCaNUSenPJXd-30" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1378" y="541" as="sourcePoint" />
-            <mxPoint x="1378" y="461" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-46" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;" edge="1" source="gZtpTX1WfCaNUSenPJXd-44" target="gZtpTX1WfCaNUSenPJXd-19" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1215" y="329" as="sourcePoint" />
-            <mxPoint x="1215" y="239" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-47" value="GenericApplicationContext" style="html=1;whiteSpace=wrap;fillColor=default;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry x="1286" y="531" width="163" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-48" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-47" target="gZtpTX1WfCaNUSenPJXd-44" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1378" y="661" as="sourcePoint" />
-            <mxPoint x="1378" y="469" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-49" value="GenericWebApplicationContext" style="html=1;whiteSpace=wrap;fillColor=default;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry x="1079" y="647" width="186" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-50" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-49" target="gZtpTX1WfCaNUSenPJXd-47" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1378" y="541" as="sourcePoint" />
-            <mxPoint x="1378" y="462" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-51" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" source="gZtpTX1WfCaNUSenPJXd-49" target="gZtpTX1WfCaNUSenPJXd-41" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1378" y="209" as="sourcePoint" />
-            <mxPoint x="1141" y="145" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-52" value="ThemeSource" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry x="1119" y="531" width="105" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-53" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" source="gZtpTX1WfCaNUSenPJXd-49" target="gZtpTX1WfCaNUSenPJXd-52" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1188" y="657" as="sourcePoint" />
-            <mxPoint x="731" y="571" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-54" value="ServletWebServerApplicationContext" style="html=1;whiteSpace=wrap;fillColor=#E6E6E6;strokeColor=#666666;fontColor=#333333;fontStyle=0;strokeWidth=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry x="309" y="647" width="235" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-55" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" source="gZtpTX1WfCaNUSenPJXd-54" target="gZtpTX1WfCaNUSenPJXd-38" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1182" y="657" as="sourcePoint" />
-            <mxPoint x="731" y="571" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-56" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-54" target="gZtpTX1WfCaNUSenPJXd-49" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1182" y="657" as="sourcePoint" />
-            <mxPoint x="1378" y="571" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-57" value="AnnotationConfigServletWebServerApplicationContext" style="html=1;whiteSpace=wrap;fillColor=#E6E6E6;strokeColor=#666666;fontColor=#333333;fontStyle=1;strokeWidth=2;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry x="113" y="791" width="326" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-58" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;jumpStyle=arc;" edge="1" source="gZtpTX1WfCaNUSenPJXd-57" target="gZtpTX1WfCaNUSenPJXd-54" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="731" y="541" as="sourcePoint" />
-            <mxPoint x="731" y="462" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <UserObject label="AnnotationConfigRegistry" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px;max-width:800px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;用注解的方式配置应用程序上下文&#xa;&lt;hr&gt;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;register: void&lt;/b&gt;&#xa;注册一个或多个要处理的组件类, 对 register 调用是幂等的。&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;scan: void&lt;/b&gt;&#xa;在指定的基本软件包中执行扫描&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;" id="gZtpTX1WfCaNUSenPJXd-59">
-          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
-            <mxGeometry x="60" y="647" width="164" height="30" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-60" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-57" target="gZtpTX1WfCaNUSenPJXd-59" parent="gZtpTX1WfCaNUSenPJXd-5">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="437" y="657" as="sourcePoint" />
-            <mxPoint x="436" y="571" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-61" value="&lt;b&gt;Web服务上下文&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-5">
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-359" value="&lt;b&gt;Web服务上下文&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
           <mxGeometry x="353" y="30" width="770" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gZtpTX1WfCaNUSenPJXd-196" value="AnnotationConfigServletWebServerApplicationContext" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-176">
-          <mxGeometry y="920" width="1580" height="660" as="geometry">
-            <mxRectangle y="920" width="1580" height="20" as="alternateBounds" />
+        <UserObject label="ApplicationContext" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;为应用程序提供配置的核心接口&#xa;&lt;hr&gt;&lt;b&gt;主要功能：&lt;/b&gt;&#xa;1)用于访问应用程序组件的 Bean 工厂方法。继承自 ListableBeanFactory。&#xa;2)以通用方式加载文件资源的能力。继承自 org.springframework.core.io.ResourceLoader 接口。&#xa;3)将事件发布到已注册的侦听器的功能。继承自 ApplicationEventPublisher 接口。&#xa;4)解析消息的能力，支持国际化。继承自 MessageSource 接口。&#xa;5)可以从父上下文继承。子上下文中的定义覆盖父上下文的定义。&#xa;  例如，单个父上下文可以被整个 Web 应用程序使用，而每个 servlet 都有自己的子上下文，独立于任何其他 servlet 的子上下文。&#xa;&#xa;&lt;b&gt;注意：&lt;/b&gt;&#xa;1)除了标准的 &lt;b style=&quot;color:blue&quot;&gt;org.springframework.beans.factory.BeanFactory&lt;/b&gt; 生命周期功能外，ApplicationContext 的 实现类还可以检测并调用 &lt;b style=&quot;color:blue&quot;&gt;ApplicationContextAware&lt;/b&gt; 以及 &lt;b style=&quot;color:blue&quot;&gt;ResourceLoaderAware&lt;/b&gt;、&lt;b style=&quot;color:blue&quot;&gt;ApplicationEventPublisherAware&lt;/b&gt; 和 &lt;b style=&quot;color:blue&quot;&gt;MessageSourceAware&lt;/b&gt; bean。&#xa;2)ApplicationContext 实现了 EnvironmentCapable，从而公开了一个 getEnvironment()方法; 但是，ConfigurableApplicationContext 重新定义了 getEnvironment()并缩小了签名范围以返回 ConfigurableEnvironment。&#xa;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getId: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getApplicationName: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getDisplayName: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getStartupDate: long&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getParent: ApplicationContext&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getAutowireCapableBeanFactory: AutowireCapableBeanFactory&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;" id="gZtpTX1WfCaNUSenPJXd-360">
+          <mxCell style="html=1;whiteSpace=wrap;fontStyle=1;dashed=1;shadow=0;rounded=0;glass=0;strokeWidth=2;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+            <mxGeometry x="660.75" y="89" width="150" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-361" value="DefaultResourceLoader" style="html=1;whiteSpace=wrap;fillColor=default;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+          <mxGeometry x="1208.25" y="290" width="163" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="ResourceLoader" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;用于加载资源的策略接口（例如.class路径或文件系统资源）。&#xa;&#xa;1)需要&lt;b style=&quot;color:blue&quot;&gt; org.springframework.context.ApplicationContext&lt;/b&gt;来提供此功能，以及扩展的&lt;b style=&quot;color:blue&quot;&gt;org.springframework.core.io.support.ResourcePatternResolver&lt;/b&gt;支持。&#xa;2)在ApplicationContext中运行时，Resource 和 Resource 数组类型的 Bean 属性通过特定的上下文资源加载策略从字符串中转换而来。&#xa;&#xa;&lt;b&gt;注意：&lt;/b&gt;&lt;b style=&quot;color:blue&quot;&gt;DefaultResourceLoader&lt;/b&gt; 是一个独立的实现，可在 ApplicationContext 之外使用，也被 ResourceEditor 使用。&#xa;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法/属性：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getResource: Resource&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getClassLoader: ClassLoader&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;CLASSPATH_URL_PREFIX = &quot;classpath:&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;&#xa;" id="gZtpTX1WfCaNUSenPJXd-362">
+          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+            <mxGeometry x="1208.75" y="190" width="161" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-363" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-361" target="gZtpTX1WfCaNUSenPJXd-362">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1425.75" y="74" as="sourcePoint" />
+            <mxPoint x="1585.75" y="74" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1289" y="270" />
+              <mxPoint x="1289" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="ConfigurableApplicationContext" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px;max-width:800px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;SPI（Service Provider Interface） 接口将由大多数应用程序上下文实现。提供用于配置应用程序上下文以及接口中的 ApplicationContext 应用程序上下文客户端方法的工具。&#xa;&lt;hr&gt;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法/属性：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;CONFIG_LOCATION_DELIMITERS = &quot;,; \t\n&quot;;&lt;/b&gt; (分隔符)&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;CONVERSION_SERVICE_BEAN_NAME = &quot;conversionService&quot;&lt;/b&gt; &#xa;工厂中转换服务Bean的名称。如果未提供任何转换规则，则应用默认转换规则。&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;LOAD_TIME_WEAVER_BEAN_NAME = &quot;loadTimeWeaver&quot;&lt;/b&gt;&#xa;工厂中 LoadTimeWeaver bean 的名称。如果提供了这样的 Bean，上下文将使用临时 ClassLoader 进行类型匹配，以便允许 LoadTimeWeaver 处理所有实际的 Bean 类。&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;ENVIRONMENT_BEAN_NAME = &quot;environment&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SYSTEM_PROPERTIES_BEAN_NAME = &quot;systemProperties&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SYSTEM_ENVIRONMENT_BEAN_NAME = &quot;systemEnvironment&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SHUTDOWN_HOOK_THREAD_NAME = &quot;SpringContextShutdownHook&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;addBeanFactoryPostProcessor: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;addApplicationListener: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;setClassLoder: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;addProtocolResolver: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;refresh: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;registerShutdownHook: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;isActive: boolean&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getBeanFactory: ConfigurableListableBeanFactory&lt;/b&gt;&#xa;&lt;b&gt;注意&lt;/b&gt;: 不要使用它来对 bean 工厂进行后置处理(post-process)&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;...&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;" id="gZtpTX1WfCaNUSenPJXd-364">
+          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+            <mxGeometry x="641.75" y="190" width="188" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-365" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;jumpStyle=arc;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-364" target="gZtpTX1WfCaNUSenPJXd-360">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="986.75" y="172" as="sourcePoint" />
+            <mxPoint x="905.75" y="99" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="735.75" y="150" />
+              <mxPoint x="735.75" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-366" value="Lifecycle" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+          <mxGeometry x="444.25" y="140" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-367" value="Closeable" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+          <mxGeometry x="919" y="140" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-368" value="AutoClouseable" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+          <mxGeometry x="1160" y="140" width="118" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-369" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-367" target="gZtpTX1WfCaNUSenPJXd-368">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="745.75" y="99" as="sourcePoint" />
+            <mxPoint x="1147.75" y="9" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-370" value="AbstractApplicationContext" style="html=1;whiteSpace=wrap;fillColor=default;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+          <mxGeometry x="654.25" y="290" width="163" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-371" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-370" target="gZtpTX1WfCaNUSenPJXd-364">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1473.75" y="311" as="sourcePoint" />
+            <mxPoint x="1473.75" y="231" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="735.75" y="260" />
+              <mxPoint x="735.75" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-373" value="GenericApplicationContext" style="html=1;whiteSpace=wrap;fillColor=default;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+          <mxGeometry x="654.25" y="413" width="163" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-372" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-370" target="gZtpTX1WfCaNUSenPJXd-361">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1310.75" y="99" as="sourcePoint" />
+            <mxPoint x="1310.75" y="9" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-374" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.461;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-457" target="gZtpTX1WfCaNUSenPJXd-373">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="735.7499999999995" y="510" as="sourcePoint" />
+            <mxPoint x="752.75" y="301" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-378" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;jumpStyle=arc;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-373">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="735.3600000000001" y="391" as="sourcePoint" />
+            <mxPoint x="735.3600000000001" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="735.75" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-379" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-364" target="gZtpTX1WfCaNUSenPJXd-367">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1001.75" y="215" as="sourcePoint" />
+            <mxPoint x="1075.75" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-380" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-364" target="gZtpTX1WfCaNUSenPJXd-366">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="839.75" y="215" as="sourcePoint" />
+            <mxPoint x="925.75" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-381" value="Aliasrergistry" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+          <mxGeometry x="429.25" y="195" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-382" value="BeanDefinitionRegistry" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+          <mxGeometry x="398.75" y="290" width="151" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-383" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-373" target="gZtpTX1WfCaNUSenPJXd-382">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="951.75" y="530" as="sourcePoint" />
+            <mxPoint x="1073.75" y="446" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-384" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-382" target="gZtpTX1WfCaNUSenPJXd-381">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="745.75" y="200" as="sourcePoint" />
+            <mxPoint x="523.75" y="129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-386" value="&lt;div&gt;WebServerApplicationContext&lt;/div&gt;" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+          <mxGeometry x="200" y="200" width="189" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div&gt;WebApplicationContext&lt;/div&gt;" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;用于为 Web 应用程序提供配置的接口&lt;hr&gt;&#xa;1)此接口将方法 getServletContext() 添加到通用应用程序上下文接口，并定义在引导过程中绑定到已知应用程序属性名称的根上下文。&#xa;2)与通用应用程序上下文一样，Web 应用程序上下文是分层的。每个应用程序都有一个根上下文，而应用程序中的每个 servlet（包括 MVC 框架中的调度程序 servlet）都有自己的子上下文。&#xa;3)除了标准的应用程序上下文生命周期功能之外，WebApplicationContext 实现还需要检测 ServletContextAware bean 及调用 setServletContext 方法。&#xa;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法/属性：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getServletContext: ServletContext&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;ROOT_WEB_APPLICATION_CONTEXT_ATTRIBUTE = WebApplicationContext.class.getName() + &quot;.ROOT&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SCOPE_REQUEST = &quot;request&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SCOPE_SESSION = &quot;session&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SCOPE_APPLICATION = &quot;application&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SERVLET_CONTEXT_BEAN_NAME = &quot;servletContext&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;CONTEXT_PARAMETERS_BEAN_NAME = &quot;contextParameters&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;CONTEXT_ATTRIBUTES_BEAN_NAME = &quot;contextAttributes&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;" id="gZtpTX1WfCaNUSenPJXd-446">
+          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+            <mxGeometry x="1003" y="190" width="144" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-448" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-386" target="gZtpTX1WfCaNUSenPJXd-360">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="746" y="200" as="sourcePoint" />
+            <mxPoint x="523" y="129" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="295" y="104" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-450" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-446" target="gZtpTX1WfCaNUSenPJXd-360">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="305" y="210" as="sourcePoint" />
+            <mxPoint x="746" y="99" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1075" y="104" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-451" value="ConfigurableWebServerApplicationContext" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+          <mxGeometry x="168" y="436" width="254" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-453" value="ConfigurableWebApplicationContext" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+          <mxGeometry x="947" y="413" width="254" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-454" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-451" target="gZtpTX1WfCaNUSenPJXd-386">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="523" y="300" as="sourcePoint" />
+            <mxPoint x="523" y="235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-455" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=arc;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-451" target="gZtpTX1WfCaNUSenPJXd-364">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="305" y="446" as="sourcePoint" />
+            <mxPoint x="305" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="451" />
+              <mxPoint x="580" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-456" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-453">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="431" y="461" as="sourcePoint" />
+            <mxPoint x="829" y="205" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1073" y="360" />
+              <mxPoint x="939" y="360" />
+              <mxPoint x="939" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-457" value="GenericWebApplicationContext" style="html=1;whiteSpace=wrap;fillColor=default;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+          <mxGeometry x="650.25" y="533" width="186" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-461" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-453">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="745" y="530" as="sourcePoint" />
+            <mxPoint x="1074.0000000000005" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-458" value="ThemeSource" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+          <mxGeometry x="948" y="533" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-462" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-457" target="gZtpTX1WfCaNUSenPJXd-453">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="746" y="423" as="sourcePoint" />
+            <mxPoint x="484" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-463" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-457" target="gZtpTX1WfCaNUSenPJXd-458">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="846" y="558" as="sourcePoint" />
+            <mxPoint x="957" y="451" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-464" value="ServletWebServerApplicationContext" style="html=1;whiteSpace=wrap;fillColor=#E6E6E6;strokeColor=#666666;fontColor=#333333;fontStyle=0;strokeWidth=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+          <mxGeometry x="178" y="533" width="235" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-465" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;jumpStyle=arc;" edge="1" source="gZtpTX1WfCaNUSenPJXd-468" target="gZtpTX1WfCaNUSenPJXd-464" parent="gZtpTX1WfCaNUSenPJXd-319">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="705" y="430" as="sourcePoint" />
+            <mxPoint x="705" y="351" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-467" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-464" parent="gZtpTX1WfCaNUSenPJXd-319" target="gZtpTX1WfCaNUSenPJXd-451">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1156" y="559" as="sourcePoint" />
+            <mxPoint x="295" y="479" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-468" value="AnnotationConfigServletWebServerApplicationContext" style="html=1;whiteSpace=wrap;fillColor=#E6E6E6;strokeColor=#666666;fontColor=#333333;fontStyle=1;strokeWidth=2;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+          <mxGeometry x="132" y="680" width="326" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-469" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="gZtpTX1WfCaNUSenPJXd-468" target="gZtpTX1WfCaNUSenPJXd-470" parent="gZtpTX1WfCaNUSenPJXd-319">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="411" y="546" as="sourcePoint" />
+            <mxPoint x="410" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="AnnotationConfigRegistry" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px;max-width:800px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;用注解的方式配置应用程序上下文&#xa;&lt;hr&gt;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;register: void&lt;/b&gt;&#xa;注册一个或多个要处理的组件类, 对 register 调用是幂等的。&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;scan: void&lt;/b&gt;&#xa;在指定的基本软件包中执行扫描&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;" id="gZtpTX1WfCaNUSenPJXd-470">
+          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-319">
+            <mxGeometry x="434" y="602" width="164" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-471" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=arc;" edge="1" parent="gZtpTX1WfCaNUSenPJXd-319" source="gZtpTX1WfCaNUSenPJXd-464" target="gZtpTX1WfCaNUSenPJXd-457">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="305" y="703" as="sourcePoint" />
+            <mxPoint x="306" y="589" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gZtpTX1WfCaNUSenPJXd-196" value="AnnotationConfigApplicationContext" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="gZtpTX1WfCaNUSenPJXd-176">
+          <mxGeometry y="70" width="1580" height="20" as="geometry">
+            <mxRectangle y="70" width="1580" height="660" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <UserObject label="ApplicationContext" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;为应用程序提供配置的核心接口&#xa;&lt;hr&gt;&lt;b&gt;主要功能：&lt;/b&gt;&#xa;1)用于访问应用程序组件的 Bean 工厂方法。继承自 ListableBeanFactory。&#xa;2)以通用方式加载文件资源的能力。继承自 org.springframework.core.io.ResourceLoader 接口。&#xa;3)将事件发布到已注册的侦听器的功能。继承自 ApplicationEventPublisher 接口。&#xa;4)解析消息的能力，支持国际化。继承自 MessageSource 接口。&#xa;5)可以从父上下文继承。子上下文中的定义覆盖父上下文的定义。&#xa;  例如，单个父上下文可以被整个 Web 应用程序使用，而每个 servlet 都有自己的子上下文，独立于任何其他 servlet 的子上下文。&#xa;&#xa;&lt;b&gt;注意：&lt;/b&gt;&#xa;1)除了标准的 &lt;b style=&quot;color:blue&quot;&gt;org.springframework.beans.factory.BeanFactory&lt;/b&gt; 生命周期功能外，ApplicationContext 的 实现类还可以检测并调用 &lt;b style=&quot;color:blue&quot;&gt;ApplicationContextAware&lt;/b&gt; 以及 &lt;b style=&quot;color:blue&quot;&gt;ResourceLoaderAware&lt;/b&gt;、&lt;b style=&quot;color:blue&quot;&gt;ApplicationEventPublisherAware&lt;/b&gt; 和 &lt;b style=&quot;color:blue&quot;&gt;MessageSourceAware&lt;/b&gt; bean。&#xa;2)ApplicationContext 实现了 EnvironmentCapable，从而公开了一个 getEnvironment()方法; 但是，ConfigurableApplicationContext 重新定义了 getEnvironment()并缩小了签名范围以返回 ConfigurableEnvironment。&#xa;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getId: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getApplicationName: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getDisplayName: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getStartupDate: long&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getParent: ApplicationContext&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getAutowireCapableBeanFactory: AutowireCapableBeanFactory&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;" id="gZtpTX1WfCaNUSenPJXd-201">
