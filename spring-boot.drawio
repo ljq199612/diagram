@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T05:49:01.248Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="KfuVj2A2qMhlHKhok1--" version="21.1.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-11T07:38:24.760Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="vB7pmvl98oO_OtILhKDm" version="21.1.5" type="github" pages="4">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="总览">
-    <mxGraphModel dx="2261" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="1">
+    <mxGraphModel dx="2514" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -567,7 +567,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XZKh2FsLszlmuIVQkZ0g" name="模板">
-    <mxGraphModel dx="2261" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="-423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -698,19 +698,11 @@
         <mxCell id="Tx6gN8MasFEGLDQZ1Iku-12" value="SpringBoot 自动化配置" style="treeFolding=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#d6b656;rounded=0;gradientColor=#FFB366;gradientDirection=radial;glass=0;shadow=0;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="-800" y="2310" width="162" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="YW298unZHqzhQpcfFo6O-1" value="&lt;font color=&quot;#696969&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; [NOTE]&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=none;fontSize=12;fontColor=#FFFF99;fillColor=#2A2A2A;gradientColor=none;swimlaneFillColor=none;align=left;spacingLeft=24;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="-780" y="1020" width="710" height="280" as="geometry">
-            <mxRectangle y="259" width="1148" height="32" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YW298unZHqzhQpcfFo6O-2" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt; &lt;span style=&quot;color:#808080;&quot;&gt;     /*&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;       * [TIP]&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;       * context &lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;默认为&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt; AnnotationConfigApplication &lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;类型&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;       * &lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;如果是&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt; servlet &lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;项目，比如引入了&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt; spring-boot-starter-web &lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;包，&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt; context &lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;为&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt; AnnotationConfigServletWebServerApplicationContext &lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;类型&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;       * &lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;如果是&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt; recative &lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;项目，比如引入&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt; spring-boot-starter-webflux &lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;包，&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt; context &lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;为&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt; AnnotationConfigReactiveWebServerApplicaitonContext &lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;类型&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;       * -----------------------------------------------------------------------&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;       * context -&amp;gt; beanFactory -&amp;gt; beanDefinitionMap&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;       * &lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;现在有&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt; 5 &lt;/span&gt;&lt;span style=&quot;color:#808080;font-family:&#39;宋体&#39;,monospace;&quot;&gt;个&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt; bean&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;       *************************************************************************&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;       * org.springframework.context.annotation.internalConfigurationProcessor&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;       * org.springframework.context.event.internalEventListenerFactory&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;       * org.springframework.context.event.interalEventListenerProcessor&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;       * org.springframework.context.annotation.internalAutowiredAnnotationProcessor&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;       * org.springframework.context.annotation.internalCommonAnnotationProcessor&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;       */&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#808080;&quot;&gt;     &lt;/span&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;spacingTop=-16;spacingBottom=-16;" parent="YW298unZHqzhQpcfFo6O-1" vertex="1">
-          <mxGeometry y="30" width="710" height="250" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="ZdgQgcltxicTh5YUPLiH" name="第 3 页">
-    <mxGraphModel dx="1687" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -730,7 +722,7 @@
           </mxCell>
         </UserObject>
         <UserObject label="ApplicationContext" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;为应用程序提供配置的核心接口&#xa;&lt;hr&gt;&lt;b&gt;主要功能：&lt;/b&gt;&#xa;1)用于访问应用程序组件的 Bean 工厂方法。继承自 ListableBeanFactory。&#xa;2)以通用方式加载文件资源的能力。继承自 org.springframework.core.io.ResourceLoader 接口。&#xa;3)将事件发布到已注册的侦听器的功能。继承自 ApplicationEventPublisher 接口。&#xa;4)解析消息的能力，支持国际化。继承自 MessageSource 接口。&#xa;5)可以从父上下文继承。子上下文中的定义覆盖父上下文的定义。&#xa;  例如，单个父上下文可以被整个 Web 应用程序使用，而每个 servlet 都有自己的子上下文，独立于任何其他 servlet 的子上下文。&#xa;&#xa;&lt;b&gt;注意：&lt;/b&gt;&#xa;1)除了标准的 &lt;b style=&quot;color:blue&quot;&gt;org.springframework.beans.factory.BeanFactory&lt;/b&gt; 生命周期功能外，ApplicationContext 的 实现类还可以检测并调用 &lt;b style=&quot;color:blue&quot;&gt;ApplicationContextAware&lt;/b&gt; 以及 &lt;b style=&quot;color:blue&quot;&gt;ResourceLoaderAware&lt;/b&gt;、&lt;b style=&quot;color:blue&quot;&gt;ApplicationEventPublisherAware&lt;/b&gt; 和 &lt;b style=&quot;color:blue&quot;&gt;MessageSourceAware&lt;/b&gt; bean。&#xa;2)ApplicationContext 实现了 EnvironmentCapable，从而公开了一个 getEnvironment()方法; 但是，ConfigurableApplicationContext 重新定义了 getEnvironment()并缩小了签名范围以返回 ConfigurableEnvironment。&#xa;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getId: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getApplicationName: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getDisplayName: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getStartupDate: long&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getParent: ApplicationContext&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getAutowireCapableBeanFactory: AutowireCapableBeanFactory&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;" id="fpJd8lJAs557YapKPITo-8">
-          <mxCell style="html=1;whiteSpace=wrap;fontStyle=1;dashed=1;" parent="1" vertex="1">
+          <mxCell style="html=1;whiteSpace=wrap;fontStyle=1;dashed=1;shadow=0;rounded=0;glass=0;strokeWidth=2;" parent="1" vertex="1">
             <mxGeometry x="615" y="345" width="150" height="30" as="geometry" />
           </mxCell>
         </UserObject>
@@ -850,9 +842,11 @@
             <mxPoint x="690" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uPaRFXToZM161yRxiYT0-5" value="ConfigurableApplicationContext" style="html=1;whiteSpace=wrap;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="1019" y="448" width="188" height="30" as="geometry" />
-        </mxCell>
+        <UserObject label="ConfigurableApplicationContext" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px;max-width:800px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;SPI（Service Provider Interface） 接口将由大多数应用程序上下文实现。提供用于配置应用程序上下文以及接口中的 ApplicationContext 应用程序上下文客户端方法的工具。&#xa;&lt;hr&gt;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;CONFIG_LOCATION_DELIMITERS = &quot;,; \t\n&quot;;&lt;/b&gt; (分隔符)&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;CONVERSION_SERVICE_BEAN_NAME = &quot;conversionService&quot;&lt;/b&gt; &#xa;工厂中转换服务Bean的名称。如果未提供任何转换规则，则应用默认转换规则。&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;LOAD_TIME_WEAVER_BEAN_NAME = &quot;loadTimeWeaver&quot;&lt;/b&gt;&#xa;工厂中 LoadTimeWeaver bean 的名称。如果提供了这样的 Bean，上下文将使用临时 ClassLoader 进行类型匹配，以便允许 LoadTimeWeaver 处理所有实际的 Bean 类。&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;ENVIRONMENT_BEAN_NAME = &quot;environment&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;SYSTEM_PROPERTIES_BEAN_NAME = &quot;systemProperties&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;SYSTEM_ENVIRONMENT_BEAN_NAME = &quot;systemEnvironment&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;SHUTDOWN_HOOK_THREAD_NAME = &quot;SpringContextShutdownHook&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;addBeanFactoryPostProcessor: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;addApplicationListener: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;setClassLoder: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;addProtocolResolver: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;refresh: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;registerShutdownHook: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;isActive: boolean&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getBeanFactory: ConfigurableListableBeanFactory&lt;/b&gt;&#xa;&lt;b&gt;注意&lt;/b&gt;: 不要使用它来对 bean 工厂进行后置处理(post-process)&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;...&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;" id="uPaRFXToZM161yRxiYT0-5">
+          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" parent="1" vertex="1">
+            <mxGeometry x="1019" y="448" width="188" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="uPaRFXToZM161yRxiYT0-6" value="Lifecycle" style="html=1;whiteSpace=wrap;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1076" y="345" width="75" height="30" as="geometry" />
         </mxCell>
@@ -872,12 +866,6 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1123" y="458" as="sourcePoint" />
             <mxPoint x="700" y="385" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="uPaRFXToZM161yRxiYT0-13" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="uPaRFXToZM161yRxiYT0-5" target="uPaRFXToZM161yRxiYT0-7" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="1123" y="458" as="sourcePoint" />
-            <mxPoint x="1032" y="385" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="uPaRFXToZM161yRxiYT0-14" value="ConfigurableWebServerApplicationContext" style="html=1;whiteSpace=wrap;dashed=1;" parent="1" vertex="1">
@@ -958,7 +946,7 @@
             <mxPoint x="781" y="597" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uPaRFXToZM161yRxiYT0-33" value="ServletWebServerApplicationContext" style="html=1;whiteSpace=wrap;fillColor=#E6E6E6;strokeColor=#666666;fontColor=#333333;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="uPaRFXToZM161yRxiYT0-33" value="ServletWebServerApplicationContext" style="html=1;whiteSpace=wrap;fillColor=#E6E6E6;strokeColor=#666666;fontColor=#333333;fontStyle=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="359" y="673" width="235" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uPaRFXToZM161yRxiYT0-34" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="uPaRFXToZM161yRxiYT0-33" target="uPaRFXToZM161yRxiYT0-27" edge="1">
@@ -1004,6 +992,23 @@
             <mxGeometry x="1630" y="60" width="149" height="30" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="2ZeOVe5thYNn_n56kYsP-2" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uPaRFXToZM161yRxiYT0-5" target="uPaRFXToZM161yRxiYT0-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1265" y="355" as="sourcePoint" />
+            <mxPoint x="1265" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cflivNMmGxDi5aMWpXVy-1" value="&lt;h1&gt;SPI&lt;br&gt;&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="413" y="850" width="707" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RDmixd0tT12VmrphhzZk" name="第 4 页">
+    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
