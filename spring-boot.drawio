@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T10:56:38.891Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="N5Hcj7rh0bxHgkeLegpr" version="21.1.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-04-12T01:53:19.548Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="aqa5HzFnbUrbYxzizC7h" version="21.1.5" type="github" pages="4">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="总览">
-    <mxGraphModel dx="2501" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="1">
+    <mxGraphModel dx="2261" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -702,7 +702,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZdgQgcltxicTh5YUPLiH" name="类继承图">
-    <mxGraphModel dx="1687" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1242,30 +1242,30 @@
             <mxPoint x="306" y="589" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;AnnotationConfigServletWebServerApplicationContext&lt;/font&gt;" tooltip="Web服务应用上下文" id="Rpf5kiD7kc_mtW-Zp-oe-1">
-          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=left;spacingLeft=24;" vertex="1" collapsed="1" parent="gZtpTX1WfCaNUSenPJXd-176">
+        <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;AnnotationConfigReactiveWebServerApplicationContext&lt;/font&gt;" tooltip="Web服务应用上下文" id="Rpf5kiD7kc_mtW-Zp-oe-1">
+          <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=left;spacingLeft=24;" parent="gZtpTX1WfCaNUSenPJXd-176" vertex="1" collapsed="1">
             <mxGeometry y="90" width="1580" height="20" as="geometry">
               <mxRectangle y="90" width="1580" height="770" as="alternateBounds" />
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-2" value="&lt;b&gt;web 响应式服务应用上下文&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-2" value="&lt;b&gt;web 响应式服务应用上下文&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
           <mxGeometry x="353" y="30" width="770" height="30" as="geometry" />
         </mxCell>
         <UserObject label="ApplicationContext" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;为应用程序提供配置的核心接口&#xa;&lt;hr&gt;&lt;b&gt;主要功能：&lt;/b&gt;&#xa;1)用于访问应用程序组件的 Bean 工厂方法。继承自 ListableBeanFactory。&#xa;2)以通用方式加载文件资源的能力。继承自 org.springframework.core.io.ResourceLoader 接口。&#xa;3)将事件发布到已注册的侦听器的功能。继承自 ApplicationEventPublisher 接口。&#xa;4)解析消息的能力，支持国际化。继承自 MessageSource 接口。&#xa;5)可以从父上下文继承。子上下文中的定义覆盖父上下文的定义。&#xa;  例如，单个父上下文可以被整个 Web 应用程序使用，而每个 servlet 都有自己的子上下文，独立于任何其他 servlet 的子上下文。&#xa;&#xa;&lt;b&gt;注意：&lt;/b&gt;&#xa;1)除了标准的 &lt;b style=&quot;color:blue&quot;&gt;org.springframework.beans.factory.BeanFactory&lt;/b&gt; 生命周期功能外，ApplicationContext 的 实现类还可以检测并调用 &lt;b style=&quot;color:blue&quot;&gt;ApplicationContextAware&lt;/b&gt; 以及 &lt;b style=&quot;color:blue&quot;&gt;ResourceLoaderAware&lt;/b&gt;、&lt;b style=&quot;color:blue&quot;&gt;ApplicationEventPublisherAware&lt;/b&gt; 和 &lt;b style=&quot;color:blue&quot;&gt;MessageSourceAware&lt;/b&gt; bean。&#xa;2)ApplicationContext 实现了 EnvironmentCapable，从而公开了一个 getEnvironment()方法; 但是，ConfigurableApplicationContext 重新定义了 getEnvironment()并缩小了签名范围以返回 ConfigurableEnvironment。&#xa;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getId: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getApplicationName: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getDisplayName: String&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getStartupDate: long&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getParent: ApplicationContext&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getAutowireCapableBeanFactory: AutowireCapableBeanFactory&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;" id="Rpf5kiD7kc_mtW-Zp-oe-3">
-          <mxCell style="html=1;whiteSpace=wrap;fontStyle=1;dashed=1;shadow=0;rounded=0;glass=0;strokeWidth=2;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+          <mxCell style="html=1;whiteSpace=wrap;fontStyle=1;dashed=1;shadow=0;rounded=0;glass=0;strokeWidth=2;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
             <mxGeometry x="660.75" y="89" width="150" height="30" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-4" value="DefaultResourceLoader" style="html=1;whiteSpace=wrap;fillColor=default;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-4" value="DefaultResourceLoader" style="html=1;whiteSpace=wrap;fillColor=default;strokeColor=#666666;fontColor=#333333;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
           <mxGeometry x="1208.25" y="290" width="163" height="30" as="geometry" />
         </mxCell>
         <UserObject label="ResourceLoader" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;用于加载资源的策略接口（例如.class路径或文件系统资源）。&#xa;&#xa;1)需要&lt;b style=&quot;color:blue&quot;&gt; org.springframework.context.ApplicationContext&lt;/b&gt;来提供此功能，以及扩展的&lt;b style=&quot;color:blue&quot;&gt;org.springframework.core.io.support.ResourcePatternResolver&lt;/b&gt;支持。&#xa;2)在ApplicationContext中运行时，Resource 和 Resource 数组类型的 Bean 属性通过特定的上下文资源加载策略从字符串中转换而来。&#xa;&#xa;&lt;b&gt;注意：&lt;/b&gt;&lt;b style=&quot;color:blue&quot;&gt;DefaultResourceLoader&lt;/b&gt; 是一个独立的实现，可在 ApplicationContext 之外使用，也被 ResourceEditor 使用。&#xa;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法/属性：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getResource: Resource&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getClassLoader: ClassLoader&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;CLASSPATH_URL_PREFIX = &quot;classpath:&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;&#xa;" id="Rpf5kiD7kc_mtW-Zp-oe-5">
-          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
             <mxGeometry x="1208.75" y="190" width="161" height="30" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-6" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-4" target="Rpf5kiD7kc_mtW-Zp-oe-5">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-6" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-4" target="Rpf5kiD7kc_mtW-Zp-oe-5" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1425.75" y="74" as="sourcePoint" />
             <mxPoint x="1585.75" y="74" as="targetPoint" />
@@ -1276,11 +1276,11 @@
           </mxGeometry>
         </mxCell>
         <UserObject label="ConfigurableApplicationContext" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px;max-width:800px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;SPI（Service Provider Interface） 接口将由大多数应用程序上下文实现。提供用于配置应用程序上下文以及接口中的 ApplicationContext 应用程序上下文客户端方法的工具。&#xa;&lt;hr&gt;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法/属性：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;CONFIG_LOCATION_DELIMITERS = &quot;,; \t\n&quot;;&lt;/b&gt; (分隔符)&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;CONVERSION_SERVICE_BEAN_NAME = &quot;conversionService&quot;&lt;/b&gt; &#xa;工厂中转换服务Bean的名称。如果未提供任何转换规则，则应用默认转换规则。&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;LOAD_TIME_WEAVER_BEAN_NAME = &quot;loadTimeWeaver&quot;&lt;/b&gt;&#xa;工厂中 LoadTimeWeaver bean 的名称。如果提供了这样的 Bean，上下文将使用临时 ClassLoader 进行类型匹配，以便允许 LoadTimeWeaver 处理所有实际的 Bean 类。&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;ENVIRONMENT_BEAN_NAME = &quot;environment&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SYSTEM_PROPERTIES_BEAN_NAME = &quot;systemProperties&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SYSTEM_ENVIRONMENT_BEAN_NAME = &quot;systemEnvironment&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SHUTDOWN_HOOK_THREAD_NAME = &quot;SpringContextShutdownHook&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;addBeanFactoryPostProcessor: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;addApplicationListener: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;setClassLoder: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;addProtocolResolver: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;refresh: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;registerShutdownHook: void&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;isActive: boolean&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getBeanFactory: ConfigurableListableBeanFactory&lt;/b&gt;&#xa;&lt;b&gt;注意&lt;/b&gt;: 不要使用它来对 bean 工厂进行后置处理(post-process)&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;...&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;" id="Rpf5kiD7kc_mtW-Zp-oe-7">
-          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
             <mxGeometry x="641.75" y="190" width="188" height="30" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-8" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;jumpStyle=arc;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-7" target="Rpf5kiD7kc_mtW-Zp-oe-3">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-8" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;jumpStyle=arc;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-7" target="Rpf5kiD7kc_mtW-Zp-oe-3" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="986.75" y="172" as="sourcePoint" />
             <mxPoint x="905.75" y="99" as="targetPoint" />
@@ -1290,25 +1290,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-9" value="Lifecycle" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-9" value="Lifecycle" style="html=1;whiteSpace=wrap;dashed=1;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
           <mxGeometry x="444.25" y="140" width="75" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-10" value="Closeable" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-10" value="Closeable" style="html=1;whiteSpace=wrap;dashed=1;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
           <mxGeometry x="919" y="140" width="84" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-11" value="AutoClouseable" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-11" value="AutoClouseable" style="html=1;whiteSpace=wrap;dashed=1;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
           <mxGeometry x="1160" y="140" width="118" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-12" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-10" target="Rpf5kiD7kc_mtW-Zp-oe-11">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-12" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-10" target="Rpf5kiD7kc_mtW-Zp-oe-11" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="745.75" y="99" as="sourcePoint" />
             <mxPoint x="1147.75" y="9" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-13" value="AbstractApplicationContext" style="html=1;whiteSpace=wrap;fillColor=default;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-13" value="AbstractApplicationContext" style="html=1;whiteSpace=wrap;fillColor=default;strokeColor=#666666;fontColor=#333333;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
           <mxGeometry x="654.25" y="290" width="163" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-14" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-13" target="Rpf5kiD7kc_mtW-Zp-oe-7">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-14" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-13" target="Rpf5kiD7kc_mtW-Zp-oe-7" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1473.75" y="311" as="sourcePoint" />
             <mxPoint x="1473.75" y="231" as="targetPoint" />
@@ -1318,22 +1318,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-15" value="GenericApplicationContext" style="html=1;whiteSpace=wrap;fillColor=default;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-15" value="GenericApplicationContext" style="html=1;whiteSpace=wrap;fillColor=default;strokeColor=#666666;fontColor=#333333;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
           <mxGeometry x="654.25" y="413" width="163" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-16" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-13" target="Rpf5kiD7kc_mtW-Zp-oe-4">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-16" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-13" target="Rpf5kiD7kc_mtW-Zp-oe-4" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1310.75" y="99" as="sourcePoint" />
             <mxPoint x="1310.75" y="9" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-17" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.461;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-34" target="Rpf5kiD7kc_mtW-Zp-oe-15">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-17" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.461;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-34" target="Rpf5kiD7kc_mtW-Zp-oe-15" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="735.7499999999995" y="510" as="sourcePoint" />
             <mxPoint x="752.75" y="301" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-18" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;jumpStyle=arc;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-15">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-18" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;jumpStyle=arc;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-15" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="735.3600000000001" y="391" as="sourcePoint" />
             <mxPoint x="735.3600000000001" y="320" as="targetPoint" />
@@ -1342,45 +1342,45 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-19" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-7" target="Rpf5kiD7kc_mtW-Zp-oe-10">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-19" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-7" target="Rpf5kiD7kc_mtW-Zp-oe-10" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1001.75" y="215" as="sourcePoint" />
             <mxPoint x="1075.75" y="215" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-20" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-7" target="Rpf5kiD7kc_mtW-Zp-oe-9">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-20" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-7" target="Rpf5kiD7kc_mtW-Zp-oe-9" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="839.75" y="215" as="sourcePoint" />
             <mxPoint x="925.75" y="215" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-21" value="Aliasrergistry" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-21" value="Aliasrergistry" style="html=1;whiteSpace=wrap;dashed=1;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
           <mxGeometry x="429.25" y="195" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-22" value="BeanDefinitionRegistry" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-22" value="BeanDefinitionRegistry" style="html=1;whiteSpace=wrap;dashed=1;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
           <mxGeometry x="398.75" y="290" width="151" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-23" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-15" target="Rpf5kiD7kc_mtW-Zp-oe-22">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-23" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-15" target="Rpf5kiD7kc_mtW-Zp-oe-22" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="951.75" y="530" as="sourcePoint" />
             <mxPoint x="1073.75" y="446" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-24" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-22" target="Rpf5kiD7kc_mtW-Zp-oe-21">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-24" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-22" target="Rpf5kiD7kc_mtW-Zp-oe-21" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="745.75" y="200" as="sourcePoint" />
             <mxPoint x="523.75" y="129" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-25" value="&lt;div&gt;ReactiveWebApplicationContext&lt;/div&gt;" style="html=1;whiteSpace=wrap;dashed=1;fillColor=#E6E6E6;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-25" value="&lt;div&gt;ReactiveWebApplicationContext&lt;/div&gt;" style="html=1;whiteSpace=wrap;dashed=1;fillColor=#E6E6E6;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
           <mxGeometry x="200" y="200" width="189" height="30" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div&gt;WebApplicationContext&lt;/div&gt;" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;用于为 Web 应用程序提供配置的接口&lt;hr&gt;&#xa;1)此接口将方法 getServletContext() 添加到通用应用程序上下文接口，并定义在引导过程中绑定到已知应用程序属性名称的根上下文。&#xa;2)与通用应用程序上下文一样，Web 应用程序上下文是分层的。每个应用程序都有一个根上下文，而应用程序中的每个 servlet（包括 MVC 框架中的调度程序 servlet）都有自己的子上下文。&#xa;3)除了标准的应用程序上下文生命周期功能之外，WebApplicationContext 实现还需要检测 ServletContextAware bean 及调用 setServletContext 方法。&#xa;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法/属性：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;getServletContext: ServletContext&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;ROOT_WEB_APPLICATION_CONTEXT_ATTRIBUTE = WebApplicationContext.class.getName() + &quot;.ROOT&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SCOPE_REQUEST = &quot;request&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SCOPE_SESSION = &quot;session&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SCOPE_APPLICATION = &quot;application&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;SERVLET_CONTEXT_BEAN_NAME = &quot;servletContext&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;CONTEXT_PARAMETERS_BEAN_NAME = &quot;contextParameters&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blueviolet&quot;&gt;CONTEXT_ATTRIBUTES_BEAN_NAME = &quot;contextAttributes&quot;&lt;/b&gt;&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;" id="Rpf5kiD7kc_mtW-Zp-oe-26">
-          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
             <mxGeometry x="1003" y="190" width="144" height="30" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-27" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-25" target="Rpf5kiD7kc_mtW-Zp-oe-3">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-27" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-25" target="Rpf5kiD7kc_mtW-Zp-oe-3" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="746" y="200" as="sourcePoint" />
             <mxPoint x="523" y="129" as="targetPoint" />
@@ -1389,7 +1389,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-28" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-26" target="Rpf5kiD7kc_mtW-Zp-oe-3">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-28" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;jumpStyle=arc;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-26" target="Rpf5kiD7kc_mtW-Zp-oe-3" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="305" y="210" as="sourcePoint" />
             <mxPoint x="746" y="99" as="targetPoint" />
@@ -1398,19 +1398,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-29" value="ConfigurableReactiveWebServerApplicationContext" style="html=1;whiteSpace=wrap;dashed=1;fillColor=#E6E6E6;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-29" value="ConfigurableReactiveWebServerApplicationContext" style="html=1;whiteSpace=wrap;dashed=1;fillColor=#E6E6E6;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
           <mxGeometry x="145" y="436" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-30" value="ConfigurableWebApplicationContext" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-30" value="ConfigurableWebApplicationContext" style="html=1;whiteSpace=wrap;dashed=1;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
           <mxGeometry x="947" y="413" width="254" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-31" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-29" target="Rpf5kiD7kc_mtW-Zp-oe-25">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-31" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-29" target="Rpf5kiD7kc_mtW-Zp-oe-25" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="523" y="300" as="sourcePoint" />
             <mxPoint x="523" y="235" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-32" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=arc;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-29" target="Rpf5kiD7kc_mtW-Zp-oe-7">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-32" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=arc;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-29" target="Rpf5kiD7kc_mtW-Zp-oe-7" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="305" y="446" as="sourcePoint" />
             <mxPoint x="305" y="240" as="targetPoint" />
@@ -1420,7 +1420,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-33" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-30">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-33" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-30" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="431" y="461" as="sourcePoint" />
             <mxPoint x="829" y="205" as="targetPoint" />
@@ -1431,60 +1431,60 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-34" value="GenericWebApplicationContext" style="html=1;whiteSpace=wrap;fillColor=default;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-34" value="GenericWebApplicationContext" style="html=1;whiteSpace=wrap;fillColor=default;strokeColor=#666666;fontColor=#333333;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
           <mxGeometry x="650.25" y="533" width="186" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-35" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;jumpStyle=arc;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-30">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-35" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;jumpStyle=arc;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-30" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="745" y="530" as="sourcePoint" />
             <mxPoint x="1074.0000000000005" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-36" value="ThemeSource" style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-36" value="ThemeSource" style="html=1;whiteSpace=wrap;dashed=1;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
           <mxGeometry x="948" y="533" width="105" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-37" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-34" target="Rpf5kiD7kc_mtW-Zp-oe-30">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-37" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-34" target="Rpf5kiD7kc_mtW-Zp-oe-30" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="746" y="423" as="sourcePoint" />
             <mxPoint x="484" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-38" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-34" target="Rpf5kiD7kc_mtW-Zp-oe-36">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-38" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-34" target="Rpf5kiD7kc_mtW-Zp-oe-36" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="846" y="558" as="sourcePoint" />
             <mxPoint x="957" y="451" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-39" value="ReactiveWebServerApplicationContext" style="html=1;whiteSpace=wrap;fillColor=#E6E6E6;strokeColor=#666666;fontColor=#333333;fontStyle=0;strokeWidth=1;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-39" value="ReactiveWebServerApplicationContext" style="html=1;whiteSpace=wrap;fillColor=#E6E6E6;strokeColor=#666666;fontColor=#333333;fontStyle=0;strokeWidth=1;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
           <mxGeometry x="154" y="533" width="282" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-40" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;jumpStyle=arc;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-42" target="Rpf5kiD7kc_mtW-Zp-oe-39">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-40" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;jumpStyle=arc;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-42" target="Rpf5kiD7kc_mtW-Zp-oe-39" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="705" y="430" as="sourcePoint" />
             <mxPoint x="705" y="351" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-41" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-39" target="Rpf5kiD7kc_mtW-Zp-oe-29">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-41" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-39" target="Rpf5kiD7kc_mtW-Zp-oe-29" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1156" y="559" as="sourcePoint" />
             <mxPoint x="295" y="479" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-42" value="AnnotationConfigReactiveWebServerApplicationContext" style="html=1;whiteSpace=wrap;fillColor=#E6E6E6;strokeColor=#666666;fontColor=#333333;fontStyle=1;strokeWidth=2;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-42" value="AnnotationConfigReactiveWebServerApplicationContext" style="html=1;whiteSpace=wrap;fillColor=#E6E6E6;strokeColor=#666666;fontColor=#333333;fontStyle=1;strokeWidth=2;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
           <mxGeometry x="132" y="680" width="326" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-43" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-42" target="Rpf5kiD7kc_mtW-Zp-oe-44">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-43" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-42" target="Rpf5kiD7kc_mtW-Zp-oe-44" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="411" y="546" as="sourcePoint" />
             <mxPoint x="410" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <UserObject label="AnnotationConfigRegistry" tooltip="&lt;div style=&quot;font:120% Baskerville,serif;min-width:300px;max-width:800px; background:honeydew; padding:0 1rem;&quot;&gt;&#xa;用注解的方式配置应用程序上下文&#xa;&lt;hr&gt;&#xa;&lt;div style=&quot;background:antiquewhite;padding:0.5rem 1rem;&quot;&gt;&lt;b style=&quot;color:green&quot;&gt;方法：&lt;/b&gt;&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;register: void&lt;/b&gt;&#xa;注册一个或多个要处理的组件类, 对 register 调用是幂等的。&#xa;&lt;hr&gt;&lt;b style=&quot;color:blue&quot;&gt;scan: void&lt;/b&gt;&#xa;在指定的基本软件包中执行扫描&#xa;&lt;hr&gt;&lt;/div&gt;&#xa;&#xa;&lt;/div&gt;" id="Rpf5kiD7kc_mtW-Zp-oe-44">
-          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1">
+          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" vertex="1">
             <mxGeometry x="434" y="602" width="164" height="30" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-45" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=arc;" edge="1" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-39" target="Rpf5kiD7kc_mtW-Zp-oe-34">
+        <mxCell id="Rpf5kiD7kc_mtW-Zp-oe-45" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;jumpStyle=arc;" parent="Rpf5kiD7kc_mtW-Zp-oe-1" source="Rpf5kiD7kc_mtW-Zp-oe-39" target="Rpf5kiD7kc_mtW-Zp-oe-34" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="305" y="703" as="sourcePoint" />
             <mxPoint x="306" y="589" as="targetPoint" />
