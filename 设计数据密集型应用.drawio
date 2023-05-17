@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T03:16:30.748Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="E209Ak016EmPdmYuTPZf" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T03:25:41.157Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="qEniJ8wFJjkpo1QLDx0b" version="21.2.9" type="github">
   <diagram name="第 1 页" id="iSKRfELMIbNprbvEWI-O">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,13 +13,14 @@
         <mxCell id="b9CT1DhW1DkTG6f0vIK0-14" value="&lt;div&gt;层层叠加的&lt;/div&gt;&lt;div&gt;数据模型&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;treeFolding=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="260" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="b9CT1DhW1DkTG6f0vIK0-21" value="&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;1）应用开发人员，观察世界，采用数据结构，以及操控数据结构的API来建模&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2）数据库软件工程师以内存、磁盘或网络上字节来表示 JSON / XML / XML / 关系 / 图数据， &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 用以存储数据结构。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3）硬件工程师可以使用电流、光脉冲、磁场等来表示字节方法&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=left;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=0;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="450" y="225" width="510" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="b9CT1DhW1DkTG6f0vIK0-22" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="b9CT1DhW1DkTG6f0vIK0-21" parent="1" source="b9CT1DhW1DkTG6f0vIK0-14">
+        <mxCell id="b9CT1DhW1DkTG6f0vIK0-22" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="b9CT1DhW1DkTG6f0vIK0-25" parent="1" source="b9CT1DhW1DkTG6f0vIK0-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="420" y="300" as="sourcePoint" />
+            <mxPoint x="674" y="670" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="b9CT1DhW1DkTG6f0vIK0-25" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1）应用开发人员，观察世界，采用数据结构，以及操控数据结构的API来建模&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2）数据库软件工程师以内存、磁盘或网络上字节来表示 JSON / XML / XML / 关系 / 图数据， &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 用以存储数据结构。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3）硬件工程师可以使用电流、光脉冲、磁场等来表示字节方法&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;------------------------------------------------------------------------------------------------------------------------&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;b&gt;一个复杂的应用程序可能会有更多的中间层次，比如基于API的API，不过基本思想仍然是一样&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;的：每个层都通过提供一个明确的数据模型来隐藏更低层次中的复杂性。这些抽象允许不同的&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;人群有效地协作&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;因为数据模型对上层软件的功能（能做什么，不能做什么）有着至深的影响，所以选择一个适&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;合的数据模型是非常重要的&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;arcSize=3;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="520" y="164" width="540" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
