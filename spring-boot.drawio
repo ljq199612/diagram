@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T08:29:24.618Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="sI-Tl-l34KGADrzougpf" version="21.3.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-05-22T08:46:53.111Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="3lEWh-ZK3XSdlVH52luf" version="21.3.2" type="github" pages="4">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="流程图">
     <mxGraphModel dx="2501" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="1">
       <root>
@@ -615,18 +615,18 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZdgQgcltxicTh5YUPLiH" name="类继承图">
-    <mxGraphModel dx="3088" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2958" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gZtpTX1WfCaNUSenPJXd-176" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Spring Boot 类继承图&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;treeFolding=0;swimlaneFillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-1230" y="90" width="2764" height="2270" as="geometry">
+          <mxGeometry x="-1230" y="90" width="1420" height="2270" as="geometry">
             <mxRectangle x="-1210" y="130" width="200" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;ApplicationContext&lt;/font&gt;" tooltip="" id="gZtpTX1WfCaNUSenPJXd-62">
           <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=left;spacingLeft=24;aspect=fixed;" parent="gZtpTX1WfCaNUSenPJXd-176" vertex="1" collapsed="1">
-            <mxGeometry y="30" width="2764" height="20" as="geometry">
+            <mxGeometry y="30" width="1420" height="20" as="geometry">
               <mxRectangle y="30" width="2764" height="2160" as="alternateBounds" />
             </mxGeometry>
           </mxCell>
@@ -815,7 +815,7 @@
         </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;AnnotationConfigApplicationContext&lt;/font&gt;" tooltip="普通应用服务上下文" id="gZtpTX1WfCaNUSenPJXd-196">
           <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=left;spacingLeft=24;" parent="gZtpTX1WfCaNUSenPJXd-176" vertex="1" collapsed="1">
-            <mxGeometry y="50" width="2764" height="20" as="geometry">
+            <mxGeometry y="50" width="1420" height="20" as="geometry">
               <mxRectangle y="50" width="2764" height="3712" as="alternateBounds" />
             </mxGeometry>
           </mxCell>
@@ -1240,8 +1240,8 @@
         </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;AnnotationConfigServletWebServerApplicationContext&lt;/font&gt;" tooltip="Web服务应用上下文" id="K4VY5pfUCq5O3IM_uIsJ-93">
           <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=left;spacingLeft=24;verticalAlign=middle;startSize=20;" parent="gZtpTX1WfCaNUSenPJXd-176" vertex="1" collapsed="1">
-            <mxGeometry y="70" width="2764" height="20" as="geometry">
-              <mxRectangle y="2210" width="2760" height="5209" as="alternateBounds" />
+            <mxGeometry y="70" width="1420" height="20" as="geometry">
+              <mxRectangle y="70" width="1420" height="5209" as="alternateBounds" />
             </mxGeometry>
           </mxCell>
         </UserObject>
@@ -1673,8 +1673,8 @@
         </mxCell>
         <UserObject label="&lt;font style=&quot;font-size: 14px;&quot;&gt;AnnotationConfigReactiveWebServerApplicationContext&lt;/font&gt;" tooltip="Web服务应用上下文" id="Rpf5kiD7kc_mtW-Zp-oe-1">
           <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=left;spacingLeft=24;" parent="gZtpTX1WfCaNUSenPJXd-176" vertex="1" collapsed="1">
-            <mxGeometry y="90" width="2764" height="20" as="geometry">
-              <mxRectangle y="70" width="2764" height="770" as="alternateBounds" />
+            <mxGeometry y="90" width="1420" height="20" as="geometry">
+              <mxRectangle y="90" width="1420" height="770" as="alternateBounds" />
             </mxGeometry>
           </mxCell>
         </UserObject>
@@ -1921,9 +1921,14 @@
         </mxCell>
         <UserObject label="其他" tooltip="" id="5TSFc4w1ydKS7UR5pnvM-46">
           <mxCell style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;align=left;spacingLeft=24;aspect=fixed;" vertex="1" parent="gZtpTX1WfCaNUSenPJXd-176">
-            <mxGeometry y="110" width="2764" height="2160" as="geometry">
-              <mxRectangle y="110" width="2764" height="20" as="alternateBounds" />
+            <mxGeometry y="110" width="1420" height="2160" as="geometry">
+              <mxRectangle y="110" width="1420" height="20" as="alternateBounds" />
             </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ApplicationContextInitializer&amp;nbsp; &lt;br&gt;&lt;/div&gt;" tooltip="" id="5TSFc4w1ydKS7UR5pnvM-84">
+          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="5TSFc4w1ydKS7UR5pnvM-46">
+            <mxGeometry x="311" y="340" width="173" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="5TSFc4w1ydKS7UR5pnvM-49" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;" edge="1" parent="5TSFc4w1ydKS7UR5pnvM-46" source="5TSFc4w1ydKS7UR5pnvM-48">
@@ -1952,11 +1957,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <UserObject label="&lt;div&gt;&amp;nbsp; ContextIdApplicationContextInitializer&lt;/div&gt;" tooltip="" id="5TSFc4w1ydKS7UR5pnvM-56">
-          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="5TSFc4w1ydKS7UR5pnvM-46">
-            <mxGeometry x="170" y="180" width="233" height="30" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="5TSFc4w1ydKS7UR5pnvM-60" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="5TSFc4w1ydKS7UR5pnvM-46" source="5TSFc4w1ydKS7UR5pnvM-50">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="220" y="211" as="sourcePoint" />
@@ -1971,6 +1971,25 @@
         </mxCell>
         <mxCell id="5TSFc4w1ydKS7UR5pnvM-65" value="&lt;b&gt;应用上下文顶层接口&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="5TSFc4w1ydKS7UR5pnvM-46">
           <mxGeometry x="353" y="30" width="770" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5TSFc4w1ydKS7UR5pnvM-87" value="" style="endArrow=block;endSize=12;endFill=0;html=1;rounded=0;startSize=6;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="5TSFc4w1ydKS7UR5pnvM-46" source="5TSFc4w1ydKS7UR5pnvM-84" target="5TSFc4w1ydKS7UR5pnvM-56">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="305" y="406" as="sourcePoint" />
+            <mxPoint x="305" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div&gt;&amp;nbsp; ContextIdApplicationContextInitializer&lt;/div&gt;" tooltip="" id="5TSFc4w1ydKS7UR5pnvM-56">
+          <mxCell style="html=1;whiteSpace=wrap;fillColor=#E6E6E6;" vertex="1" parent="5TSFc4w1ydKS7UR5pnvM-46">
+            <mxGeometry x="170" y="180" width="233" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="5TSFc4w1ydKS7UR5pnvM-85" value="" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=0;fillColor=none;strokeColor=none;swimlaneFillColor=#2A2A2A;align=center;gradientColor=none;gradientDirection=radial;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=12;" vertex="1" collapsed="1" parent="5TSFc4w1ydKS7UR5pnvM-46">
+          <mxGeometry x="311" y="347" width="19" height="18" as="geometry">
+            <mxRectangle x="-920" y="547" width="920" height="355" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5TSFc4w1ydKS7UR5pnvM-86" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;package &lt;/span&gt;org.springframework.boot.context&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt;/*****************************************************************************************************************************&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt; * &lt;b&gt;用于在刷新之前初始化 Spring ConfigurableApplicationContext 的回调&lt;/b&gt;接口&lt;br&gt; * ---------------------------------------------------------------------------------------------------------------------------&lt;br&gt; * &lt;br&gt; * &lt;/span&gt;&lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt;1）通常用于需要对应用程序上下文进行某种编程初始化的 Web 应用程序中。例如，针对上下文的环境注册属性源或激活配置文件。&lt;br&gt; * 2）ApplicationContextInitializer 鼓励处理器检测 Spring 的 Ordered 接口是否已实现，或者是否存在 @Order 注释，&lt;br&gt; *    并在调用之前对实例进行相应的排序。&lt;br&gt; *&lt;br&gt; *****************************************************************************************************************************&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt; */&lt;br&gt;&lt;/span&gt;public interface ApplicationContextInitializer&amp;lt;&lt;span style=&quot;color:#507874;&quot;&gt;C &lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;extends &lt;/span&gt;ConfigurableApplicationContext&amp;gt; {&lt;br&gt;&lt;br&gt;   &lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt;/**&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt;    * &lt;/span&gt;&lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt;对于 springBoot 应用程序， prepareContext() 时调用&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt;    */&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;void &lt;/span&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;initialize&lt;/span&gt;(&lt;span style=&quot;color:#507874;&quot;&gt;C &lt;/span&gt;applicationContext)&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;&lt;br&gt;&lt;/span&gt;}&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;spacingTop=-16;spacingBottom=-16;" vertex="1" parent="5TSFc4w1ydKS7UR5pnvM-85">
+          <mxGeometry y="25" width="920" height="330" as="geometry" />
         </mxCell>
         <mxCell id="5TSFc4w1ydKS7UR5pnvM-76" value="" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=0;fillColor=none;strokeColor=none;swimlaneFillColor=#2A2A2A;align=center;gradientColor=none;gradientDirection=radial;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=12;" vertex="1" collapsed="1" parent="5TSFc4w1ydKS7UR5pnvM-46">
           <mxGeometry x="170" y="186" width="19" height="18" as="geometry">
@@ -2007,19 +2026,6 @@
             <mxGeometry y="30.68553459119497" width="110" height="22.452830188679243" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; ApplicationContextInitializer&lt;/div&gt;" tooltip="" id="5TSFc4w1ydKS7UR5pnvM-84">
-          <mxCell style="html=1;whiteSpace=wrap;dashed=1;" vertex="1" parent="1">
-            <mxGeometry x="-920" y="540" width="180" height="30" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="5TSFc4w1ydKS7UR5pnvM-85" value="" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=25;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=0;fillColor=none;strokeColor=none;swimlaneFillColor=#2A2A2A;align=center;gradientColor=none;gradientDirection=radial;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;spacingLeft=12;" vertex="1" parent="1">
-          <mxGeometry x="-920" y="546" width="920" height="355" as="geometry">
-            <mxRectangle x="-920" y="546" width="19" height="18" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5TSFc4w1ydKS7UR5pnvM-86" value="&lt;pre style=&quot;background-color:#2b2b2b;color:#a9b7c6;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;package &lt;/span&gt;org.springframework.boot.context&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt;/*****************************************************************************************************************************&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt; * &lt;b&gt;用于在刷新之前初始化 Spring ConfigurableApplicationContext 的回调&lt;/b&gt;接口&lt;br&gt; * ---------------------------------------------------------------------------------------------------------------------------&lt;br&gt; * &lt;br&gt; * &lt;/span&gt;&lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt;1）通常用于需要对应用程序上下文进行某种编程初始化的 Web 应用程序中。例如，针对上下文的环境注册属性源或激活配置文件。&lt;br&gt; * 2）ApplicationContextInitializer 鼓励处理器检测 Spring 的 Ordered 接口是否已实现，或者是否存在 @Order 注释，&lt;br&gt; *    并在调用之前对实例进行相应的排序。&lt;br&gt; *&lt;br&gt; *****************************************************************************************************************************&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt; */&lt;br&gt;&lt;/span&gt;public interface ApplicationContextInitializer&amp;lt;&lt;span style=&quot;color:#507874;&quot;&gt;C &lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;extends &lt;/span&gt;ConfigurableApplicationContext&amp;gt; {&lt;br&gt;&lt;br&gt;   &lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt;/**&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt;    * &lt;/span&gt;&lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt;对于 springBoot 应用程序， prepareContext() 时调用&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt;    */&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#629755;font-style:italic;&quot;&gt;   &lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;void &lt;/span&gt;&lt;span style=&quot;color:#ffc66d;&quot;&gt;initialize&lt;/span&gt;(&lt;span style=&quot;color:#507874;&quot;&gt;C &lt;/span&gt;applicationContext)&lt;span style=&quot;color:#cc7832;&quot;&gt;;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#cc7832;&quot;&gt;&lt;br&gt;&lt;/span&gt;}&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;spacingTop=-16;spacingBottom=-16;" vertex="1" parent="5TSFc4w1ydKS7UR5pnvM-85">
-          <mxGeometry y="25" width="920" height="330" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
