@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-12T15:34:21.326Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="U60ZMk42xWPjikE8_nv0" version="21.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-12T15:45:17.488Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="knEg_4tbOPkaXROo7YEd" version="21.6.2" type="github" pages="3">
   <diagram name="系统服务" id="AkdyvAcPNmq9f3njSD_J">
     <mxGraphModel dx="1434" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -338,7 +338,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4_OjFd2uTBeiyar_JKQS-1" value="&lt;h2&gt;&lt;b&gt;Systemed&lt;/b&gt;&lt;/h2&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="7" y="30" width="813" height="2498.0000000000045" as="geometry">
+          <mxGeometry x="7" y="30" width="813" height="2238.0000000000045" as="geometry">
             <mxRectangle x="7" y="30" width="813" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -727,7 +727,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-29" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#A7C942;shadow=0;align=left;verticalAlign=middle;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-1">
-          <mxGeometry y="1102.9999999999993" width="813" height="967.0000000000039" as="geometry" />
+          <mxGeometry y="1102.9999999999993" width="813" height="707.0000000000039" as="geometry" />
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-30" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
           <mxGeometry width="813" height="37" as="geometry" />
@@ -1053,67 +1053,13 @@
             <mxRectangle width="340" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4_OjFd2uTBeiyar_JKQS-50" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
-          <mxGeometry y="707" width="813" height="125" as="geometry" />
-        </mxCell>
-        <mxCell id="4_OjFd2uTBeiyar_JKQS-51" value="图形界面相关" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-50">
-          <mxGeometry width="253" height="125" as="geometry">
-            <mxRectangle width="253" height="125" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4_OjFd2uTBeiyar_JKQS-52" value="&lt;div&gt;[文本模式]&lt;/div&gt;&lt;div&gt;multi-user.target&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div&gt;[图形模式]&lt;/div&gt;&lt;div&gt;graphical.target&lt;/div&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-50">
-          <mxGeometry x="253" width="220" height="125" as="geometry">
-            <mxRectangle width="220" height="125" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4_OjFd2uTBeiyar_JKQS-53" value="&lt;div&gt;[1] 查看系统预设的界面模式&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; systemctl get-default&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;[2] 默认文本模式&lt;br&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; systemctl set-default&amp;nbsp; multi-user.target&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[3] 当前系统切换为文本模式&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; systemctl isolate&amp;nbsp; multi-user.target&amp;nbsp; &lt;br&gt;&lt;/div&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-50">
-          <mxGeometry x="473" width="340" height="125" as="geometry">
-            <mxRectangle width="340" height="125" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4_OjFd2uTBeiyar_JKQS-54" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
-          <mxGeometry y="832" width="813" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="4_OjFd2uTBeiyar_JKQS-55" value="服务依赖" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-54">
-          <mxGeometry width="253" height="100" as="geometry">
-            <mxRectangle width="253" height="100" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4_OjFd2uTBeiyar_JKQS-56" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-54">
-          <mxGeometry x="253" width="220" height="100" as="geometry">
-            <mxRectangle width="220" height="100" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4_OjFd2uTBeiyar_JKQS-57" value="&lt;div&gt;[1] 列出需要的依赖&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; systemctl&amp;nbsp; list-dependencies&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;[2] 列出被谁依赖&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; systemctl list-dependencies --reverse&lt;br&gt;&lt;/div&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-54">
-          <mxGeometry x="473" width="340" height="100" as="geometry">
-            <mxRectangle width="340" height="100" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4_OjFd2uTBeiyar_JKQS-58" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
-          <mxGeometry y="932" width="813" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="4_OjFd2uTBeiyar_JKQS-59" value="重新载入 system 脚本" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-58">
-          <mxGeometry width="253" height="35" as="geometry">
-            <mxRectangle width="253" height="35" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4_OjFd2uTBeiyar_JKQS-60" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-58">
-          <mxGeometry x="253" width="220" height="35" as="geometry">
-            <mxRectangle width="220" height="35" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4_OjFd2uTBeiyar_JKQS-61" value="systemctl daemon-reload" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-58">
-          <mxGeometry x="473" width="340" height="35" as="geometry">
-            <mxRectangle width="340" height="35" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-62" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#FFFFFF;shadow=0;align=left;verticalAlign=middle;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-1">
-          <mxGeometry y="2070.000000000003" width="813" height="413.0000000000016" as="geometry" />
+          <mxGeometry y="1810.0000000000032" width="813" height="413.0000000000016" as="geometry" />
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-63" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-62">
           <mxGeometry width="813" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="4_OjFd2uTBeiyar_JKQS-64" value="&lt;h3&gt;手动编写脚本备份脚本&lt;/h3&gt;" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=center;spacingLeft=4;rowspan=1;colspan=3;fillColor=#A7C942;fontColor=#ffffff;strokeColor=#A7C942;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-63">
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-64" value="&lt;h3&gt;综合示例&lt;/h3&gt;" style="connectable=0;recursiveResize=0;whiteSpace=wrap;html=1;align=center;spacingLeft=4;rowspan=1;colspan=3;fillColor=#A7C942;fontColor=#ffffff;strokeColor=#A7C942;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-63">
           <mxGeometry width="813" height="36" as="geometry">
             <mxRectangle width="343" height="36" as="alternateBounds" />
           </mxGeometry>
@@ -1165,8 +1111,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-75" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-1">
-          <mxGeometry y="2483.0000000000045" width="813" height="15" as="geometry" />
+          <mxGeometry y="2223.0000000000045" width="813" height="15" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NJVLbWUsrHYQApSeJfXJ" name="第 3 页">
+    <mxGraphModel dx="1434" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
