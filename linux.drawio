@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-12T14:28:39.643Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="LgHYnCsO420nWkWMvHWx" version="21.6.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-12T15:34:21.326Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="U60ZMk42xWPjikE8_nv0" version="21.6.2" type="github" pages="2">
   <diagram name="系统服务" id="AkdyvAcPNmq9f3njSD_J">
     <mxGraphModel dx="1434" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -338,7 +338,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4_OjFd2uTBeiyar_JKQS-1" value="&lt;h2&gt;&lt;b&gt;Systemed&lt;/b&gt;&lt;/h2&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="7" y="30" width="813" height="1986.0000000000039" as="geometry">
+          <mxGeometry x="7" y="30" width="813" height="2498.0000000000045" as="geometry">
             <mxRectangle x="7" y="30" width="813" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -727,7 +727,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-29" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#A7C942;shadow=0;align=left;verticalAlign=middle;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-1">
-          <mxGeometry y="1102.9999999999993" width="813" height="455.00000000000296" as="geometry" />
+          <mxGeometry y="1102.9999999999993" width="813" height="967.0000000000039" as="geometry" />
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-30" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
           <mxGeometry width="813" height="37" as="geometry" />
@@ -802,25 +802,259 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-46" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
-          <mxGeometry y="147" width="813" height="48" as="geometry" />
+          <mxGeometry y="147" width="813" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-47" value="locate -i&amp;nbsp; hello" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-46">
-          <mxGeometry width="253" height="48" as="geometry">
-            <mxRectangle width="253" height="48" as="alternateBounds" />
+          <mxGeometry width="253" height="40" as="geometry">
+            <mxRectangle width="253" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-48" value="「updatedb」更新查询数据库" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-46">
-          <mxGeometry x="253" width="220" height="48" as="geometry">
-            <mxRectangle width="220" height="48" as="alternateBounds" />
+          <mxGeometry x="253" width="220" height="40" as="geometry">
+            <mxRectangle width="220" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-49" value="不区分大小查询文件" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-46">
-          <mxGeometry x="473" width="340" height="48" as="geometry">
-            <mxRectangle width="340" height="48" as="alternateBounds" />
+          <mxGeometry x="473" width="340" height="40" as="geometry">
+            <mxRectangle width="340" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-181" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
+          <mxGeometry y="187" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-182" value="find /tmp/ -name hello" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-181">
+          <mxGeometry width="253" height="40" as="geometry">
+            <mxRectangle width="253" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-183" value="&amp;nbsp;多查看书册" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-181">
+          <mxGeometry x="253" width="220" height="40" as="geometry">
+            <mxRectangle width="220" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-184" value="搜索名词 hello 文档" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-181">
+          <mxGeometry x="473" width="340" height="40" as="geometry">
+            <mxRectangle width="340" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-189" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
+          <mxGeometry y="227" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-190" value="find /tmp/ -user ljq" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-189">
+          <mxGeometry width="253" height="40" as="geometry">
+            <mxRectangle width="253" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-191" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-189">
+          <mxGeometry x="253" width="220" height="40" as="geometry">
+            <mxRectangle width="220" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-192" value="搜索属于 ljq 的文档" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-189">
+          <mxGeometry x="473" width="340" height="40" as="geometry">
+            <mxRectangle width="340" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-225" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
+          <mxGeometry y="267" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-226" value="find /tmp/ -type d" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-225">
+          <mxGeometry width="253" height="40" as="geometry">
+            <mxRectangle width="253" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-227" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-225">
+          <mxGeometry x="253" width="220" height="40" as="geometry">
+            <mxRectangle width="220" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-228" value="搜索目录类型" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-225">
+          <mxGeometry x="473" width="340" height="40" as="geometry">
+            <mxRectangle width="340" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-185" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
+          <mxGeometry y="307" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-186" value="find /tmp/ -nouser" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-185">
+          <mxGeometry width="253" height="40" as="geometry">
+            <mxRectangle width="253" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-187" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-185">
+          <mxGeometry x="253" width="220" height="40" as="geometry">
+            <mxRectangle width="220" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-188" value="搜索无归属的文档" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-185">
+          <mxGeometry x="473" width="340" height="40" as="geometry">
+            <mxRectangle width="340" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-205" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
+          <mxGeometry y="347" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-206" value="find&amp;nbsp; /tmp/ -mtime 0" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-205">
+          <mxGeometry width="253" height="40" as="geometry">
+            <mxRectangle width="253" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-207" value="「-mmin」分钟 &amp;nbsp; 「-mtime」天" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-205">
+          <mxGeometry x="253" width="220" height="40" as="geometry">
+            <mxRectangle width="220" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-208" value="搜索 [0, 24] 小时内修改过的文档" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-205">
+          <mxGeometry x="473" width="340" height="40" as="geometry">
+            <mxRectangle width="340" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-197" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
+          <mxGeometry y="387" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-198" value="find /tmp/ -mtime 2" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-197">
+          <mxGeometry width="253" height="40" as="geometry">
+            <mxRectangle width="253" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-199" value="「-amin」查看过的文件" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-197">
+          <mxGeometry x="253" width="220" height="40" as="geometry">
+            <mxRectangle width="220" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-200" value="搜索 [2*24, 3*24] 小时内修改过的文档" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-197">
+          <mxGeometry x="473" width="340" height="40" as="geometry">
+            <mxRectangle width="340" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-201" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
+          <mxGeometry y="427" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-202" value="find&amp;nbsp; /tmp/ -mtime -2" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-201">
+          <mxGeometry width="253" height="40" as="geometry">
+            <mxRectangle width="253" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-203" value="「-cmin」文件状态修改" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-201">
+          <mxGeometry x="253" width="220" height="40" as="geometry">
+            <mxRectangle width="220" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-204" value="搜索 [0, 3*24] 小时内修改过的文档" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-201">
+          <mxGeometry x="473" width="340" height="40" as="geometry">
+            <mxRectangle width="340" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-193" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
+          <mxGeometry y="467" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-194" value="find /tmp/ -mtime +2" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-193">
+          <mxGeometry width="253" height="40" as="geometry">
+            <mxRectangle width="253" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-195" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-193">
+          <mxGeometry x="253" width="220" height="40" as="geometry">
+            <mxRectangle width="220" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-196" value="搜索 [-∞, 2*24] 小时内修改过的文档" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-193">
+          <mxGeometry x="473" width="340" height="40" as="geometry">
+            <mxRectangle width="340" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-221" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
+          <mxGeometry y="507" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-222" value="find /tmp/ -perm /7000" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-221">
+          <mxGeometry width="253" height="40" as="geometry">
+            <mxRectangle width="253" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-223" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-221">
+          <mxGeometry x="253" width="220" height="40" as="geometry">
+            <mxRectangle width="220" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-224" value="搜索文件属性是 SGID 或 SUID 或 SBIT" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-221">
+          <mxGeometry x="473" width="340" height="40" as="geometry">
+            <mxRectangle width="340" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-217" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
+          <mxGeometry y="547" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-218" value="find /tmp/ -size +1M" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-217">
+          <mxGeometry width="253" height="40" as="geometry">
+            <mxRectangle width="253" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-219" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-217">
+          <mxGeometry x="253" width="220" height="40" as="geometry">
+            <mxRectangle width="220" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-220" value="搜索文件大于 1M" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-217">
+          <mxGeometry x="473" width="340" height="40" as="geometry">
+            <mxRectangle width="340" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-213" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
+          <mxGeometry y="587" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-214" value="find /tmp -newer xxx.txt" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-213">
+          <mxGeometry width="253" height="40" as="geometry">
+            <mxRectangle width="253" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-215" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-213">
+          <mxGeometry x="253" width="220" height="40" as="geometry">
+            <mxRectangle width="220" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-216" value="搜索比 xxx.txt 更新的文档" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-213">
+          <mxGeometry x="473" width="340" height="40" as="geometry">
+            <mxRectangle width="340" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-229" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
+          <mxGeometry y="627" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-230" value="find /tmp&amp;nbsp; -maxdepth 2 -type d&amp;nbsp; -name log&amp;nbsp; " style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;rowspan=1;colspan=2;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-229">
+          <mxGeometry width="473" height="40" as="geometry">
+            <mxRectangle width="253" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-231" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" visible="0" parent="4_OjFd2uTBeiyar_JKQS-229">
+          <mxGeometry x="253" width="220" height="40" as="geometry">
+            <mxRectangle width="220" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-232" value="搜索名为log的目录，对多搜索子目录2层" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-229">
+          <mxGeometry x="473" width="340" height="40" as="geometry">
+            <mxRectangle width="340" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-209" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
+          <mxGeometry y="667" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-210" value="find /tmp&amp;nbsp; -type f -name &quot;*.log&quot; -mtime +7 -exec rm -rf {} \;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;rowspan=1;colspan=2;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-209">
+          <mxGeometry width="473" height="40" as="geometry">
+            <mxRectangle width="253" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-211" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" visible="0" parent="4_OjFd2uTBeiyar_JKQS-209">
+          <mxGeometry x="253" width="220" height="40" as="geometry">
+            <mxRectangle width="220" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4_OjFd2uTBeiyar_JKQS-212" value="删除 7 天前的 log 文件" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-209">
+          <mxGeometry x="473" width="340" height="40" as="geometry">
+            <mxRectangle width="340" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-50" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
-          <mxGeometry y="195" width="813" height="125" as="geometry" />
+          <mxGeometry y="707" width="813" height="125" as="geometry" />
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-51" value="图形界面相关" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-50">
           <mxGeometry width="253" height="125" as="geometry">
@@ -838,7 +1072,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-54" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
-          <mxGeometry y="320" width="813" height="100" as="geometry" />
+          <mxGeometry y="832" width="813" height="100" as="geometry" />
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-55" value="服务依赖" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-54">
           <mxGeometry width="253" height="100" as="geometry">
@@ -856,7 +1090,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-58" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-29">
-          <mxGeometry y="420" width="813" height="35" as="geometry" />
+          <mxGeometry y="932" width="813" height="35" as="geometry" />
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-59" value="重新载入 system 脚本" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-58">
           <mxGeometry width="253" height="35" as="geometry">
@@ -874,7 +1108,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-62" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#FFFFFF;shadow=0;align=left;verticalAlign=middle;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-1">
-          <mxGeometry y="1558.0000000000023" width="813" height="413.0000000000016" as="geometry" />
+          <mxGeometry y="2070.000000000003" width="813" height="413.0000000000016" as="geometry" />
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-63" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-62">
           <mxGeometry width="813" height="36" as="geometry" />
@@ -931,7 +1165,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4_OjFd2uTBeiyar_JKQS-75" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="4_OjFd2uTBeiyar_JKQS-1">
-          <mxGeometry y="1971.0000000000039" width="813" height="15" as="geometry" />
+          <mxGeometry y="2483.0000000000045" width="813" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
