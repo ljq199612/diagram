@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-17T03:40:24.247Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="Xla4Gumjz-FXM9Q9j5RO" version="21.6.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-07-17T10:00:31.758Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="WlPRb66WROOLReIPDaHH" version="21.6.2" type="github" pages="4">
   <diagram name="系统服务" id="AkdyvAcPNmq9f3njSD_J">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1633,12 +1633,339 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="PxCBGirSjrFclFTzPVcY-1" value="&lt;h2&gt;&lt;b&gt;三剑客&lt;/b&gt;&lt;/h2&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="7" y="30" width="813" height="2252.0000000000045" as="geometry">
+          <mxGeometry x="7" y="30" width="813" height="2959.000000000009" as="geometry">
             <mxRectangle x="7" y="30" width="813" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-1" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#A7C942;shadow=0;align=left;verticalAlign=middle;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="PxCBGirSjrFclFTzPVcY-1">
+          <mxGeometry y="30" width="813" height="707.0000000000039" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-1">
+          <mxGeometry width="813" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-3" value="&lt;b&gt;find&lt;/b&gt;" style="connectable=0;recursiveResize=0;strokeColor=#A7C942;fillColor=#A7C942;align=center;fontStyle=1;html=1;spacingLeft=4;rowspan=1;colspan=3;fontColor=#ffffff;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-2">
+          <mxGeometry width="813" height="37" as="geometry">
+            <mxRectangle width="243" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-4" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=left;fontStyle=1;fontColor=#FFFFFF;html=1;spacingLeft=4;" vertex="1" visible="0" parent="fuoLRJ29VlnTovI3rcii-2">
+          <mxGeometry x="243" width="290" height="37" as="geometry">
+            <mxRectangle width="290" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-5" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=left;fontStyle=1;fontColor=#FFFFFF;html=1;spacingLeft=4;" vertex="1" visible="0" parent="fuoLRJ29VlnTovI3rcii-2">
+          <mxGeometry x="533" width="280" height="37" as="geometry">
+            <mxRectangle width="280" height="37" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-6" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-1">
+          <mxGeometry y="37" width="813" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-7" value="&lt;b&gt;命令&lt;/b&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-6">
+          <mxGeometry width="243" height="35" as="geometry">
+            <mxRectangle width="243" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-8" value="&lt;b&gt;备注&lt;/b&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-6">
+          <mxGeometry x="243" width="290" height="35" as="geometry">
+            <mxRectangle width="290" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-9" value="&lt;b&gt;描述&lt;/b&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-6">
+          <mxGeometry x="533" width="280" height="35" as="geometry">
+            <mxRectangle width="280" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-14" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-1">
+          <mxGeometry y="72" width="813" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-15" value="whereis -b&amp;nbsp; ls" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-14">
+          <mxGeometry width="243" height="35" as="geometry">
+            <mxRectangle width="243" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-16" value="「whereis -l」 列出搜索路径" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-14">
+          <mxGeometry x="243" width="290" height="35" as="geometry">
+            <mxRectangle width="290" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-17" value="搜索二进制文件" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-14">
+          <mxGeometry x="533" width="280" height="35" as="geometry">
+            <mxRectangle width="280" height="35" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-18" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-1">
+          <mxGeometry y="107" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-19" value="locate -i&amp;nbsp; hello" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-18">
+          <mxGeometry width="243" height="40" as="geometry">
+            <mxRectangle width="243" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-20" value="「updatedb」更新查询数据库" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-18">
+          <mxGeometry x="243" width="290" height="40" as="geometry">
+            <mxRectangle width="290" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-21" value="不区分大小写查询文件" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-18">
+          <mxGeometry x="533" width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-22" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-1">
+          <mxGeometry y="147" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-23" value="find /tmp/ -name hello" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-22">
+          <mxGeometry width="243" height="40" as="geometry">
+            <mxRectangle width="243" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-24" value="&amp;nbsp;多查看手册" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-22">
+          <mxGeometry x="243" width="290" height="40" as="geometry">
+            <mxRectangle width="290" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-25" value="搜索名词 hello 文档" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-22">
+          <mxGeometry x="533" width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-26" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-1">
+          <mxGeometry y="187" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-27" value="find /tmp/ -user ljq" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-26">
+          <mxGeometry width="243" height="40" as="geometry">
+            <mxRectangle width="243" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-28" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-26">
+          <mxGeometry x="243" width="290" height="40" as="geometry">
+            <mxRectangle width="290" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-29" value="搜索属于 ljq 的文档" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-26">
+          <mxGeometry x="533" width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-30" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-1">
+          <mxGeometry y="227" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-31" value="find /tmp/ -type d" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-30">
+          <mxGeometry width="243" height="40" as="geometry">
+            <mxRectangle width="243" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-32" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-30">
+          <mxGeometry x="243" width="290" height="40" as="geometry">
+            <mxRectangle width="290" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-33" value="搜索目录类型" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-30">
+          <mxGeometry x="533" width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-34" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-1">
+          <mxGeometry y="267" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-35" value="find /tmp/ -nouser" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-34">
+          <mxGeometry width="243" height="40" as="geometry">
+            <mxRectangle width="243" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-36" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-34">
+          <mxGeometry x="243" width="290" height="40" as="geometry">
+            <mxRectangle width="290" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-37" value="搜索无归属的文档" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-34">
+          <mxGeometry x="533" width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-38" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-1">
+          <mxGeometry y="307" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-39" value="find&amp;nbsp; /tmp/ -mtime 0" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-38">
+          <mxGeometry width="243" height="40" as="geometry">
+            <mxRectangle width="243" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-40" value="「-mmin」分钟 &amp;nbsp; 「-mtime」天" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-38">
+          <mxGeometry x="243" width="290" height="40" as="geometry">
+            <mxRectangle width="290" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-41" value="搜索 [0, 24] 小时内修改过的文档" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-38">
+          <mxGeometry x="533" width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-42" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-1">
+          <mxGeometry y="347" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-43" value="find /tmp/ -mtime 2" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-42">
+          <mxGeometry width="243" height="40" as="geometry">
+            <mxRectangle width="243" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-44" value="「-amin」查看过的文件" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-42">
+          <mxGeometry x="243" width="290" height="40" as="geometry">
+            <mxRectangle width="290" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-45" value="搜索 [2*24, 3*24] 小时内修改过的文档" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-42">
+          <mxGeometry x="533" width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-46" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-1">
+          <mxGeometry y="387" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-47" value="find&amp;nbsp; /tmp/ -mtime -2" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-46">
+          <mxGeometry width="243" height="40" as="geometry">
+            <mxRectangle width="243" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-48" value="「-cmin」文件状态修改" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-46">
+          <mxGeometry x="243" width="290" height="40" as="geometry">
+            <mxRectangle width="290" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-49" value="搜索 [0, 3*24] 小时内修改过的文档" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-46">
+          <mxGeometry x="533" width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-50" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-1">
+          <mxGeometry y="427" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-51" value="find /tmp/ -mtime +2" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-50">
+          <mxGeometry width="243" height="40" as="geometry">
+            <mxRectangle width="243" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-52" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-50">
+          <mxGeometry x="243" width="290" height="40" as="geometry">
+            <mxRectangle width="290" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-53" value="搜索 [-∞, 2*24] 小时内修改过的文档" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-50">
+          <mxGeometry x="533" width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-54" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-1">
+          <mxGeometry y="467" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-55" value="find /tmp/ -perm /7000" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-54">
+          <mxGeometry width="243" height="40" as="geometry">
+            <mxRectangle width="243" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-56" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-54">
+          <mxGeometry x="243" width="290" height="40" as="geometry">
+            <mxRectangle width="290" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-57" value="搜索文件属性是 SGID 或 SUID 或 SBIT" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-54">
+          <mxGeometry x="533" width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-58" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-1">
+          <mxGeometry y="507" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-59" value="find /tmp/ -size +1M" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-58">
+          <mxGeometry width="243" height="40" as="geometry">
+            <mxRectangle width="243" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-60" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-58">
+          <mxGeometry x="243" width="290" height="40" as="geometry">
+            <mxRectangle width="290" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-61" value="搜索文件大于 1M" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-58">
+          <mxGeometry x="533" width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-62" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-1">
+          <mxGeometry y="547" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-63" value="find /tmp -newer xxx.txt" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-62">
+          <mxGeometry width="243" height="40" as="geometry">
+            <mxRectangle width="243" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-64" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-62">
+          <mxGeometry x="243" width="290" height="40" as="geometry">
+            <mxRectangle width="290" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-65" value="搜索比 xxx.txt 更新的文档" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-62">
+          <mxGeometry x="533" width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-10" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-1">
+          <mxGeometry y="587" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-11" value="find /tmp/ \( -name &quot;*.txt&quot; -o -name &quot;*.pdf&quot; \) -print" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;rowspan=1;colspan=2;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-10">
+          <mxGeometry width="533" height="40" as="geometry">
+            <mxRectangle width="243" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-12" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" visible="0" parent="fuoLRJ29VlnTovI3rcii-10">
+          <mxGeometry x="243" width="290" height="40" as="geometry">
+            <mxRectangle width="290" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-13" value="搜索 txt 和 pdf 文件" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-10">
+          <mxGeometry x="533" width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-66" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-1">
+          <mxGeometry y="627" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-67" value="find /tmp&amp;nbsp; -maxdepth 2 -type d&amp;nbsp; -name log&amp;nbsp; " style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;rowspan=1;colspan=2;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-66">
+          <mxGeometry width="533" height="40" as="geometry">
+            <mxRectangle width="243" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-68" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" visible="0" parent="fuoLRJ29VlnTovI3rcii-66">
+          <mxGeometry x="243" width="290" height="40" as="geometry">
+            <mxRectangle width="290" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-69" value="搜索名为log的目录，对多搜索子目录2层" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-66">
+          <mxGeometry x="533" width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-70" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-1">
+          <mxGeometry y="667" width="813" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-71" value="find /tmp&amp;nbsp; -type f -name &quot;*.log&quot; -mtime +7 -exec rm -rf {} \;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;rowspan=1;colspan=2;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-70">
+          <mxGeometry width="533" height="40" as="geometry">
+            <mxRectangle width="243" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-72" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" visible="0" parent="fuoLRJ29VlnTovI3rcii-70">
+          <mxGeometry x="243" width="290" height="40" as="geometry">
+            <mxRectangle width="290" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fuoLRJ29VlnTovI3rcii-73" value="删除 7 天前的 log 文件" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="fuoLRJ29VlnTovI3rcii-70">
+          <mxGeometry x="533" width="280" height="40" as="geometry">
+            <mxRectangle width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PxCBGirSjrFclFTzPVcY-2" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#A7C942;shadow=0;fontFamily=Courier New;" parent="PxCBGirSjrFclFTzPVcY-1" vertex="1">
-          <mxGeometry y="30" width="813" height="550" as="geometry" />
+          <mxGeometry y="737.0000000000039" width="813" height="550" as="geometry" />
         </mxCell>
         <mxCell id="PxCBGirSjrFclFTzPVcY-3" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;fontFamily=Courier New;" parent="PxCBGirSjrFclFTzPVcY-2" vertex="1">
           <mxGeometry width="813" height="44" as="geometry" />
@@ -1875,7 +2202,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PxCBGirSjrFclFTzPVcY-55" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#FFFFFF;shadow=0;align=left;verticalAlign=middle;spacingLeft=4;fontFamily=Courier New;" parent="PxCBGirSjrFclFTzPVcY-1" vertex="1">
-          <mxGeometry y="580" width="813" height="536.9999999999993" as="geometry" />
+          <mxGeometry y="1287.0000000000039" width="813" height="536.9999999999993" as="geometry" />
         </mxCell>
         <mxCell id="PxCBGirSjrFclFTzPVcY-56" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;fontFamily=Courier New;" parent="PxCBGirSjrFclFTzPVcY-55" vertex="1">
           <mxGeometry width="813" height="44" as="geometry" />
@@ -2022,7 +2349,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PxCBGirSjrFclFTzPVcY-88" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#A7C942;shadow=0;align=left;verticalAlign=middle;spacingLeft=4;fontFamily=Courier New;" parent="PxCBGirSjrFclFTzPVcY-1" vertex="1">
-          <mxGeometry y="1116.9999999999993" width="813" height="707.0000000000039" as="geometry" />
+          <mxGeometry y="1824.0000000000032" width="813" height="707.0000000000039" as="geometry" />
         </mxCell>
         <mxCell id="PxCBGirSjrFclFTzPVcY-89" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;align=left;spacingLeft=4;fontFamily=Courier New;" parent="PxCBGirSjrFclFTzPVcY-88" vertex="1">
           <mxGeometry width="813" height="37" as="geometry" />
@@ -2349,7 +2676,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PxCBGirSjrFclFTzPVcY-194" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#FFFFFF;shadow=0;align=left;verticalAlign=middle;spacingLeft=4;fontFamily=Courier New;" parent="PxCBGirSjrFclFTzPVcY-1" vertex="1">
-          <mxGeometry y="1824.0000000000032" width="813" height="413.0000000000016" as="geometry" />
+          <mxGeometry y="2531.0000000000073" width="813" height="413.0000000000016" as="geometry" />
         </mxCell>
         <mxCell id="PxCBGirSjrFclFTzPVcY-195" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;align=left;spacingLeft=4;fontFamily=Courier New;" parent="PxCBGirSjrFclFTzPVcY-194" vertex="1">
           <mxGeometry width="813" height="36" as="geometry" />
@@ -2406,7 +2733,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PxCBGirSjrFclFTzPVcY-207" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="PxCBGirSjrFclFTzPVcY-1" vertex="1">
-          <mxGeometry y="2237.0000000000045" width="813" height="15" as="geometry" />
+          <mxGeometry y="2944.000000000009" width="813" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
