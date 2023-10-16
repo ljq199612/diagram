@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-16T06:59:11.505Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="tfKj6V9WNITpkc-vNFXB" version="21.7.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-16T07:41:06.596Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="tmb9Mw_KWfhrN64WTivb" version="21.7.5" type="github" pages="5">
   <diagram name="系统服务" id="AkdyvAcPNmq9f3njSD_J">
     <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2570,17 +2570,17 @@
         <mxCell id="PxCBGirSjrFclFTzPVcY-121" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" parent="PxCBGirSjrFclFTzPVcY-88" vertex="1">
           <mxGeometry y="563" width="813" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PxCBGirSjrFclFTzPVcY-122" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" parent="PxCBGirSjrFclFTzPVcY-121" vertex="1">
-          <mxGeometry width="243" height="40" as="geometry">
+        <mxCell id="PxCBGirSjrFclFTzPVcY-122" value="awk &#39;{print v1, v2}&#39;&amp;nbsp; v1=$var1&amp;nbsp; v2=$var2&amp;nbsp;&amp;nbsp; filename" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;rowspan=1;colspan=2;" parent="PxCBGirSjrFclFTzPVcY-121" vertex="1">
+          <mxGeometry width="533" height="40" as="geometry">
             <mxRectangle width="243" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PxCBGirSjrFclFTzPVcY-123" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" parent="PxCBGirSjrFclFTzPVcY-121" vertex="1">
+        <mxCell id="PxCBGirSjrFclFTzPVcY-123" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" parent="PxCBGirSjrFclFTzPVcY-121" vertex="1" visible="0">
           <mxGeometry x="243" width="290" height="40" as="geometry">
             <mxRectangle width="290" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PxCBGirSjrFclFTzPVcY-124" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" parent="PxCBGirSjrFclFTzPVcY-121" vertex="1">
+        <mxCell id="PxCBGirSjrFclFTzPVcY-124" value="&amp;gt; 外部变量 $var1 $var2 的使用" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" parent="PxCBGirSjrFclFTzPVcY-121" vertex="1">
           <mxGeometry x="533" width="280" height="40" as="geometry">
             <mxRectangle width="280" height="40" as="alternateBounds" />
           </mxGeometry>
