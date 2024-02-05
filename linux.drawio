@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-05T03:50:09.318Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="rbfhnmpa4ESEr08tLiJF" version="22.1.17" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-02-05T05:59:38.274Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="S-58qLzwZpJLQFH33Wn3" version="22.1.17" type="github" pages="5">
   <diagram name="系统服务" id="AkdyvAcPNmq9f3njSD_J">
     <mxGraphModel dx="1123" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3480,7 +3480,7 @@
         <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-15" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-2">
           <mxGeometry y="114" width="813" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-16" value="split -b 10k data.file&amp;nbsp; part_" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-15">
+        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-16" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-15">
           <mxGeometry width="242" height="40" as="geometry">
             <mxRectangle width="242" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -3490,7 +3490,7 @@
             <mxRectangle width="290" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-18" value="分割为多个文件part_aa, part_ab ..." style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-15">
+        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-18" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-15">
           <mxGeometry x="532" width="281" height="40" as="geometry">
             <mxRectangle width="281" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -3498,7 +3498,7 @@
         <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-19" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-2">
           <mxGeometry y="154" width="813" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-20" value="splict -l 10 data.file" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-19">
+        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-20" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-19">
           <mxGeometry width="242" height="40" as="geometry">
             <mxRectangle width="242" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -3508,7 +3508,7 @@
             <mxRectangle width="290" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-22" value="以10行分割文件" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-19">
+        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-22" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-19">
           <mxGeometry x="532" width="281" height="40" as="geometry">
             <mxRectangle width="281" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -3516,17 +3516,17 @@
         <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-23" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-2">
           <mxGeometry y="194" width="813" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-24" value="echo ${url%.*}" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-23">
+        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-24" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-23">
           <mxGeometry width="242" height="40" as="geometry">
             <mxRectangle width="242" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-25" value="url=&quot;www.google.com&quot;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-23">
+        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-25" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-23">
           <mxGeometry x="242" width="290" height="40" as="geometry">
             <mxRectangle width="290" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-26" value="&lt;div&gt;移除右侧匹配（非贪婪）&lt;/div&gt;&lt;div&gt;&amp;gt; www.google&lt;br&gt;&lt;/div&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-23">
+        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-26" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-23">
           <mxGeometry x="532" width="281" height="40" as="geometry">
             <mxRectangle width="281" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -3534,7 +3534,7 @@
         <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-2">
           <mxGeometry y="234" width="813" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-28" value="echo ${url%%.*}" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-27">
+        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-28" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-27">
           <mxGeometry width="242" height="40" as="geometry">
             <mxRectangle width="242" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -3544,7 +3544,7 @@
             <mxRectangle width="290" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-30" value="&lt;div&gt;移除右侧匹配（贪婪）&lt;/div&gt;&lt;div&gt;&amp;gt; www&lt;br&gt;&lt;/div&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-27">
+        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-30" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-27">
           <mxGeometry x="532" width="281" height="40" as="geometry">
             <mxRectangle width="281" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -3552,7 +3552,7 @@
         <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-31" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-2">
           <mxGeometry y="274" width="813" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-32" value="echo ${url#*.}" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-31">
+        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-32" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-31">
           <mxGeometry width="242" height="40" as="geometry">
             <mxRectangle width="242" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -3562,7 +3562,7 @@
             <mxRectangle width="290" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-34" value="&lt;div&gt;移除左侧匹配（非贪婪）&lt;/div&gt;&lt;div&gt;&amp;gt; google.com&lt;br&gt;&lt;/div&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-31">
+        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-34" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-31">
           <mxGeometry x="532" width="281" height="40" as="geometry">
             <mxRectangle width="281" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -3570,7 +3570,7 @@
         <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-35" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-2">
           <mxGeometry y="314" width="813" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-36" value="echo ${url##*.}" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-35">
+        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-36" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-35">
           <mxGeometry width="242" height="40" as="geometry">
             <mxRectangle width="242" height="40" as="alternateBounds" />
           </mxGeometry>
@@ -3580,7 +3580,7 @@
             <mxRectangle width="290" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-38" value="&lt;div&gt;移除左侧匹配（贪婪）&lt;/div&gt;&lt;div&gt;&amp;gt; com&lt;br&gt;&lt;/div&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-35">
+        <mxCell id="bP_Nu4Jic3lVjJ2sZyoW-38" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="bP_Nu4Jic3lVjJ2sZyoW-35">
           <mxGeometry x="532" width="281" height="40" as="geometry">
             <mxRectangle width="281" height="40" as="alternateBounds" />
           </mxGeometry>
