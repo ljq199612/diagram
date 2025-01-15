@@ -4341,7 +4341,7 @@
             <mxRectangle width="290" height="101" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pHCF_4U2edZCtSRB5iUc-102" value="&lt;div&gt;扒站效果比wget好,&lt;/div&gt;&lt;div&gt;更多功能, 多看 manual&lt;br&gt;&lt;/div&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" parent="pHCF_4U2edZCtSRB5iUc-99" vertex="1">
+        <mxCell id="pHCF_4U2edZCtSRB5iUc-102" value="&lt;div&gt;扒站效果比wget好, 但速度较慢&lt;br&gt;&lt;/div&gt;&lt;div&gt;更多功能, 多看 manual&lt;br&gt;&lt;/div&gt;" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;" parent="pHCF_4U2edZCtSRB5iUc-99" vertex="1">
           <mxGeometry x="532" width="281" height="101" as="geometry">
             <mxRectangle width="281" height="101" as="alternateBounds" />
           </mxGeometry>
