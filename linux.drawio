@@ -4906,7 +4906,7 @@
         <mxCell id="wmbU7gckHLh4zlmyKtX1-61" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#FFFFFF;align=left;spacingLeft=4;fontFamily=Courier New;" vertex="1" parent="wmbU7gckHLh4zlmyKtX1-4">
           <mxGeometry y="152" width="813" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="wmbU7gckHLh4zlmyKtX1-62" value="" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;rowspan=1;colspan=2;" vertex="1" parent="wmbU7gckHLh4zlmyKtX1-61">
+        <mxCell id="wmbU7gckHLh4zlmyKtX1-62" value="UEFI" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;rowspan=1;colspan=2;" vertex="1" parent="wmbU7gckHLh4zlmyKtX1-61">
           <mxGeometry width="261" height="39" as="geometry">
             <mxRectangle width="119" height="39" as="alternateBounds" />
           </mxGeometry>
@@ -4916,7 +4916,7 @@
             <mxRectangle width="142" height="39" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wmbU7gckHLh4zlmyKtX1-64" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;rowspan=1;colspan=4;" vertex="1" parent="wmbU7gckHLh4zlmyKtX1-61">
+        <mxCell id="wmbU7gckHLh4zlmyKtX1-64" value="Unified Extensible Firmware Interface" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fontFamily=Courier New;rowspan=1;colspan=4;" vertex="1" parent="wmbU7gckHLh4zlmyKtX1-61">
           <mxGeometry x="261" width="552" height="39" as="geometry">
             <mxRectangle width="138" height="39" as="alternateBounds" />
           </mxGeometry>
