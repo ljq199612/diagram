@@ -20,7 +20,7 @@
           <mxGeometry x="429.5" y="2971" width="185.5" height="357" as="geometry" />
         </mxCell>
         <mxCell id="TXJgeYW-8o42WZuSJXYs-4" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=30;notch=30;fillColor=#10739E;direction=south;textDirection=vertical-lr;labelPosition=center;verticalLabelPosition=middle;" parent="1" vertex="1">
-          <mxGeometry x="206" y="1509" width="60" height="1180" as="geometry" />
+          <mxGeometry x="206" y="1509" width="60" height="3381" as="geometry" />
         </mxCell>
         <mxCell id="tnBwIVZtzYkU1ia1Uwx9-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;BIM 元数据合规性自动化验证&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="20" width="300" height="30" as="geometry" />
@@ -1785,40 +1785,40 @@
           <mxGeometry x="428" y="3370" width="360" height="100" as="geometry" />
         </mxCell>
         <mxCell id="xoPCMP8puYDpdrjku2z3-639" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#10739e;fillColor=#b1ddf0;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.document;" parent="1" vertex="1">
-          <mxGeometry x="510" y="3388" width="40" height="47" as="geometry" />
+          <mxGeometry x="510" y="3382" width="40" height="47" as="geometry" />
         </mxCell>
         <mxCell id="xoPCMP8puYDpdrjku2z3-640" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#ae4132;fillColor=#fad9d5;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.document;" parent="1" vertex="1">
-          <mxGeometry x="653" y="3388" width="40" height="47" as="geometry" />
+          <mxGeometry x="653" y="3382" width="40" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="xoPCMP8puYDpdrjku2z3-642" value="ICE 事务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="501" y="3436" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xoPCMP8puYDpdrjku2z3-643" value="IE 事务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="642" y="3436" width="60" height="30" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;div&gt;ICE&amp;nbsp; transaction&lt;/div&gt;&lt;div&gt;信息容器交换交易&lt;br&gt;&lt;/div&gt;" tooltip="Information  Container  Exchange" id="xoPCMP8puYDpdrjku2z3-642">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="473" y="3430" width="115" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div&gt;IE&amp;nbsp; transaction&lt;/div&gt;&lt;div&gt;问题交换交易&lt;/div&gt;" tooltip="Issuse  Exchange" id="xoPCMP8puYDpdrjku2z3-643">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="621" y="3430" width="112" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="xoPCMP8puYDpdrjku2z3-644" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#808080;" parent="1" vertex="1">
           <mxGeometry x="865" y="3368" width="363" height="100" as="geometry" />
         </mxCell>
         <mxCell id="xoPCMP8puYDpdrjku2z3-645" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#10739e;fillColor=#b1ddf0;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.document;" parent="1" vertex="1">
-          <mxGeometry x="930" y="3388" width="40" height="47" as="geometry" />
+          <mxGeometry x="930" y="3382" width="40" height="47" as="geometry" />
         </mxCell>
         <mxCell id="xoPCMP8puYDpdrjku2z3-646" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#36393d;fillColor=#cdeb8b;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.document;" parent="1" vertex="1">
-          <mxGeometry x="1103" y="3388" width="40" height="47" as="geometry" />
+          <mxGeometry x="1103" y="3382" width="40" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="xoPCMP8puYDpdrjku2z3-647" value="ICE 事务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="921" y="3436" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="xoPCMP8puYDpdrjku2z3-648" value="ICFD 事务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1092" y="3436" width="60" height="30" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;div&gt;ICFD&amp;nbsp; transaction&lt;/div&gt;&lt;div&gt;信息容器联合交换交易&lt;br&gt;&lt;/div&gt;" tooltip="Information  Container  Federation &amp; Delivery" id="xoPCMP8puYDpdrjku2z3-648">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontStyle=1" parent="1" vertex="1">
+            <mxGeometry x="1072" y="3430" width="121" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="xoPCMP8puYDpdrjku2z3-649" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#808080;" parent="1" vertex="1">
           <mxGeometry x="1278" y="3368" width="250" height="100" as="geometry" />
         </mxCell>
         <mxCell id="xoPCMP8puYDpdrjku2z3-651" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#ae4132;fillColor=#fad9d5;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.document;" parent="1" vertex="1">
-          <mxGeometry x="1382" y="3388" width="40" height="47" as="geometry" />
-        </mxCell>
-        <mxCell id="xoPCMP8puYDpdrjku2z3-653" value="IE 事务" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1371" y="3436" width="60" height="30" as="geometry" />
+          <mxGeometry x="1382" y="3382" width="40" height="47" as="geometry" />
         </mxCell>
         <mxCell id="xoPCMP8puYDpdrjku2z3-654" value="" style="endArrow=blockThin;html=1;rounded=0;strokeColor=#0050EF;endFill=1;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;curved=1;dashed=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2516,6 +2516,16 @@
             <mxPoint x="19" y="1550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <UserObject label="&lt;div&gt;ICE&amp;nbsp; transaction&lt;/div&gt;&lt;div&gt;信息容器交换交易&lt;br&gt;&lt;/div&gt;" tooltip="Information  Container  Exchange" id="hFoQew-_AU01kd1NKHf8-193">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontStyle=1" vertex="1" parent="1">
+            <mxGeometry x="893" y="3430" width="115" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;div&gt;IE&amp;nbsp; transaction&lt;/div&gt;&lt;div&gt;问题交换交易&lt;/div&gt;" tooltip="Issuse  Exchange" id="hFoQew-_AU01kd1NKHf8-194">
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#333333;fontStyle=1" vertex="1" parent="1">
+            <mxGeometry x="1342" y="3430" width="112" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
