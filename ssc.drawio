@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.2.14">
   <diagram name="第 1 页" id="rBeA2SIfSLQyyooRoIgD">
-    <mxGraphModel dx="1639" dy="2232" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3128" dy="2626" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1356,9 +1356,11 @@
         <mxCell id="xoPCMP8puYDpdrjku2z3-441" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;研究方法&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B266FF;strokeColor=none;gradientColor=#6600CC;fontColor=#FFFFFF;gradientDirection=south;" parent="1" vertex="1">
           <mxGeometry x="359" y="1647" width="1200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="xoPCMP8puYDpdrjku2z3-446" value="&lt;b&gt;WIP (工作中)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;fontColor=#000000;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="391.74" y="2908" width="295.6363056036411" height="30" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;b&gt;WIP (工作中)&lt;/b&gt;" tooltip="Work In process" id="xoPCMP8puYDpdrjku2z3-446">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B3B3B3;fontColor=#000000;strokeColor=none;" parent="1" vertex="1">
+            <mxGeometry x="391.74" y="2908" width="295.6363056036411" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="xoPCMP8puYDpdrjku2z3-448" value="&lt;b&gt;ShARED (共享)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="687.3836698889386" y="2908" width="295.6363056036411" height="30" as="geometry" />
         </mxCell>
@@ -2204,21 +2206,27 @@
         <mxCell id="xoPCMP8puYDpdrjku2z3-670" value="Version" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;horizontal=1;textDirection=vertical-rl;fontStyle=1;fillColor=none;fontColor=light-dark(#ff7800, #ededed);strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="490" y="3644" width="37" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="xoPCMP8puYDpdrjku2z3-671" value="Classification" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;horizontal=1;textDirection=vertical-rl;fontStyle=1;fillColor=none;fontColor=light-dark(#ff7800, #ededed);strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="540" y="3644" width="37" height="134" as="geometry" />
-        </mxCell>
-        <mxCell id="xoPCMP8puYDpdrjku2z3-672" value="Type" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;horizontal=1;textDirection=vertical-rl;fontStyle=1;fillColor=none;fontColor=light-dark(#ff7800, #ededed);strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="590" y="3644" width="37" height="134" as="geometry" />
-        </mxCell>
+        <UserObject label="Classification" tooltip="交易分类" id="xoPCMP8puYDpdrjku2z3-671">
+          <mxCell style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;horizontal=1;textDirection=vertical-rl;fontStyle=1;fillColor=none;fontColor=light-dark(#ff7800, #ededed);strokeColor=none;" parent="1" vertex="1">
+            <mxGeometry x="540" y="3644" width="37" height="134" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Type" tooltip="如, BIM模型, pdf文件" id="xoPCMP8puYDpdrjku2z3-672">
+          <mxCell style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;horizontal=1;textDirection=vertical-rl;fontStyle=1;fillColor=none;fontColor=light-dark(#ff7800, #ededed);strokeColor=none;" parent="1" vertex="1">
+            <mxGeometry x="590" y="3644" width="37" height="134" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="xoPCMP8puYDpdrjku2z3-673" value="Timestamp" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;horizontal=1;textDirection=vertical-rl;fontStyle=1;fillColor=none;fontColor=light-dark(#ff7800, #ededed);strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="640" y="3644" width="37" height="134" as="geometry" />
         </mxCell>
         <mxCell id="xoPCMP8puYDpdrjku2z3-674" value="&lt;div&gt;Linked&amp;nbsp; IC&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;horizontal=1;textDirection=vertical-rl;fontStyle=1;fillColor=none;fontColor=light-dark(#ff7800, #ededed);strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="690" y="3644" width="37" height="134" as="geometry" />
         </mxCell>
-        <mxCell id="xoPCMP8puYDpdrjku2z3-675" value="Federation&amp;nbsp; staategy" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;horizontal=1;textDirection=vertical-rl;fontStyle=1;fillColor=none;fontColor=light-dark(#ff7800, #ededed);strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="740" y="3644" width="37" height="134" as="geometry" />
-        </mxCell>
+        <UserObject label="Federation&amp;nbsp; staategy" tooltip="哪些 IC 从 SHARED 交付到 PUBLISHED " id="xoPCMP8puYDpdrjku2z3-675">
+          <mxCell style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;horizontal=1;textDirection=vertical-rl;fontStyle=1;fillColor=none;fontColor=light-dark(#ff7800, #ededed);strokeColor=none;" parent="1" vertex="1">
+            <mxGeometry x="740" y="3644" width="37" height="134" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="hFoQew-_AU01kd1NKHf8-18" value="Domain" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;horizontal=1;textDirection=vertical-rl;fontStyle=1;fillColor=none;fontColor=light-dark(#CC6600,#EDEDED);strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="788" y="3644" width="37" height="134" as="geometry" />
         </mxCell>
@@ -2526,6 +2534,86 @@
             <mxGeometry x="1342" y="3430" width="112" height="30" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-195" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-1026" y="2270" width="696" height="321" as="geometry" />
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-196" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;b&gt;In some countries the &lt;span style=&quot;color: light-dark(rgb(165, 29, 45), rgb(237, 237, 237));&quot;&gt;appointing party&lt;/span&gt; can be termed &lt;span style=&quot;color: light-dark(rgb(26, 95, 180), rgb(237, 237, 237));&quot;&gt;client&lt;/span&gt;, &lt;span style=&quot;color: light-dark(rgb(38, 162, 105), rgb(237, 237, 237));&quot;&gt;owner&lt;/span&gt; or &lt;span style=&quot;color: light-dark(rgb(97, 53, 131), rgb(237, 237, 237));&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(229, 165, 10), rgb(237, 237, 237));&quot;&gt;employer&lt;/span&gt;&lt;/span&gt; but the appointing party is not limited to these functions.&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=none;fontSize=13;fontStyle=2;align=left;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="-956" y="2320" width="546" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-197" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=none;fontColor=#ffffff;arrowWidth=0.34313725490195185;arrowSize=0.3548185231539439;" vertex="1" parent="1">
+          <mxGeometry x="-713" y="2391" width="60" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-205" value="提取实体" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-756" y="2559" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-206" value="Entities" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=13;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-665" y="2409" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-207" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-1026" y="2670" width="696" height="442" as="geometry" />
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-208" value="&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;b&gt;&lt;span style=&quot;color: light-dark(rgb(198, 70, 0), rgb(237, 237, 237));&quot;&gt;CDE&lt;/span&gt;&amp;nbsp; is an agreed source of information for any given project or asset, for &lt;span style=&quot;color: light-dark(rgb(97, 53, 131), rgb(237, 237, 237));&quot;&gt;collecting&lt;/span&gt;, &lt;span style=&quot;color: light-dark(rgb(97, 53, 131), rgb(237, 237, 237));&quot;&gt;managing&lt;/span&gt; and &lt;span style=&quot;color: light-dark(rgb(97, 53, 131), rgb(237, 237, 237));&quot;&gt;disseminating&lt;/span&gt; each &lt;span style=&quot;color: light-dark(rgb(229, 165, 10), rgb(237, 237, 237));&quot;&gt;information container&lt;/span&gt; through a managed process..&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=none;fontSize=13;fontStyle=2;align=left;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="-956" y="2687" width="546" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-209" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;fillColor=#647687;strokeColor=none;fontColor=#ffffff;arrowWidth=0.34313725490195185;arrowSize=0.3548185231539439;" vertex="1" parent="1">
+          <mxGeometry x="-713" y="2791" width="60" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-214" value="提取关系" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-756" y="3079" width="129" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-215" value="Predicate&amp;nbsp; (Relationship)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=13;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-665" y="2809" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-216" value="appointing&amp;nbsp; party" style="ellipse;whiteSpace=wrap;html=1;fontStyle=3" vertex="1" parent="1">
+          <mxGeometry x="-943" y="2498.71" width="139" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-217" value="client" style="ellipse;whiteSpace=wrap;html=1;fontStyle=3" vertex="1" parent="1">
+          <mxGeometry x="-781" y="2501.71" width="107" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-218" value="owner" style="ellipse;whiteSpace=wrap;html=1;fontStyle=3" vertex="1" parent="1">
+          <mxGeometry x="-655" y="2501.71" width="107" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-219" value="employer" style="ellipse;whiteSpace=wrap;html=1;fontStyle=3" vertex="1" parent="1">
+          <mxGeometry x="-534" y="2501.71" width="107" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hFoQew-_AU01kd1NKHf8-220" target="hFoQew-_AU01kd1NKHf8-221">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-227" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="hFoQew-_AU01kd1NKHf8-220" target="hFoQew-_AU01kd1NKHf8-221">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-824" y="3042" />
+              <mxPoint x="-577" y="3042" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-220" value="CDE" style="ellipse;whiteSpace=wrap;html=1;fontStyle=3;fillColor=light-dark(#c64600, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="-936" y="2952" width="131" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-221" value="&lt;div&gt;info&lt;/div&gt;&lt;div&gt;container&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontStyle=3;fillColor=light-dark(#e5a50a, #ededed);" vertex="1" parent="1">
+          <mxGeometry x="-596" y="2952" width="131" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-222" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="hFoQew-_AU01kd1NKHf8-220" target="hFoQew-_AU01kd1NKHf8-221">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-775" y="2967" as="sourcePoint" />
+            <mxPoint x="-725" y="2917" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-824" y="2927" />
+              <mxPoint x="-577" y="2927" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-223" value="&lt;b&gt;&lt;span style=&quot;color: light-dark(rgb(97, 53, 131), rgb(237, 237, 237));&quot;&gt;collecte&lt;/span&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=2" vertex="1" connectable="0" parent="hFoQew-_AU01kd1NKHf8-222">
+          <mxGeometry x="0.0271" y="2" relative="1" as="geometry">
+            <mxPoint x="-4" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-228" value="&lt;b&gt;&lt;span style=&quot;color: light-dark(rgb(97, 53, 131), rgb(237, 237, 237));&quot;&gt;manage&lt;/span&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=2" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-699.739038480167" y="2977.0588235294126" as="geometry" />
+        </mxCell>
+        <mxCell id="hFoQew-_AU01kd1NKHf8-229" value="&lt;b&gt;&lt;span style=&quot;color: light-dark(rgb(97, 53, 131), rgb(237, 237, 237));&quot;&gt;disseminate&lt;/span&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontStyle=2" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-686.739038480167" y="3027.0588235294126" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
