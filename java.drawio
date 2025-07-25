@@ -4,13 +4,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="i6V0sy5MPC8KIKc2K6KT-1" value="&lt;h2&gt;&lt;b&gt;JAVA 面试题目&lt;/b&gt;&lt;/h2&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1" collapsed="1">
-          <mxGeometry x="7" y="10" width="813" height="30" as="geometry">
-            <mxRectangle x="7" y="10" width="813" height="1929" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="v5pLrvYKHQc-dzHmUD33-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Redis&lt;/font&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=default;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="831" y="40" width="1269" height="7854" as="geometry">
+          <mxGeometry x="720" y="40" width="1269" height="7854" as="geometry">
             <mxRectangle x="831" y="40" width="100" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
