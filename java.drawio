@@ -384,18 +384,18 @@
         <mxCell id="BsRDoDGO5-2jORgQwknQ-98" value="二阶段提交流程" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="BsRDoDGO5-2jORgQwknQ-62">
           <mxGeometry x="569.8841698841703" y="277.2205026690391" width="307.3359073359073" height="99.61405249110311" as="geometry" />
         </mxCell>
-        <mxCell id="BsRDoDGO5-2jORgQwknQ-99" value="准备阶段" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="BsRDoDGO5-2jORgQwknQ-98">
+        <mxCell id="BsRDoDGO5-2jORgQwknQ-99" value="准备阶段" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="BsRDoDGO5-2jORgQwknQ-98">
           <mxGeometry x="35.5212355212355" y="33.204684163701046" width="95.75289575289575" height="41.69890569395015" as="geometry" />
         </mxCell>
-        <mxCell id="BsRDoDGO5-2jORgQwknQ-100" value="提交阶段" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="BsRDoDGO5-2jORgQwknQ-98">
+        <mxCell id="BsRDoDGO5-2jORgQwknQ-100" value="提交阶段" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="BsRDoDGO5-2jORgQwknQ-98">
           <mxGeometry x="189.18918918918925" y="33.204684163701046" width="95.75289575289575" height="41.69890569395015" as="geometry" />
         </mxCell>
-        <mxCell id="BsRDoDGO5-2jORgQwknQ-101" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="BsRDoDGO5-2jORgQwknQ-98" source="BsRDoDGO5-2jORgQwknQ-99" target="BsRDoDGO5-2jORgQwknQ-100">
+        <mxCell id="BsRDoDGO5-2jORgQwknQ-101" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="BsRDoDGO5-2jORgQwknQ-98" source="BsRDoDGO5-2jORgQwknQ-99" target="BsRDoDGO5-2jORgQwknQ-100">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BsRDoDGO5-2jORgQwknQ-102" value="                                                              MySQL     架构层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="BsRDoDGO5-2jORgQwknQ-62">
+        <mxCell id="BsRDoDGO5-2jORgQwknQ-102" value="                                                              MySQL     架构层" style="whiteSpace=wrap;strokeWidth=2;fillColor=none;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="BsRDoDGO5-2jORgQwknQ-62">
           <mxGeometry x="1019.3050193050195" width="380.6949806949807" height="1454.0562855871888" as="geometry" />
         </mxCell>
         <mxCell id="BsRDoDGO5-2jORgQwknQ-103" value="应用程序" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="BsRDoDGO5-2jORgQwknQ-62">
